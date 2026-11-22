@@ -1,0 +1,15 @@
+source_id,name,kind,country,url,orientation,orientation_basis,funding,notes
+boe,Boletín Oficial del Estado,official,es,https://www.boe.es,,,,Texto oficial de leyes y decretos; API de datos abiertos
+congreso,Congreso de los Diputados,parliament,es,https://www.congreso.es,,,,"Iniciativas, votaciones y Diario de Sesiones; datos abiertos"
+senado,Senado de España,parliament,es,https://www.senado.es,,,,
+moncloa,La Moncloa (Presidencia del Gobierno),official,es,https://www.lamoncloa.gob.es,,,,Referencias del Consejo de Ministros. Fuente de parte del Gobierno en funciones
+tc,Tribunal Constitucional,court,es,https://www.tribunalconstitucional.es,,,,
+ine,Instituto Nacional de Estadística,official_statistics,es,https://www.ine.es,,,,API JSON (Tempus)
+bde,Banco de España,official_statistics,es,https://www.bde.es,,,,
+aeat,Agencia Estatal de Administración Tributaria,official_statistics,es,https://sede.agenciatributaria.gob.es,,,,"Estadísticas de IRPF, Patrimonio y Sociedades por tramos"
+airef,Autoridad Independiente de Responsabilidad Fiscal,official,es,https://www.airef.es,,,,Evaluaciones de gasto y previsiones fiscales
+cis,Centro de Investigaciones Sociológicas,official_statistics,es,https://www.cis.es,,,,"Usar preferentemente datos brutos (p. ej. 'principales problemas'); la estimación de voto ha recibido críticas metodológicas"
+seg_social,Seguridad Social,official_statistics,es,https://www.seg-social.es,,,,Afiliación por nacionalidad
+interior,Ministerio del Interior,official,es,https://www.interior.gob.es,,,,"Llegadas irregulares, balance de criminalidad"
+eurostat,Eurostat,official_statistics,eu,https://ec.europa.eu/eurostat,,,,
+oecd,OCDE,international_org,,https://www.oecd.org,,,,

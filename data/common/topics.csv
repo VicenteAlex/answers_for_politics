@@ -1,0 +1,59 @@
+topic_id,parent_id,label_en,label_es,description
+economy,,Economy,Economía,
+taxation,economy,Taxation,Fiscalidad,"Tax system, tax burden and tax reforms"
+income_tax,taxation,Personal income tax,IRPF,
+wealth_tax,taxation,Wealth taxes,Impuestos sobre el patrimonio y grandes fortunas,"Wealth tax, solidarity tax on large fortunes, exit taxes"
+inheritance_tax,taxation,Inheritance and gift tax,Impuesto de sucesiones y donaciones,
+corporate_tax,taxation,Corporate tax,Impuesto de sociedades,
+consumption_tax,taxation,Consumption taxes (VAT and excises),Impuestos sobre el consumo (IVA e impuestos especiales),
+tax_fraud,taxation,Tax fraud and avoidance,Fraude y elusión fiscal,
+public_finance,economy,Public finance,Finanzas públicas,"Budgets, deficit, public debt, fiscal rules"
+labor_market,economy,Labour market,Mercado laboral,
+minimum_wage,labor_market,Minimum wage,Salario mínimo interprofesional,
+unemployment,labor_market,Unemployment,Desempleo,
+labor_regulation,labor_market,Labour regulation,Regulación laboral,"Contracts, dismissal, working time, collective bargaining"
+pensions,economy,Pensions,Pensiones,
+inflation,economy,Inflation and cost of living,Inflación y coste de la vida,
+productivity,economy,Productivity and growth,Productividad y crecimiento,
+inequality,economy,Inequality and poverty,Desigualdad y pobreza,
+housing,,Housing,Vivienda,
+rent_regulation,housing,Rent regulation,Regulación del alquiler,"Rent caps, rent controls, stressed areas, tenancy law"
+housing_supply,housing,Housing supply and construction,Oferta y construcción de vivienda,"Land, zoning, permits, construction"
+social_housing,housing,Public and social housing,Vivienda pública y social,
+tourist_rentals,housing,Tourist rentals,Alquiler turístico,
+housing_affordability,housing,Housing prices and affordability,Precio y accesibilidad de la vivienda,
+evictions,housing,Evictions and squatting,Desahucios y ocupación,
+immigration,,Immigration,Inmigración,
+irregular_immigration,immigration,Irregular immigration and borders,Inmigración irregular y fronteras,
+asylum,immigration,Asylum and international protection,Asilo y protección internacional,
+labor_migration,immigration,Labour migration,Inmigración laboral,
+integration,immigration,Integration,Integración,"Employment, education, language, segregation, social cohesion"
+regularization,immigration,Regularization of migrants,Regularización de inmigrantes,
+unaccompanied_minors,immigration,Unaccompanied migrant minors,Menores migrantes no acompañados,
+welfare,,Welfare state,Estado del bienestar,
+health,welfare,Health care,Sanidad,
+education,welfare,Education,Educación,
+social_benefits,welfare,Social benefits,Prestaciones sociales,"Minimum income, unemployment benefits, family benefits"
+long_term_care,welfare,Long-term care,Dependencia,
+territorial,,Territorial organisation,Organización territorial,
+regional_financing,territorial,Regional financing,Financiación autonómica,
+independence_movements,territorial,Independence movements,Independentismo,
+amnesty,territorial,Amnesty,Amnistía,
+institutions,,Institutions,Instituciones,
+corruption,institutions,Corruption,Corrupción,
+judiciary,institutions,Judiciary,Poder judicial,
+electoral_system,institutions,Electoral system,Sistema electoral,
+media,institutions,Media and information,Medios e información,"Media, disinformation, political communication"
+security,,Security and crime,Seguridad y delincuencia,
+crime,security,Crime,Delincuencia,
+environment,,Environment and climate,Medio ambiente y clima,
+climate,environment,Climate change,Cambio climático,
+water,environment,Water,Agua,
+energy,,Energy,Energía,
+gender_equality,,Gender equality,Igualdad de género,
+demography,,Demography,Demografía,"Birth rate, ageing, population"
+foreign_policy,,Foreign policy,Política exterior,
+eu_affairs,foreign_policy,European Union affairs,Asuntos europeos,
+defense,foreign_policy,Defence,Defensa,
+historical_memory,,Historical memory,Memoria histórica,
+emergencies,,Emergencies and disasters,Emergencias y catástrofes,

@@ -1,0 +1,616 @@
+# Single source of truth for the data model.
+# tools/kb.py reads this file to validate data, build build/kb.duckdb and generate SCHEMA.md.
+#
+# Table kinds:
+#   csv   – rows live in CSV files (path template; {country} = 2-letter id prefix, {col} = row column)
+#   md    – one Markdown file per row; YAML front matter = the row, body = long text (full-text indexed)
+#   link  – many-to-many link table; rows come from md list fields and optionally from CSV files
+#   child – rows come only from md list fields (child records of an md entity)
+#
+# Column types: id, text, url, enum, int, float, bool, date (ISO YYYY-MM-DD).
+# fk: '<table>' references that table's key; fk: '*' references any entity id (see `entity`).
+
+version: 1
+
+md_common:
+  desc: Columns shared by every Markdown entity (all md tables also expose these).
+  columns:
+    id: {type: id, required: true, desc: "Unique id; must equal the file name without .md"}
+    type: {type: enum, required: true, desc: "Entity type; selects the md table"}
+    title: {type: text, required: true}
+    summary: {type: text, required: true, max_len: 400, desc: "1-2 neutral sentences, used for cheap triage"}
+    lang: {type: enum, required: true, values: [es, en, ca, eu, gl, fr, de, it, pt, other], desc: "Language of the body"}
+    date: {type: date, desc: "Date of the fact (not of collection)"}
+    date_precision: {type: enum, values: [day, month, year], desc: "Granularity of date; partial dates use the 1st day"}
+    jurisdiction_id: {type: id, fk: jurisdictions, desc: "Who acted / where it applies; level is derived from it"}
+    verification: {type: enum, values: [primary, secondary, unverified, disputed], desc: "primary = checked against the official/original source"}
+    context_note: {type: text, max_len: 300, desc: "Optional. Verifiable facts only, cited, no adjectives or judgements"}
+    created: {type: date, required: true}
+    updated: {type: date, required: true}
+  lists:
+    topics: {table: entity_topics, scalar_column: topic_id}
+    actors: {table: entity_actors, scalar_column: party_id, defaults: {role: involved}}
+    citations: {table: citations, scalar_column: url}
+    related: {table: entity_relations, scalar_column: related_id, defaults: {relation: related}}
+
+tables:
+
+  # ---------------------------------------------------------------- dimensions
+  jurisdictions:
+    kind: csv
+    desc: Territories and levels of government. Parent chain gives EU > state > region > municipality.
+    path: data/common/jurisdictions.csv
+    key: [jurisdiction_id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?(-[0-9]{5})?$'
+    columns:
+      jurisdiction_id: {type: id, required: true, desc: "eu, es, es-ct (ISO 3166-2), es-ct-08019 (INE municipality code)"}
+      name: {type: text, required: true}
+      level: {type: enum, required: true, values: [supranational, state, regional, local]}
+      parent_id: {type: id, fk: jurisdictions}
+      iso_code: {type: text}
+      ine_code: {type: text}
+
+  topics:
+    kind: csv
+    desc: Controlled topic vocabulary (hierarchical). Ids in English so search works across languages.
+    path: data/common/topics.csv
+    key: [topic_id]
+    id_pattern: '^[a-z][a-z0-9_]*$'
+    columns:
+      topic_id: {type: id, required: true}
+      parent_id: {type: id, fk: topics}
+      label_en: {type: text, required: true}
+      label_es: {type: text, required: true}
+      description: {type: text}
+
+  sources:
+    kind: csv
+    desc: Publishers/organisations cited. Orientation only with an external, stated basis.
+    path: data/common/sources.csv
+    key: [source_id]
+    id_pattern: '^[a-z][a-z0-9_]*$'
+    columns:
+      source_id: {type: id, required: true}
+      name: {type: text, required: true}
+      kind: {type: enum, required: true, values: [official, official_statistics, parliament, court, international_org, academic, think_tank, party, press, fact_checker, ngo, company, other]}
+      country: {type: text}
+      url: {type: url}
+      orientation: {type: text, desc: "Leave empty unless orientation_basis is given"}
+      orientation_basis: {type: text, desc: "External measure used (e.g. audience self-placement survey)"}
+      funding: {type: text}
+      notes: {type: text}
+
+  parties:
+    kind: csv
+    desc: Parties, coalitions and electoral groups. Relations over time live in party_links.
+    path: data/{country}/parties.csv
+    key: [party_id]
+    id_pattern: '^[a-z]{2}-[a-z0-9-]+$'
+    columns:
+      party_id: {type: id, required: true}
+      name: {type: text, required: true}
+      abbreviation: {type: text}
+      entity_type: {type: enum, required: true, values: [party, coalition, electoral_group, other]}
+      scope: {type: enum, required: true, values: [state, regional, local]}
+      home_jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      founded: {type: date}
+      dissolved: {type: date}
+      notes: {type: text}
+
+  party_links:
+    kind: csv
+    desc: Time-bounded relations between parties (coalition membership, federation, splits, mergers).
+    path: data/{country}/party_links.csv
+    key: [child_id, parent_id, relation, valid_from]
+    columns:
+      child_id: {type: id, required: true, fk: parties}
+      parent_id: {type: id, required: true, fk: parties}
+      relation: {type: enum, required: true, values: [member_of, federated_with, split_from, merged_into, renamed_to, successor_of]}
+      valid_from: {type: date, required: true}
+      valid_to: {type: date}
+      source_url: {type: url}
+      verification: {type: enum, values: [primary, secondary, unverified, disputed]}
+
+  people:
+    kind: csv
+    desc: Politicians and other relevant people. Roles over time live in person_roles.
+    path: data/{country}/people.csv
+    key: [person_id]
+    id_pattern: '^[a-z]{2}-person-[a-z0-9-]+$'
+    columns:
+      person_id: {type: id, required: true}
+      name: {type: text, required: true}
+      notes: {type: text}
+
+  person_roles:
+    kind: csv
+    desc: Offices and party affiliation of each person over time.
+    path: data/{country}/person_roles.csv
+    key: [person_id, role, jurisdiction_id, valid_from]
+    columns:
+      person_id: {type: id, required: true, fk: people}
+      role: {type: enum, required: true, values: [head_of_government, deputy_head_of_government, minister, regional_president, regional_minister, mayor, deputy, senator, mep, regional_deputy, councillor, party_leader, party_secretary_general, spokesperson, party_member, other]}
+      role_detail: {type: text, desc: "e.g. Ministra de Vivienda y Agenda Urbana"}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      party_id: {type: id, fk: parties}
+      valid_from: {type: date, required: true}
+      valid_to: {type: date}
+      source_url: {type: url}
+      verification: {type: enum, values: [primary, secondary, unverified, disputed]}
+
+  # ---------------------------------------------------------------- political context (time-bounded)
+  legislatures:
+    kind: csv
+    desc: Legislative terms (state and regional).
+    path: data/{country}/legislatures.csv
+    key: [legislature_id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?-leg-[a-z0-9-]+$'
+    columns:
+      legislature_id: {type: id, required: true, desc: "es-leg-xv, es-ct-leg-xv"}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      body: {type: text, required: true, desc: "Cortes Generales, Parlament de Catalunya..."}
+      number: {type: text, required: true}
+      valid_from: {type: date, required: true}
+      valid_to: {type: date}
+      election_id: {type: id, fk: elections}
+
+  parliamentary_groups:
+    kind: csv
+    desc: Parliamentary groups (the unit in which votes are recorded). Group != party.
+    path: data/{country}/parliamentary_groups.csv
+    key: [group_id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?-group-[a-z0-9-]+$'
+    columns:
+      group_id: {type: id, required: true}
+      chamber: {type: enum, required: true, values: [congreso, senado, regional_parliament, municipal_council, european_parliament]}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      legislature_id: {type: id, fk: legislatures}
+      name: {type: text, required: true}
+      abbreviation: {type: text}
+      valid_from: {type: date}
+      valid_to: {type: date}
+
+  group_parties:
+    kind: csv
+    desc: Which parties sit in which parliamentary group, over time.
+    path: data/{country}/group_parties.csv
+    key: [group_id, party_id, valid_from]
+    columns:
+      group_id: {type: id, required: true, fk: parliamentary_groups}
+      party_id: {type: id, required: true, fk: parties}
+      valid_from: {type: date, required: true}
+      valid_to: {type: date}
+      source_url: {type: url}
+
+  elections:
+    kind: csv
+    entity: {type: election, title: "election_type || ' ' || CAST(date AS VARCHAR)", date: date}
+    desc: Elections and referendums.
+    path: data/{country}/elections.csv
+    key: [election_id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?(-[0-9]{5})?-elec-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z]+$'
+    columns:
+      election_id: {type: id, required: true, desc: "es-elec-2023-07-23-general"}
+      date: {type: date, required: true}
+      election_type: {type: enum, required: true, values: [general, regional, municipal, european, referendum]}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      turnout_pct: {type: float}
+      source_url: {type: url}
+      verification: {type: enum, values: [primary, secondary, unverified, disputed]}
+
+  election_results:
+    kind: csv
+    desc: Votes and seats per party and body in each election.
+    path: data/{country}/election_results.csv
+    key: [election_id, party_id, body]
+    columns:
+      election_id: {type: id, required: true, fk: elections}
+      party_id: {type: id, required: true, fk: parties}
+      body: {type: enum, required: true, values: [congreso, senado, regional_parliament, municipal_council, european_parliament]}
+      votes: {type: int}
+      vote_share_pct: {type: float}
+      seats: {type: int}
+      source_url: {type: url}
+
+  governments:
+    kind: csv
+    entity: {type: government, title: "'Gobierno ' || government_id", date: valid_from}
+    desc: Executives (state, regional, municipal). A new row per government; caretaker periods included so there are no gaps.
+    path: data/{country}/governments.csv
+    key: [government_id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?(-[0-9]{5})?-gov-[a-z0-9-]+$'
+    columns:
+      government_id: {type: id, required: true}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      head_person_id: {type: id, fk: people}
+      valid_from: {type: date, required: true}
+      valid_to: {type: date}
+      form: {type: enum, values: [single_party_majority, single_party_minority, coalition_majority, coalition_minority, caretaker, other]}
+      origin: {type: enum, values: [investiture, motion_of_censure, other]}
+      source_url: {type: url}
+      verification: {type: enum, values: [primary, secondary, unverified, disputed]}
+      notes: {type: text}
+
+  government_parties:
+    kind: csv
+    desc: Parties in each government and parties supporting it (investiture or external support), over time.
+    path: data/{country}/government_parties.csv
+    key: [government_id, party_id, role, valid_from]
+    columns:
+      government_id: {type: id, required: true, fk: governments}
+      party_id: {type: id, required: true, fk: parties}
+      role: {type: enum, required: true, values: [governing, investiture_support, external_support]}
+      valid_from: {type: date, required: true}
+      valid_to: {type: date}
+      source_url: {type: url}
+      notes: {type: text}
+
+  events:
+    kind: csv
+    entity: {type: event, title: title, date: date}
+    desc: Timeline of facts that shape context and public opinion. Neutral wording, one source minimum.
+    path: data/{country}/events.csv
+    key: [event_id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?(-[0-9]{5})?-event-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$'
+    columns:
+      event_id: {type: id, required: true}
+      date: {type: date, required: true}
+      date_precision: {type: enum, values: [day, month, year]}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      category: {type: enum, required: true, values: [economic, political, judicial, social, disaster, security, international, health, electoral, other]}
+      title: {type: text, required: true}
+      summary: {type: text, max_len: 400}
+      source_url: {type: url, required: true}
+      verification: {type: enum, values: [primary, secondary, unverified, disputed]}
+
+  indicator_defs:
+    kind: csv
+    desc: Definition of each statistical series (unit, frequency, nominal/real, source).
+    path: data/{country}/indicator_defs.csv
+    key: [indicator_id]
+    id_pattern: '^[a-z]{2}-[a-z0-9-]+$'
+    columns:
+      indicator_id: {type: id, required: true}
+      name_es: {type: text, required: true}
+      name_en: {type: text, required: true}
+      unit: {type: text, required: true}
+      frequency: {type: enum, required: true, values: [daily, monthly, quarterly, annual, other]}
+      source_id: {type: id, required: true, fk: sources}
+      series_code: {type: text, desc: "Code in the source (e.g. INE table id)"}
+      real_or_nominal: {type: enum, values: [real, nominal, not_applicable]}
+      seasonally_adjusted: {type: bool}
+      notes: {type: text}
+
+  indicators:
+    kind: csv
+    desc: Statistical observations in long format (one file per indicator).
+    path: data/{country}/indicators/{indicator_id}.csv
+    key: [indicator_id, jurisdiction_id, period_start]
+    columns:
+      indicator_id: {type: id, required: true, fk: indicator_defs}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      period_start: {type: date, required: true}
+      period_end: {type: date}
+      value: {type: float, required: true}
+      retrieved: {type: date, required: true}
+
+  # ---------------------------------------------------------------- actions (bulk, mostly ingested)
+  initiatives:
+    kind: csv
+    entity: {type: initiative, title: title, date: date_registered}
+    desc: Parliamentary initiatives (bills, PNL, motions, ILP...). Authors go in entity_actors (role author).
+    path: data/{country}/initiatives/{legislature_id}.csv
+    key: [initiative_id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?-init-[a-z0-9-]+$'
+    columns:
+      initiative_id: {type: id, required: true}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      chamber: {type: enum, required: true, values: [congreso, senado, regional_parliament, municipal_council, european_parliament]}
+      legislature_id: {type: id, required: true, fk: legislatures}
+      official_ref: {type: text, desc: "Expediente, e.g. 122/000012"}
+      initiative_type: {type: enum, required: true, values: [government_bill, parliamentary_bill, popular_initiative, decree_law, non_legislative_motion, motion, amendment, other]}
+      binding: {type: bool, required: true}
+      title: {type: text, required: true}
+      date_registered: {type: date, required: true}
+      status: {type: enum, values: [registered, taken_into_consideration, in_progress, approved, rejected, withdrawn, expired, other]}
+      status_date: {type: date}
+      url: {type: url}
+
+  votes:
+    kind: csv
+    entity: {type: vote, title: title, date: date}
+    desc: One row per recorded vote. bundled = several unrelated measures voted together (omnibus).
+    path: data/{country}/votes/{legislature_id}.csv
+    key: [vote_id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?-vote-[a-z0-9-]+$'
+    columns:
+      vote_id: {type: id, required: true}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      chamber: {type: enum, required: true, values: [congreso, senado, regional_parliament, municipal_council, european_parliament]}
+      legislature_id: {type: id, required: true, fk: legislatures}
+      date: {type: date, required: true}
+      session: {type: text}
+      vote_number: {type: int}
+      initiative_id: {type: id, fk: initiatives}
+      object: {type: enum, required: true, values: [final_vote, totality_amendment, taken_into_consideration, decree_validation, decree_as_bill, amendment, motion, non_legislative_motion, investiture, motion_of_censure, budget, other]}
+      bundled: {type: bool, required: true}
+      title: {type: text, required: true}
+      result: {type: enum, required: true, values: [approved, rejected, tied, other]}
+      'yes': {type: int}
+      'no': {type: int}
+      abstain: {type: int}
+      absent: {type: int}
+      url: {type: url}
+
+  vote_results:
+    kind: csv
+    desc: Vote counts per (vote, parliamentary group, party). Sum by group or by party as needed.
+    path: data/{country}/vote_results/{legislature_id}.csv
+    key: [vote_id, group_id, party_id]
+    columns:
+      vote_id: {type: id, required: true, fk: votes}
+      group_id: {type: id, fk: parliamentary_groups}
+      party_id: {type: id, fk: parties}
+      'yes': {type: int, required: true}
+      'no': {type: int, required: true}
+      abstain: {type: int, required: true}
+      absent: {type: int, required: true}
+
+  promises:
+    kind: csv
+    desc: Concrete, checkable promises extracted from electoral programs. Party and election come from the program.
+    path: data/{country}/promises.csv
+    key: [promise_id]
+    id_pattern: '^[a-z]{2}-promise-[a-z0-9-]+$'
+    columns:
+      promise_id: {type: id, required: true}
+      program_id: {type: id, required: true, fk: programs}
+      topic_id: {type: id, required: true, fk: topics}
+      text: {type: text, required: true, desc: "Verbatim if verbatim=true, else faithful paraphrase"}
+      verbatim: {type: bool, required: true}
+      page: {type: int}
+      status: {type: enum, required: true, values: [kept, partially_kept, broken, pending, not_applicable, not_assessed]}
+      assessed_on: {type: date}
+      notes: {type: text}
+
+  promise_outcomes:
+    kind: csv
+    desc: Evidence linking a promise to actions (votes, measures, initiatives...).
+    path: data/{country}/promise_outcomes.csv
+    key: [promise_id, evidence_id]
+    columns:
+      promise_id: {type: id, required: true, fk: promises}
+      evidence_id: {type: id, required: true, fk: '*'}
+      effect: {type: enum, required: true, values: [fulfils, advances, partial, contradicts]}
+      note: {type: text}
+
+  coverage:
+    kind: csv
+    desc: What has been collected and how completely. Check before concluding that something did not happen.
+    path: data/{country}/coverage.csv
+    key: [coverage_id]
+    id_pattern: '^[a-z]{2}-cov-[a-z0-9-]+$'
+    columns:
+      coverage_id: {type: id, required: true}
+      jurisdiction_id: {type: id, required: true, fk: jurisdictions}
+      dataset: {type: text, required: true, desc: "Table name (e.g. votes) or entity type"}
+      topic_id: {type: id, fk: topics}
+      period_from: {type: date}
+      period_to: {type: date}
+      completeness: {type: enum, required: true, values: [complete, partial, sample, none]}
+      method: {type: enum, required: true, values: [ingestion, manual, mixed]}
+      last_checked: {type: date, required: true}
+      notes: {type: text}
+
+  # ---------------------------------------------------------------- Markdown entities
+  measures:
+    kind: md
+    entity_type: measure
+    desc: Laws, decrees, budgets and government measures at any level. Body = what it does, in force, evaluations.
+    folder: entries/{country}/measures
+    key: [id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?(-[0-9]{5})?-measure-[a-z0-9-]+$'
+    required_common: [date, jurisdiction_id, verification]
+    columns:
+      instrument: {type: enum, required: true, values: [constitution, organic_law, law, decree_law, legislative_decree, royal_decree, ministerial_order, budget_law, regional_law, regional_decree, municipal_ordinance, eu_regulation, eu_directive, administrative_act, other]}
+      official_ref: {type: text, desc: "e.g. BOE-A-2023-12203"}
+      date_in_force: {type: date}
+      date_end: {type: date}
+      status: {type: enum, required: true, values: [in_force, partially_in_force, repealed, annulled, partially_annulled, expired, not_yet_in_force]}
+      initiative_id: {type: id, fk: initiatives}
+      cost_eur: {type: float, desc: "Official cost estimate if any (cite it)"}
+
+  vote_notes:
+    kind: md
+    entity_type: vote_note
+    desc: Human-readable explanation of a notable vote. Numbers stay in votes/vote_results.
+    folder: entries/{country}/vote_notes
+    key: [id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?-votenote-[a-z0-9-]+$'
+    required_common: [date, jurisdiction_id, verification]
+    columns: {}
+    lists:
+      votes: {table: entity_relations, scalar_column: related_id, defaults: {relation: about_vote}}
+
+  statements:
+    kind: md
+    entity_type: statement
+    desc: Statements by politicians (sparse). Quote verbatim in the original language.
+    folder: entries/{country}/statements
+    key: [id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?-stmt-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$'
+    required_common: [date, jurisdiction_id, verification]
+    columns:
+      speaker_id: {type: id, required: true, fk: people}
+      party_id: {type: id, required: true, fk: parties, desc: "Party the speaker represented at the time"}
+      role_at_time: {type: text}
+      setting: {type: enum, required: true, values: [parliament, rally, interview, press_conference, social_media, debate, official_document, other]}
+      period: {type: enum, required: true, values: [campaign, legislature, other]}
+      election_id: {type: id, fk: elections}
+      claim_type: {type: enum, required: true, values: [promise, factual_claim, position, prediction, other]}
+      quote: {type: text, required: true}
+      fact_check: {type: enum, values: [accurate, mostly_accurate, misleading, false, unverifiable, unchecked]}
+
+  programs:
+    kind: md
+    entity_type: program
+    desc: Electoral program of a party for an election. Body = summary by topic with page references.
+    folder: entries/{country}/programs
+    key: [id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?-program-[a-z0-9-]+$'
+    required_common: [date, jurisdiction_id, verification]
+    columns:
+      party_id: {type: id, required: true, fk: parties}
+      election_id: {type: id, required: true, fk: elections}
+      pages: {type: int}
+
+  dossiers:
+    kind: md
+    entity_type: dossier
+    desc: Country-specific topic synthesis (legal framework, competences, data, local evidence, positions). Entry point for questions.
+    folder: entries/{country}/dossiers
+    key: [id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?-dossier-[a-z0-9-]+$'
+    required_common: [jurisdiction_id]
+    columns:
+      topic_id: {type: id, required: true, fk: topics}
+
+  history_notes:
+    kind: md
+    entity_type: history
+    desc: Country history (economy, society, politics) for a period.
+    folder: entries/{country}/history
+    key: [id]
+    id_pattern: '^[a-z]{2}(-[a-z]{2})?-history-[a-z0-9-]+$'
+    required_common: [jurisdiction_id]
+    columns:
+      period_from: {type: date}
+      period_to: {type: date}
+
+  studies:
+    kind: md
+    entity_type: study
+    desc: One card per study/report (any country). Body = question, method, findings, limitations.
+    folder: library
+    key: [id]
+    id_pattern: '^study-[a-z0-9-]+$'
+    required_common: []
+    columns:
+      authors: {type: text, required: true, desc: "Surname, Initial; Surname, Initial"}
+      year: {type: int, required: true}
+      venue: {type: text}
+      doi: {type: text}
+      url: {type: url}
+      method: {type: enum, required: true, values: [meta_analysis, systematic_review, rct, natural_experiment, quasi_experimental, observational, structural_model, simulation, descriptive, theoretical, narrative_review, other]}
+      evidence_grade: {type: enum, required: true, values: [A, B, C, D], desc: "See AGENTS.md evidence grading"}
+      peer_reviewed: {type: bool, required: true}
+      publisher_source_id: {type: id, fk: sources}
+      funding: {type: text}
+      scope: {type: text, desc: "Where and when the evidence comes from"}
+
+  knowledge_notes:
+    kind: md
+    entity_type: knowledge
+    desc: State-of-the-art synthesis on a subject (country-agnostic, English). Claims are listed as child records.
+    folder: knowledge
+    free_subfolders: true
+    key: [id]
+    id_pattern: '^kn-[a-z0-9-]+$'
+    required_common: []
+    columns: {}
+    lists:
+      claims: {table: claims}
+      claim_evidence: {table: claim_evidence}
+
+  questions:
+    kind: md
+    entity_type: question
+    desc: Questions asked and their current answer, with revision history and the evidence used.
+    folder: questions/{country}
+    key: [id]
+    id_pattern: '^([a-z]{2}-)?q-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$'
+    required_common: [date]
+    columns:
+      question: {type: text, required: true, desc: "Verbatim, original language"}
+      status: {type: enum, required: true, values: [current, superseded]}
+      version: {type: int, required: true}
+      data_as_of: {type: date, required: true}
+    lists:
+      asked: {table: question_asks, scalar_column: asked_on}
+      evidence: {table: entity_relations, scalar_column: related_id, defaults: {relation: evidence}}
+
+  # ---------------------------------------------------------------- links and child tables
+  entity_topics:
+    kind: link
+    desc: Entity <-> topic.
+    path: data/{country}/links/entity_topics.csv
+    key: [entity_id, topic_id]
+    columns:
+      entity_id: {type: id, required: true, fk: '*'}
+      topic_id: {type: id, required: true, fk: topics}
+
+  entity_actors:
+    kind: link
+    desc: Entity <-> party, with the party's role.
+    path: data/{country}/links/entity_actors.csv
+    key: [entity_id, party_id, role]
+    columns:
+      entity_id: {type: id, required: true, fk: '*'}
+      party_id: {type: id, required: true, fk: parties}
+      role: {type: enum, required: true, values: [author, proposer, implementer, supporter, opponent, involved]}
+
+  citations:
+    kind: link
+    desc: Sources backing each entity.
+    path: data/{country}/links/citations.csv
+    key: [entity_id, url]
+    columns:
+      entity_id: {type: id, required: true, fk: '*'}
+      url: {type: url, required: true}
+      source_id: {type: id, fk: sources}
+      title: {type: text}
+      accessed: {type: date}
+      archive_url: {type: url}
+      locator: {type: text, desc: "Page, article, section, timestamp"}
+
+  entity_relations:
+    kind: link
+    desc: Typed relations between entities.
+    path: data/{country}/links/entity_relations.csv
+    key: [entity_id, related_id, relation]
+    columns:
+      entity_id: {type: id, required: true, fk: '*'}
+      related_id: {type: id, required: true, fk: '*'}
+      relation: {type: enum, required: true, values: [related, about_vote, evidence, implements, amends, repeals, annuls, responds_to, contradicts, fulfils, supersedes]}
+
+  claims:
+    kind: child
+    desc: Claims stated in knowledge notes, with strength of evidence and degree of expert consensus.
+    key: [claim_id]
+    id_pattern: '^claim-[a-z0-9-]+$'
+    columns:
+      claim_id: {type: id, required: true}
+      entity_id: {type: id, required: true, fk: knowledge_notes}
+      statement: {type: text, required: true}
+      strength: {type: enum, required: true, values: [strong, moderate, weak, contested, insufficient]}
+      consensus: {type: enum, required: true, values: [broad, majority, divided, minority, unknown]}
+      scope: {type: text, desc: "Conditions under which the claim holds"}
+
+  claim_evidence:
+    kind: child
+    desc: Study <-> claim, with the direction of the evidence.
+    key: [claim_id, study_id]
+    columns:
+      entity_id: {type: id, required: true, fk: knowledge_notes}
+      claim_id: {type: id, required: true, fk: claims}
+      study_id: {type: id, required: true, fk: studies}
+      direction: {type: enum, required: true, values: [supports, contradicts, mixed, null_result]}
+      note: {type: text}
+
+  question_asks:
+    kind: child
+    desc: Each date a question was asked.
+    key: [entity_id, asked_on]
+    columns:
+      entity_id: {type: id, required: true, fk: questions}
+      asked_on: {type: date, required: true}

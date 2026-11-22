@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+# Wrapper: runs tools/kb.py with the project virtualenv (Windows or Unix layout).
+DIR="$(cd "$(dirname "$0")" && pwd)"
+if [ -x "$DIR/.venv/Scripts/python.exe" ]; then PY="$DIR/.venv/Scripts/python.exe"
+elif [ -x "$DIR/.venv/bin/python" ]; then PY="$DIR/.venv/bin/python"
+else PY=python3; fi
+exec "$PY" "$DIR/tools/kb.py" "$@"

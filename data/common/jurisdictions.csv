@@ -1,0 +1,24 @@
+jurisdiction_id,name,level,parent_id,iso_code,ine_code
+eu,Unión Europea,supranational,,EU,
+es,España,state,eu,ES,
+es-an,Andalucía,regional,es,ES-AN,01
+es-ar,Aragón,regional,es,ES-AR,02
+es-as,Principado de Asturias,regional,es,ES-AS,03
+es-ib,Illes Balears,regional,es,ES-IB,04
+es-cn,Canarias,regional,es,ES-CN,05
+es-cb,Cantabria,regional,es,ES-CB,06
+es-cl,Castilla y León,regional,es,ES-CL,07
+es-cm,Castilla-La Mancha,regional,es,ES-CM,08
+es-ct,Cataluña,regional,es,ES-CT,09
+es-vc,Comunitat Valenciana,regional,es,ES-VC,10
+es-ex,Extremadura,regional,es,ES-EX,11
+es-ga,Galicia,regional,es,ES-GA,12
+es-md,Comunidad de Madrid,regional,es,ES-MD,13
+es-mc,Región de Murcia,regional,es,ES-MC,14
+es-nc,Comunidad Foral de Navarra,regional,es,ES-NC,15
+es-pv,País Vasco,regional,es,ES-PV,16
+es-ri,La Rioja,regional,es,ES-RI,17
+es-ce,Ceuta,regional,es,ES-CE,18
+es-ml,Melilla,regional,es,ES-ML,19
+es-ct-08019,Barcelona,local,es-ct,,08019
+es-md-28079,Madrid,local,es-md,,28079

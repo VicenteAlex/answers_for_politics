@@ -1,0 +1,6 @@
+coverage_id,jurisdiction_id,dataset,topic_id,period_from,period_to,completeness,method,last_checked,notes
+es-cov-parties,es,parties,,,,partial,manual,2026-11-22,"Partidos con representación en el Congreso en la XV legislatura y algunos históricos; sin fechas de fundación ni relaciones todavía"
+es-cov-governments,es,governments,,,,none,manual,2026-11-22,Pendiente (fase 2)
+es-cov-votes,es,votes,,,,none,ingestion,2026-11-22,Pendiente (fase 4: ingesta de datos abiertos del Congreso)
+es-cov-events,es,events,,,,none,manual,2026-11-22,Pendiente (fase 2)
+es-cov-indicators,es,indicators,,,,none,ingestion,2026-11-22,Pendiente (fase 2)

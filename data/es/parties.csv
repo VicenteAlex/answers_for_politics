@@ -1,0 +1,26 @@
+party_id,name,abbreviation,entity_type,scope,home_jurisdiction_id,founded,dissolved,notes
+es-psoe,Partido Socialista Obrero Español,PSOE,party,state,es,,,
+es-psc,Partit dels Socialistes de Catalunya,PSC,party,regional,es-ct,,,Federado con el PSOE (registrar en party_links)
+es-pp,Partido Popular,PP,party,state,es,,,
+es-vox,Vox,Vox,party,state,es,,,
+es-sumar,Sumar (coalición electoral),Sumar,coalition,state,es,,,"Coalición de las generales de 2023; composición y cambios en party_links"
+es-movimiento-sumar,Movimiento Sumar,MS,party,state,es,,,
+es-podemos,Podemos,Podemos,party,state,es,,,
+es-iu,Izquierda Unida,IU,party,state,es,,,
+es-mas-madrid,Más Madrid,MM,party,regional,es-md,,,
+es-comuns,Catalunya en Comú,Comuns,party,regional,es-ct,,,
+es-compromis,Compromís,Compromís,coalition,regional,es-vc,,,
+es-up,Unidas Podemos,UP,coalition,state,es,,,"Coalición electoral (antes Unidos Podemos); verificar fechas en party_links"
+es-erc,Esquerra Republicana de Catalunya,ERC,party,regional,es-ct,,,
+es-junts,Junts per Catalunya,Junts,party,regional,es-ct,,,
+es-eh-bildu,Euskal Herria Bildu,EH Bildu,party,regional,es-pv,,,
+es-pnv,Partido Nacionalista Vasco,EAJ-PNV,party,regional,es-pv,,,
+es-bng,Bloque Nacionalista Galego,BNG,party,regional,es-ga,,,
+es-cc,Coalición Canaria,CC,party,regional,es-cn,,,
+es-upn,Unión del Pueblo Navarro,UPN,party,regional,es-nc,,,
+es-cup,Candidatura d'Unitat Popular,CUP,party,regional,es-ct,,,
+es-cs,Ciudadanos,Cs,party,state,es,,,
+es-salf,Se Acabó La Fiesta,SALF,electoral_group,state,es,,,"Concurrió a las europeas de 2024; verificar forma jurídica"
+es-ciu,Convergència i Unió,CiU,coalition,regional,es-ct,,,Histórica
+es-ucd,Unión de Centro Democrático,UCD,party,state,es,,,Histórica
+es-ap,Alianza Popular,AP,party,state,es,,,Histórica; predecesora del PP

@@ -1,0 +1,8 @@
+# derived database (rebuild with: kb build)
+build/
+# original downloads (re-downloadable; keep out of git)
+raw/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
