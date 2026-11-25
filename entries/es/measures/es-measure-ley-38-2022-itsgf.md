@@ -46,6 +46,10 @@ citations:
     title: "Diario de Sesiones del Congreso n.º 226 (24-11-2022): votación por llamamiento de la Proposición de ley"
     accessed: 2026-11-25
     locator: "pp. 65-72"
+  - url: https://www.congreso.es/es/opendata/votaciones
+    source_id: congreso
+    title: "Congreso, datos abiertos de votaciones electrónicas del Pleno (07-06-2022, 13-09-2022, 03-11-2022, 24-11-2022 y 10-01-2024)"
+    accessed: 2026-11-25
   - url: https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/hacienda/Paginas/2023/200923-impuesto-solidaridad-grandes-fortunas.aspx
     source_id: moncloa
     title: "Nota de prensa de Hacienda (20-09-2023): recaudación del ITSGF"
@@ -54,7 +58,7 @@ citations:
     source_id: tc
     title: "STC 149/2023, de 7 de noviembre (recurso 616-2023 de la Comunidad de Madrid)"
     accessed: 2026-11-25
-related: [es-measure-rdl-13-2011-patrimonio, es-dossier-fiscalidad-grandes-fortunas, es-md-measure-ley-3-2008-bonificacion-patrimonio, es-an-measure-decreto-ley-7-2022-bonificacion-patrimonio, study-agrawal-2025-wealth-tax-mobility-spain]
+related: [es-measure-rdl-13-2011-patrimonio, es-dossier-fiscalidad-grandes-fortunas, es-md-measure-ley-3-2008-bonificacion-patrimonio, es-an-measure-decreto-ley-7-2022-bonificacion-patrimonio, study-agrawal-2025-wealth-tax-mobility-spain, es-vote-xiv-2022-06-07-s184-v001, es-vote-xiv-2022-09-13-s197-v002, es-vote-xiv-2022-11-03-s213-v163, es-vote-xv-2024-01-10-s015-v004, es-vote-xv-2024-01-10-s015-v010]
 ---
 
 ## Qué establece
@@ -65,14 +69,19 @@ related: [es-measure-rdl-13-2011-patrimonio, es-dossier-fiscalidad-grandes-fortu
 
 ## Tramitación y apoyos
 - Tramitado como proposición de ley de los grupos Socialista y Confederal de Unidas Podemos (expediente 122/000247, BOCG Congreso serie B, n.º 271-1, de 30-08-2022); el ITSGF se incorporó por enmienda durante la tramitación (proposición inicialmente denominada solo "gravámenes temporales energético y de entidades de crédito").
-- Votación de conjunto en el Pleno del Congreso, por llamamiento, 24-11-2022: 186 sí, 152 no, 10 abstenciones (DSCD-14-PL-226).
+- Votaciones electrónicas del Pleno (voto nominal en los datos abiertos del Congreso; atribución por partido de elaboración propia). Las dos primeras son anteriores a la incorporación del ITSGF y se refieren a los gravámenes energético y bancario:
+  - Toma en consideración, 13-09-2022: 187 sí, 153 no, 8 abstenciones. Sí: PSOE, Unidas Podemos, ERC, PNV, EH Bildu, Más País-Equo, Compromís, BNG, CUP, CC, PRC, Teruel Existe y María del Carmen Pita (ex-Podemos, Grupo Mixto). No: PP (88), Vox (52), Cs (9), Foro, los dos diputados de Navarra Suma y Pablo Cambronero (ex-Cs). Abstención: Junts (4) y PDeCAT (4) [es-vote-xiv-2022-09-13-s197-v002].
+  - Enmienda de totalidad de texto alternativo de Ciudadanos, 03-11-2022: rechazada por 62 sí, 188 no y 91 abstenciones. Sí: Cs (9) y Vox (51). Abstención: PP (88), Foro y los dos diputados de Navarra Suma. No: el resto, incluidos Junts, PDeCAT y PNV. Constan además un voto a favor en ERC y otro en EH Bildu, frente al resto de sus grupos [es-vote-xiv-2022-11-03-s213-v163].
+  - El 24-11-2022 constan las votaciones de las enmiendas de los grupos (es-vote-xiv-2022-11-24-s218-v001 a v038), pero sus títulos no identifican a qué artículo se refiere cada enmienda.
+  - Antecedente: el 07-06-2022 el Pleno rechazó por 58-277-4 la proposición de ley de Unidas Podemos del "Impuesto sobre la titularidad, tenencia, disponibilidad, disfrute o uso de bienes o derechos por personas con grandes fortunas". A favor: Unidas Podemos, ERC, EH Bildu, Más País-Equo, Compromís, BNG y CUP. En contra: PSOE (117), PP, Vox, Cs, PNV, PDeCAT, PRC y Foro. Abstención: Junts (3) y Teruel Existe [es-vote-xiv-2022-06-07-s184-v001].
+- Votación de conjunto en el Pleno del Congreso, por llamamiento, 24-11-2022: 186 sí, 152 no, 10 abstenciones (DSCD-14-PL-226). Al ser por llamamiento, no figura en los datos abiertos de votaciones electrónicas; el desglose procede de la lista nominal del Diario de Sesiones.
   - Sí (según la lista nominal): diputados de PSOE, Unidas Podemos, ERC, EH Bildu, Más País, Compromís, BNG, CUP, Junts (Nogueras, Pagès), CC, PRC y Teruel Existe.
   - No: PP, Vox, Ciudadanos, UPN y Foro.
   - Abstención: PNV (6) y PDeCAT (4).
 - El Senado la aprobó sin modificaciones el 21-12-2022.
 
 ## Aplicación y estado
-- **Prórroga**: el Real Decreto-ley 8/2023, de 27 de diciembre, extendió su aplicación "mientras no se produzca la revisión de la tributación patrimonial en el marco de la reforma del sistema de financiación autonómica" (nota del texto consolidado; IEF DT 5/2026).
+- **Prórroga**: el Real Decreto-ley 8/2023, de 27 de diciembre, extendió su aplicación "mientras no se produzca la revisión de la tributación patrimonial en el marco de la reforma del sistema de financiación autonómica" (nota del texto consolidado; IEF DT 5/2026). Es un decreto ómnibus (medidas anticrisis por las guerras de Ucrania y Oriente Próximo, sequía y otras), así que el voto sobre él no es un voto específico sobre el ITSGF. En la votación de convalidación del 10-01-2024 votaron a favor PSOE (121), Sumar (25), Podemos (5), ERC (7), EH Bildu (6), PNV (5), BNG y CC; en contra PP (137), Vox (33) y UPN (1); Junts (7) no votó [es-vote-xv-2024-01-10-s015-v004]. Los datos abiertos registran esa votación como empate (171-171). Sin embargo, la votación siguiente, que acordó tramitarlo como proyecto de ley (204-1-137), presupone que fue convalidado [es-vote-xv-2024-01-10-s015-v010]. La discrepancia está pendiente de verificar en el Diario de Sesiones.
 - **Constitucionalidad**: la STC 149/2023, de 7 de noviembre, desestimó el recurso de la Comunidad de Madrid contra el art. 3. Hubo recursos de otras comunidades (Andalucía, Galicia, entre otras) resueltos en el mismo sentido por sentencias publicadas en enero de 2024 (pendiente de verificar sus números).
 - **Concierto y Convenio**: las Leyes 9/2023 y 8/2023 (País Vasco y Navarra) concertaron el ITSGF, que gestionan las haciendas forales.
 - **Respuesta autonómica**: Madrid, Andalucía, Murcia, La Rioja, Cantabria (para patrimonios > 3 M EUR) y Galicia sustituyeron (total o parcialmente) su bonificación del 100% del IP por una bonificación igual a la diferencia entre la cuota del IP y la del ITSGF, de modo que lo recaudado se ingresa como IP autonómico (Hacienda, Tributación Autonómica 2025, cap. IV). Cataluña mantiene un tramo del 3,48% por encima de 20 M EUR mientras rija el ITSGF.

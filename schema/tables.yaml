@@ -342,21 +342,24 @@ tables:
       'no': {type: int}
       abstain: {type: int}
       absent: {type: int}
-      url: {type: url}
+      url: {type: url, desc: "Official page listing the source files for that day"}
+      source_file: {type: text, desc: "Name of the official JSON file the vote comes from"}
+      retrieved: {type: date, desc: "Date the official file was downloaded"}
 
-  vote_results:
+  vote_casts:
     kind: csv
-    desc: Vote counts per (vote, parliamentary group, party). Sum by group or by party as needed.
-    path: data/{country}/vote_results/{legislature_id}.csv
-    key: [vote_id, group_id, party_id]
+    format: parquet
+    desc: "Each deputy's vote as published by the Congreso (unaltered: seat, name, group, vote). party_id is our attribution (elaboración propia, see tools/congreso_party_map.csv). Written by tools/ingest_congreso.py, one file per voting day."
+    path: data/{country}/vote_casts/{legislature_id}/{date}.parquet
+    key: [vote_id, deputy]
     columns:
       vote_id: {type: id, required: true, fk: votes}
+      seat: {type: text}
+      deputy: {type: text, required: true, desc: "Name exactly as published (Apellidos, Nombre)"}
       group_id: {type: id, fk: parliamentary_groups}
       party_id: {type: id, fk: parties}
-      'yes': {type: int, required: true}
-      'no': {type: int, required: true}
-      abstain: {type: int, required: true}
-      absent: {type: int, required: true}
+      vote: {type: enum, required: true, values: ['yes', 'no', abstain, absent]}
+
 
   promises:
     kind: csv

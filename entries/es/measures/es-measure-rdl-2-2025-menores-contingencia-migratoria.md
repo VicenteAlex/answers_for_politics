@@ -26,6 +26,18 @@ actors:
     role: supporter
   - party_id: es-junts
     role: supporter
+  - party_id: es-erc
+    role: supporter
+  - party_id: es-eh-bildu
+    role: supporter
+  - party_id: es-pnv
+    role: supporter
+  - party_id: es-podemos
+    role: supporter
+  - party_id: es-bng
+    role: supporter
+  - party_id: es-cc
+    role: supporter
   - party_id: es-pp
     role: opponent
   - party_id: es-vox
@@ -39,6 +51,13 @@ citations:
     source_id: congreso
     title: Diario de Sesiones, Pleno 10-04-2025, votación de convalidación (179-170-1) y tramitación como proyecto de ley (349 sí)
     locator: p. 81-82
+    accessed: 2026-11-25
+  - url: https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=10/04/2025
+    source_id: congreso
+    title: Congreso, datos abiertos de votaciones, Pleno 10-04-2025 (convalidación y tramitación como proyecto de ley, voto nominal)
+    accessed: 2026-11-25
+  - url: https://www.elsaltodiario.com/mena/oposicion-populares-junts-vox-frustra-reforma-ley-extranjeria
+    title: El Salto, la oposición de PP, Junts y Vox frustra la reforma de la Ley de Extranjería (23-07-2024; objeto de la proposición 122/000123)
     accessed: 2026-11-25
   - url: https://rtvc.es/debate-congreso-ley-extranjeria-10-abril-2025/
     title: RTVC, El Congreso convalida el decreto ley para distribuir a menores migrantes sin los apoyos de PP ni Vox (sentido del voto por grupos)
@@ -58,6 +77,12 @@ related:
     relation: amends
   - related_id: es-dossier-inmigracion
     relation: related
+  - related_id: es-vote-xv-2025-04-10-s106-v015
+    relation: related
+  - related_id: es-vote-xv-2025-04-10-s106-v016
+    relation: related
+  - related_id: es-vote-xv-2024-07-23-s056-v063
+    relation: related
 ---
 
 ## Qué establece
@@ -68,7 +93,8 @@ related:
 
 ## Tramitación y apoyos
 - Aprobado por el Consejo de Ministros el 18-03-2025, publicado el 19-03-2025, en vigor el 20-03-2025.
-- Convalidación en el Congreso, 10-04-2025: 179 sí, 170 no, 1 abstención (DSCD-15-PL-110). Según la prensa, votaron a favor el bloque de investidura, incluido Junts (tras un acuerdo con el Gobierno), y en contra PP y Vox; la abstención se atribuye a UPN en un medio. Se acordó tramitarlo como proyecto de ley (349 sí).
+- Convalidación en el Congreso, 10-04-2025: 179 sí, 170 no, 1 abstención (DSCD-15-PL-110; voto nominal en los datos abiertos del Congreso [es-vote-xv-2025-04-10-s106-v015], atribución por partido de elaboración propia). A favor: PSOE (120), Sumar (27), ERC (7), Junts (7, tras un acuerdo con el Gobierno según la prensa), EH Bildu (6), PNV (5), Podemos (4), BNG (1), CC (1) y José Luis Ábalos (Grupo Mixto, sin partido). En contra: PP (137) y Vox (33). Abstención: UPN (1). Ningún partido se dividió. Se acordó tramitarlo como proyecto de ley por 349 votos a favor y ninguno en contra [es-vote-xv-2025-04-10-s106-v016].
+- Antecedente parlamentario: el 23-07-2024 el Pleno rechazó, por 171 a favor, 177 en contra y 1 abstención, tomar en consideración la proposición de ley de PSOE, Sumar y Grupo Mixto (CC) de modificación de la LOEx (122/000123), que según la prensa reformaba el art. 35 para repartir menores no acompañados cuando un territorio superase su capacidad de acogida. Votaron en contra PP (137), Vox (33) y Junts (7); se abstuvo UPN [es-vote-xv-2024-07-23-s056-v063].
 - Antecedente: en julio de 2024 Vox salió de los gobiernos autonómicos de coalición con el PP tras aceptar este la acogida de 347 menores de Canarias en la Conferencia Sectorial (es-event-2024-07-11-vox-sale-gobiernos-autonomicos).
 
 ## Aplicación y estado

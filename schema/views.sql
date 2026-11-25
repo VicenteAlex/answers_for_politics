@@ -2,6 +2,16 @@
 -- The `entities` view (union of every entity table) is generated automatically from schema/tables.yaml.
 -- Each view starts with a "-- view: <name> — <description>" line; SCHEMA.md is generated from those lines.
 
+-- view: vote_results — Vote counts per (vote, parliamentary group, party), computed from vote_casts. Party attribution is our own (elaboración propia).
+CREATE VIEW vote_results AS
+SELECT vote_id, group_id, party_id,
+       count(*) FILTER (WHERE vote = 'yes')     AS yes,
+       count(*) FILTER (WHERE vote = 'no')      AS no,
+       count(*) FILTER (WHERE vote = 'abstain') AS abstain,
+       count(*) FILTER (WHERE vote = 'absent')  AS absent
+FROM vote_casts
+GROUP BY vote_id, group_id, party_id;
+
 -- view: v_governments — Governments with head's name and governing / supporting parties. A partner that joined late or left early shows its dates, e.g. "es-vox (2023-07-11→2024-07-11)".
 CREATE VIEW v_governments AS
 SELECT g.*,

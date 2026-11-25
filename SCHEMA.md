@@ -254,18 +254,19 @@ key: (vote_id) · id pattern `^[a-z]{2}(-[a-z]{2})?-vote-[a-z0-9-]+$`
 - `no` int
 - `abstain` int
 - `absent` int
-- `url` url
+- `url` url — Official page listing the source files for that day
+- `source_file` text — Name of the official JSON file the vote comes from
+- `retrieved` date — Date the official file was downloaded
 
-### `vote_results` (csv: data/{country}/vote_results/{legislature_id}.csv)
-Vote counts per (vote, parliamentary group, party). Sum by group or by party as needed.
-key: (vote_id, group_id, party_id)
+### `vote_casts` (csv: data/{country}/vote_casts/{legislature_id}/{date}.parquet)
+Each deputy's vote as published by the Congreso (unaltered: seat, name, group, vote). party_id is our attribution (elaboración propia, see tools/congreso_party_map.csv). Written by tools/ingest_congreso.py, one file per voting day.
+key: (vote_id, deputy)
 - `vote_id` id* → votes
+- `seat` text
+- `deputy` text* — Name exactly as published (Apellidos, Nombre)
 - `group_id` id → parliamentary_groups
 - `party_id` id → parties
-- `yes` int*
-- `no` int*
-- `abstain` int*
-- `absent` int*
+- `vote` enum* [yes|no|abstain|absent]
 
 ### `promises` (csv: data/{country}/promises.csv)
 Concrete, checkable promises extracted from electoral programs. Party and election come from the program.
@@ -450,6 +451,7 @@ key: (entity_id, asked_on)
 - `documents` (table) — id, type, lang, title, summary, body, path: the searchable text (`kb search`).
 
 ## Views
+- `vote_results` — Vote counts per (vote, parliamentary group, party), computed from vote_casts. Party attribution is our own (elaboración propia).
 - `v_governments` — Governments with head's name and governing / supporting parties. A partner that joined late or left early shows its dates, e.g. "es-vox (2023-07-11→2024-07-11)".
 - `v_entity_context` — Each dated entity with the local, regional and state government in office on its date (ASOF join).
 - `v_vote_party` — Position of each party in each vote (summed over groups). split = the party's deputies did not all vote alike.

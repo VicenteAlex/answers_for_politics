@@ -92,6 +92,20 @@ python -m venv .venv
 
 On Linux or macOS: `python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt && ./kb build`. On first build, DuckDB downloads its official `fts` (full-text search) extension.
 
+**Lighter clones.** The data is small (about 24 MB checked out), and git already compresses it when you clone or pull. If bandwidth or disk is tight:
+
+```bash
+# only the current version, without history
+git clone --depth 1 <repository-url>
+
+# also skip each deputy's vote (data/es/vote_casts/), keeping everything else
+git clone --depth 1 --filter=blob:none --sparse <repository-url>
+cd <repository-folder>
+git sparse-checkout set --no-cone '/*' '!/data/es/vote_casts/'
+```
+
+Skip `vote_casts` only if you don't need vote analysis. Party positions in each vote (`vote_results`, `v_vote_party`) are computed from it, so without it those views are empty.
+
 ## Commands
 
 | Command | What it does |
@@ -143,6 +157,13 @@ You do not need a `spain/` subfolder. Country data is already partitioned by ISO
 | Parties | Those represented in the Congreso in the XV legislature, plus relevant historical ones |
 | Normative stance | Positive analysis plus conditional recommendations ("if the goal is X, the evidence favours Y"); no verdicts unless asked |
 | Agent autonomy | Agents write directly, mark `verification`, and humans review through git diffs |
+
+## License
+
+- **Code** (`tools/`, the `kb` wrappers) is licensed under [AGPL-3.0](LICENSE).
+- **Data, knowledge content and documentation** are licensed under [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt).
+- Both licences allow commercial use with attribution, as long as derivatives are shared under the same licence.
+- Third-party sources keep their own terms. [ATTRIBUTION.md](ATTRIBUTION.md) lists them, says what is this project's own elaboration, and includes a disclaimer.
 
 ## Roadmap
 
@@ -199,11 +220,19 @@ Hoy contiene:
 
 ## Cómo usarlo
 
+0. Descarga el proyecto. Si tienes poca conexión o poco espacio, puedes bajar solo la versión actual, sin el historial: `git clone --depth 1 <url-del-repositorio>`. Los datos ocupan unos 24 MB.
 1. Abre un asistente con acceso a la carpeta (por ejemplo Claude Code) en este proyecto. Leerá automáticamente sus instrucciones.
 2. Haz tu pregunta en lenguaje normal. El asistente consultará la base, buscará lo que falte, lo guardará con sus fuentes y responderá con el formato estándar.
 3. En temas delicados, pide además *«una revisión independiente de sesgos y la versión corregida»*.
 4. Repregunta o corrige con normalidad: la respuesta guardada se actualiza y conserva su historial.
 5. Las respuestas quedan en `questions/es/`, solo en tu equipo: esa carpeta no se sube al repositorio. Lo que se aprende al responder (estudios, datos, leyes) sí se guarda en la base compartida. Puedes pedir *«qué respuestas han quedado desactualizadas»* cuando cambien los datos.
 6. Para ampliar, pide por ejemplo *«investiga y guarda la evidencia sobre pensiones»* o *«añade Francia»*.
+
+## Licencia
+
+- **Código:** [AGPL-3.0](LICENSE).
+- **Datos y contenidos:** [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt).
+- **Uso comercial:** se permite, citando la fuente y compartiendo las obras derivadas con la misma licencia.
+- **Fuentes externas** (Congreso, INE, Eurostat, BOE, Wikipedia): conservan sus propias condiciones, que se detallan en [ATTRIBUTION.md](ATTRIBUTION.md) junto con un aviso de responsabilidad.
 
 </details>

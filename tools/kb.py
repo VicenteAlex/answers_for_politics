@@ -102,7 +102,7 @@ def read_header(path: Path) -> list[str]:
         return [h.strip() for h in next(csv.reader(f), [])]
 
 
-class _FrontMatterLoader(yaml.SafeLoader):
+class _FrontMatterLoader(getattr(yaml, "CSafeLoader", yaml.SafeLoader)):  # C parser when available (~10x faster)
     """SafeLoader that keeps dates as strings, so bad dates become validation errors instead of parse failures."""
 
 
@@ -199,10 +199,34 @@ def create_raw(con, t):
 
 def csv_files(t) -> list[Path]:
     pattern = re.sub(r"\{[^}]+\}", "*", t["path"])
+    if t["kind"] == "link":  # ingestion scripts write their own link files: entity_actors__<script>.csv
+        pattern = pattern[:-4] + "*" + pattern[-4:]
     return sorted(ROOT.glob(pattern))
 
 
+def load_parquet_table(con, t, errors):
+    """Bulk tables written by ingestion scripts (format: parquet): all files loaded in one pass."""
+    files = csv_files(t)
+    if not files:
+        return
+    cols = list(t["all_columns"])
+    prefix = ROOT.as_posix() + "/"
+    reader = "read_parquet([" + ", ".join(lit(f.as_posix()) for f in files) + "], filename=true, union_by_name=true)"
+    try:
+        hdr = [r[0] for r in con.execute(f"DESCRIBE SELECT * FROM {reader}").fetchall() if r[0] != "filename"]
+        unknown = [h for h in hdr if h not in cols]
+        missing = [c for c in cols if c not in hdr]
+        if unknown or missing:
+            errors.append(f"{t['name']}: parquet columns differ from schema (missing {missing}, unknown {unknown})")
+        sel = ", ".join(f"NULLIF(trim(CAST({q(c)} AS VARCHAR)), '')" if c in hdr else "NULL" for c in cols)
+        con.execute(f"INSERT INTO {q('raw_' + t['name'])} SELECT {sel}, replace(filename, {lit(prefix)}, '') FROM {reader}")
+    except duckdb.Error as e:
+        errors.append(f"{t['name']}: cannot read parquet: {str(e).splitlines()[0]}")
+
+
 def load_csv_table(con, t, errors):
+    if t.get("format") == "parquet":
+        return load_parquet_table(con, t, errors)
     cols = list(t["all_columns"])
     prefix = ROOT.as_posix() + "/"
     for f in csv_files(t):
@@ -294,9 +318,11 @@ def insert_rows(con, t, rows):
     if not rows:
         return
     cols = list(t["all_columns"]) + ["_src"]
-    con.executemany(
-        f"INSERT INTO {q('raw_' + t['name'])} ({', '.join(q(c) for c in cols)}) VALUES ({', '.join('?' * len(cols))})",
-        [[r.get(c) for c in cols] for r in rows])
+    one = "(" + ", ".join("?" * len(cols)) + ")"
+    head = f"INSERT INTO {q('raw_' + t['name'])} ({', '.join(q(c) for c in cols)}) VALUES "
+    for i in range(0, len(rows), 500):  # multi-row inserts: much faster than executemany in DuckDB
+        chunk = rows[i:i + 500]
+        con.execute(head + ", ".join([one] * len(chunk)), [r.get(c) for r in chunk for c in cols])
 
 
 # ----------------------------------------------------------------------------- validation
@@ -339,7 +365,15 @@ def validate_raw(con, schema: Schema, errors):
             k = q(keycols[0])
             checks.append((f"id does not match {t['id_pattern']}",
                            f"{k} IS NOT NULL AND NOT regexp_matches({k}, {lit(t['id_pattern'])})", k))
-        for msg, cond, valexpr in checks:
+        # one scan counts every check; detail queries run only for checks that failed
+        failing = [True] * len(checks)
+        if checks:
+            counts = con.execute("SELECT " + ", ".join(f"count(*) FILTER (WHERE {cond})" for _, cond, _ in checks)
+                                 + f" FROM {raw}").fetchone()
+            failing = [n > 0 for n in counts]
+        for (msg, cond, valexpr), bad in zip(checks, failing):
+            if not bad:
+                continue
             for key, src, val in con.execute(
                     f"SELECT {keyexpr}, _src, CAST({valexpr} AS VARCHAR) FROM {raw} WHERE {cond} "
                     f"LIMIT {MAX_ERRORS_PER_CHECK}").fetchall():
@@ -347,10 +381,12 @@ def validate_raw(con, schema: Schema, errors):
                 errors.append(f"{t['name']}[{key}] {src}: {msg}{shown}")
         # primary key uniqueness
         cols = ", ".join(q(k) for k in keycols)
-        for key, n, srcs in con.execute(
-                f"SELECT {keyexpr}, count(*), string_agg(DISTINCT _src, ', ') FROM {raw} "
-                f"GROUP BY {cols} HAVING count(*) > 1 LIMIT {MAX_ERRORS_PER_CHECK}").fetchall():
-            errors.append(f"{t['name']}[{key}]: duplicate key ({n} rows) in {srcs}")
+        dups = con.execute(f"SELECT {cols}, count(*) FROM {raw} GROUP BY {cols} HAVING count(*) > 1 "
+                           f"LIMIT {MAX_ERRORS_PER_CHECK}").fetchall()
+        for *keyvals, n in dups:  # details only for the (rare) duplicates
+            where = " AND ".join(f"{q(k)} IS NOT DISTINCT FROM ?" for k in keycols)
+            srcs = ", ".join(sorted({r[0] for r in con.execute(f"SELECT _src FROM {raw} WHERE {where}", keyvals).fetchall()}))
+            errors.append(f"{t['name']}[{'|'.join(str(v) for v in keyvals)}]: duplicate key ({n} rows) in {srcs}")
         # foreign keys
         rkeyexpr = " || '|' || ".join(f"coalesce(r.{q(k)}, '-')" for k in keycols)
         for c, spec in t["all_columns"].items():
@@ -377,7 +413,7 @@ def create_typed(con, t):
             sels.append(q(c))
     if t["kind"] == "md":
         sels.append("_src AS path")
-    con.execute(f"CREATE TABLE {q(t['name'])} AS SELECT {', '.join(sels)} FROM {q('raw_' + t['name'])}")
+    con.execute(f"CREATE TABLE out.main.{q(t['name'])} AS SELECT {', '.join(sels)} FROM memory.main.{q('raw_' + t['name'])}")
 
 
 def create_entities_view(con, schema: Schema):
@@ -457,9 +493,9 @@ def build(write: bool = True, quiet: bool = False) -> int:
         for p in DB_FILE.parent.glob("kb.tmp*"):  # leftovers of crashed builds
             if p.name.startswith(tmp.name) or now - p.stat().st_mtime > 600:
                 p.unlink(missing_ok=True)
-        con = duckdb.connect(str(tmp))
-    else:
-        con = duckdb.connect()
+    # raw loading and validation run in memory (disk-backed is ~20x slower on large tables);
+    # only the final typed tables, views and the search index are written to the file
+    con = duckdb.connect()
     ok = False
     try:
         for t in schema.tables.values():
@@ -471,14 +507,18 @@ def build(write: bool = True, quiet: bool = False) -> int:
             insert_rows(con, schema.tables[name], rows)
         validate_raw(con, schema, errors)
         if write:
+            con.execute(f"ATTACH {lit(tmp.as_posix())} AS out")
             for t in schema.tables.values():
                 create_typed(con, t)
             for t in schema.tables.values():
-                con.execute(f"DROP TABLE {q('raw_' + t['name'])}")
+                con.execute(f"DROP TABLE memory.main.{q('raw_' + t['name'])}")
+            con.execute("USE out")  # views, macros and the FTS index are created inside the file
             create_entities_view(con, schema)
             con.execute(VIEWS_FILE.read_text(encoding="utf-8"))
             build_documents(con, schema, docs, warnings)
             counts = con.execute("SELECT (SELECT count(*) FROM entities), (SELECT count(*) FROM documents)").fetchone()
+            con.execute("USE memory")
+            con.execute("DETACH out")
         ok = True
     finally:
         con.close()
@@ -949,8 +989,9 @@ def append_csv(path: Path, t, row) -> None:
 def cmd_add(args):
     schema = Schema()
     t = schema.tables.get(args.table)
-    if not t or t["kind"] not in ("csv", "link"):
-        fail(f"{args.table!r} is not a CSV table; CSV tables: {sorted(x['name'] for x in schema.of_kind('csv', 'link'))}")
+    if not t or t["kind"] not in ("csv", "link") or t.get("format") == "parquet":
+        fail(f"{args.table!r} is not a CSV table (parquet tables are written by ingestion scripts); "
+             f"CSV tables: {sorted(x['name'] for x in schema.of_kind('csv', 'link') if x.get('format') != 'parquet')}")
     try:
         data = json.loads(sys.stdin.read() if args.json == "-" else args.json)
     except json.JSONDecodeError as e:
@@ -995,7 +1036,7 @@ def cmd_scaffold(args):
     created = []
     for t in schema.of_kind("csv", "link"):
         names = re.findall(r"\{([^}]+)\}", t["path"])
-        if names and names != ["country"]:
+        if (names and names != ["country"]) or t.get("format") == "parquet":
             continue
         for country in (args.country if names else [None]):
             p = ROOT / (t["path"].replace("{country}", country) if country else t["path"])

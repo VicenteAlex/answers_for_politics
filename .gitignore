@@ -16,3 +16,5 @@ questions/
 .idea/
 Thumbs.db
 desktop.ini
+# private working notes and plans (never committed)
+_local/

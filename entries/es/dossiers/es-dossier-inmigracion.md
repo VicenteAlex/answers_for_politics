@@ -89,6 +89,13 @@ citations:
     source_id: congreso
     title: Diario de Sesiones 10-04-2025, convalidación del RDL 2/2025
     accessed: 2026-11-25
+  - url: https://www.congreso.es/es/opendata/votaciones
+    source_id: congreso
+    title: Congreso, datos abiertos de votaciones electrónicas del Pleno (XV), voto nominal de las votaciones citadas con id es-vote-*
+    accessed: 2026-11-25
+  - url: https://www.elsaltodiario.com/mena/oposicion-populares-junts-vox-frustra-reforma-ley-extranjeria
+    title: El Salto, la oposición de PP, Junts y Vox frustra la reforma de la Ley de Extranjería (23-07-2024)
+    accessed: 2026-11-25
 related:
   - es-measure-lo-4-2000-ley-extranjeria
   - es-measure-rd-1155-2024-reglamento-extranjeria
@@ -107,6 +114,18 @@ related:
   - es-cn-event-2024-01-03-record-llegadas-canarias-2023
   - es-cn-event-2025-01-02-record-llegadas-canarias-2024
   - es-event-2026-10-05-disolucion-cortes-elecciones-29n
+  - es-vote-xv-2024-04-09-s034-v001
+  - es-vote-xv-2024-04-23-s036-v004
+  - es-vote-xv-2024-06-13-s046-v021
+  - es-vote-xv-2024-07-23-s056-v063
+  - es-vote-xv-2024-09-18-s060-v007
+  - es-vote-xv-2025-02-18-s092-v002
+  - es-vote-xv-2025-04-10-s106-v015
+  - es-vote-xv-2025-09-16-s131-v001
+  - es-vote-xv-2025-09-23-s133-v001
+  - es-vote-xv-2026-02-26-s164-v002
+  - es-vote-xv-2026-03-18-s166-v003
+  - es-vote-xv-2026-09-30-s202-v001
 ---
 
 ## Marco legal y competencial
@@ -173,9 +192,13 @@ Terminología: "MENAS", "invasores", "remigración" y "prioridad nacional" son t
 - *Generales 29-11-2026*: "Ni uno más. Después de recibir a 5 millones de personas en 5 años España no puede acoger a más inmigrantes" y prohibición de regularizaciones masivas (9); endurecer la nacionalidad y ampliar su pérdida para españoles no de origen por delitos graves (10); supresión del arraigo (11); "Repatriación de quienes permanezcan en situación ilegal" (12); "Remigración. Plan para facilitar el retorno a sus países de los extranjeros que no contribuyan o vivan de subsidios públicos" (13); deportación por delitos graves o de quienes "traten de imponer costumbres [...] incompatibles" (14); devolución de menores no acompañados a sus familias o a las instituciones de su país (15); fin de subvenciones a ONG (16) y de la cooperación con países que no colaboren (17). "Prioridad nacional" (pp. 16-17): "Acceso preferente de los españoles a vivienda pública, plazas de guardería, bonos de comedor o transporte, ayudas, prestaciones y servicios sociales" (18); suprimir ayudas a inmigrantes en situación irregular (19); excluir de la sanidad a extranjeros en situación irregular salvo urgencia grave (20); gravamen sobre las remesas (21); Ingreso Mínimo Vital solo para españoles (22); prioridad nacional en vivienda protegida (27) y prohibición de alquilar a inmigrantes en situación irregular (32). En Ceuta: "Expulsión de todos los invasores con carácter inmediato" y militarización de la frontera (p. 5).
 
 **Lo que hizo**
-- Votó en contra de la toma en consideración de la ILP de regularización (9-4-2024; único grupo en contra, 33 votos; es-event-2024-04-09-ilp-regularizacion-toma-consideracion).
+(Votos en el Congreso: voto nominal de los datos abiertos, ids es-vote-*; atribución por partido de elaboración propia.)
+- Votó en contra de la toma en consideración de la ILP de regularización (9-4-2024; único grupo en contra, 33 votos; es-event-2024-04-09-ilp-regularizacion-toma-consideracion; es-vote-xv-2024-04-09-s034-v001). Su enmienda de totalidad de texto alternativo a la ILP se rechazó por 33-315 el 13-06-2024: solo Vox votó a favor y el PP en contra (es-vote-xv-2024-06-13-s046-v021).
+- Presentó proposiciones de ley restrictivas que no se tomaron en consideración, ambas con el voto a favor del PP: la de modificar el padrón municipal "en los casos de ocupación y de inmigración ilegal" (18-02-2025, 169-174; es-vote-xv-2025-02-18-s092-v002; ya rechazada en la XIV el 20-12-2022, es-vote-xiv-2022-12-20-s227-v001) y la de ley orgánica "para restringir la regularización de inmigrantes ilegales a través del arraigo" (122/000191; 16-09-2025, 169-177-1; es-vote-xv-2025-09-16-s131-v001).
+- Su proposición no de ley "para bloquear la invasión inmigratoria ilegal" (23-04-2024) se votó en 19 puntos y todos se rechazaron; el PP votó en contra en 13 y se abstuvo en 6 (es-vote-xv-2024-04-23-s036-v004 y siguientes).
+- Votó en contra de la moción del PP "sobre la crisis migratoria y la protección de nuestras fronteras" (18-09-2024, rechazada 138-209; es-vote-xv-2024-09-18-s060-v007). Se abstuvo en la proposición no de ley del PP para aplicar el Pacto Europeo de Migración y Asilo (30-09-2026, rechazada 137-175-34; es-vote-xv-2026-09-30-s202-v001).
 - Gobernó en coalición con el PP en Castilla y León (2022-2024), C. Valenciana, Extremadura, Aragón y Murcia (2023-2024) y salió de esos gobiernos el 11-07-2024 al aceptar el PP la acogida de 347 menores procedentes de Canarias (es-event-2024-07-11-vox-sale-gobiernos-autonomicos).
-- Votó en contra de la convalidación del RDL 2/2025 (10-04-2025) y de la PLO de delegación de competencias de inmigración en Cataluña (23-09-2025).
+- Votó en contra de tomar en consideración la reforma del art. 35 LOEx de PSOE, Sumar y CC (23-07-2024; es-vote-xv-2024-07-23-s056-v063). Votó en contra de la convalidación del RDL 2/2025 (10-04-2025, 33 votos; es-vote-xv-2025-04-10-s106-v015) y de la PLO de delegación de competencias de inmigración en Cataluña (23-09-2025; es-vote-xv-2025-09-23-s133-v001).
 - Recurrió el RD 316/2026 ante el Tribunal Supremo (recurso 98/2026); el Supremo denegó la suspensión cautelar.
 - Volvió a gobiernos autonómicos en 2026: Extremadura (abril), Aragón (mayo), Castilla y León (junio) y Andalucía (julio) (tabla government_parties). El acuerdo de Extremadura (16-04-2026) incluye: rechazar "por todos los medios legales" cualquier mecanismo de reparto de migrantes, incluidos menores; no abrir nuevos centros de acogida ni ampliar plazas; promover retornos de menores; suprimir subvenciones a ONG que "favorezcan la inmigración ilegal"; acceso a vivienda protegida y a ayudas "inspirado en el principio de prioridad nacional, adecuado a la legalidad vigente", con empadronamiento mínimo de 10 años (compra) y 5 (alquiler) y exclusión de prestaciones estructurales a personas en situación irregular salvo urgencia vital; instar la reforma de la LOEx. No se ha verificado su aplicación normativa (hueco).
 
@@ -186,28 +209,36 @@ Terminología: "MENAS", "invasores", "remigración" y "prioridad nacional" son t
 - *Generales 29-11-2026* ("La Reconstrucción Nacional", pp. 22-25): autoridad única e informe anual del efecto de la inmigración en empleo, salarios, vivienda, servicios y Seguridad Social (35); más agentes y apoyo de las Fuerzas Armadas en la frontera sur, rechazo en frontera de entradas a nado en Ceuta y Melilla (36); identificación en siete días y devoluciones sin demora (37); asilo rápido y acuerdos con países seguros (38); visados por puntos (40); cupos anuales ajustados al paro, vacantes y capacidad de vivienda y servicios (41); "Prohibiremos por ley las regularizaciones masivas e indiscriminadas y el arraigo será excepcional" (42); "compromiso de integración" obligatorio para renovar la residencia (español, Constitución) y prohibición del burka y el niqab en espacios públicos (43); expulsión como regla para condenados por delitos sexuales, de sangre y multirreincidencia (44); ejecución de órdenes de retorno, centros de retorno en terceros países y retorno voluntario (45); retorno de menores con sus familias, determinación de edad en 72 horas, que el Estado asuma la atención inicial y sustituir "el reparto como respuesta principal" (46). Medida 98 (p. 41): prioridad en ayudas a quienes tengan "arraigo real, duradero y verificable con España", con criterios de padrón y cotización que "no podrán basarse exclusivamente en la nacionalidad".
 
 **Lo que hizo**
-- Votó a favor de la toma en consideración de la ILP de regularización (9-4-2024).
-- Sus gobiernos autonómicos aceptaron en julio de 2024 acoger 347 menores de Canarias (motivo de la salida de Vox).
-- Votó en contra de la convalidación del RDL 2/2025 y varias comunidades gobernadas por el PP lo recurrieron ante el TC (Madrid, Aragón, C. Valenciana, Illes Balears, Castilla y León, Galicia); el Estado requirió a Aragón por no colaborar en su aplicación.
-- Votó en contra de la PLO de delegación de inmigración en Cataluña (23-09-2025).
+- Votó a favor de la toma en consideración de la ILP de regularización (9-4-2024; 136 votos; Feijóo ausente; es-vote-xv-2024-04-09-s034-v001). Votó en contra del texto alternativo de Vox a esa ILP (13-06-2024).
+- Sus gobiernos autonómicos aceptaron en julio de 2024 acoger 347 menores de Canarias (motivo de la salida de Vox). El 23-07-2024 votó en contra, con Vox y Junts, de tomar en consideración la reforma del art. 35 LOEx de PSOE, Sumar y CC para el reparto de menores no acompañados (rechazada 171-177-1; es-vote-xv-2024-07-23-s056-v063; objeto según El Salto).
+- Votó en contra de la convalidación del RDL 2/2025 (137 votos; es-vote-xv-2025-04-10-s106-v015) y varias comunidades gobernadas por el PP lo recurrieron ante el TC (Madrid, Aragón, C. Valenciana, Illes Balears, Castilla y León, Galicia); el Estado requirió a Aragón por no colaborar en su aplicación.
+- Votó a favor de tomar en consideración las proposiciones de Vox sobre el padrón (18-02-2025) y para restringir la regularización por arraigo (16-09-2025); ambas fueron rechazadas (ver Vox).
+- Votó en contra de la PLO de delegación de inmigración en Cataluña (23-09-2025; es-vote-xv-2025-09-23-s133-v001).
+- Iniciativas no legislativas propias:
+  - Moción "sobre la crisis migratoria y la protección de nuestras fronteras" (18-09-2024): rechazada, con el voto en contra de Vox.
+  - Proposición no de ley para ejecutar las órdenes de expulsión de nacionales de terceros países sin derecho a permanecer en la UE (26-02-2026), votada por puntos: se aprobaron dos, uno con el voto a favor de Junts (178-166-6) y otro con su abstención (171-166-13); el resto quedó en empate o se rechazó (es-vote-xv-2026-02-26-s164-v002).
+  - Moción sobre la política migratoria del Gobierno (18-03-2026): aprobada por 176-172, con Vox, Junts y UPN (es-vote-xv-2026-03-18-s166-v003).
+  - Proposición no de ley para aplicar el Pacto Europeo de Migración y Asilo (30-09-2026): rechazada por 137-175-34, con abstención de Vox (es-vote-xv-2026-09-30-s202-v001).
 - Comunidades gobernadas por el PP recurrieron el RD 316/2026 ante el Supremo: Madrid, C. Valenciana, Aragón, Illes Balears, Extremadura y Murcia.
 - Pactó en 2026 gobiernos con Vox (Extremadura, Aragón, Castilla y León, Andalucía); el acuerdo de Extremadura incorpora la "prioridad nacional" en vivienda y ayudas "adecuado a la legalidad vigente"; según la prensa, el PP sostiene que se aplicará por arraigo y no por nacionalidad.
 
 ### PSOE (Gobierno)
 - *Dice (29-11-2026, pp. 93-94)*: "migración ordenada, legal y segura"; Plan de Integración y Ciudadanía 2026-2030 con 500 millones iniciales (388); ampliar vías legales de protección internacional y el sistema de acogida (389); participación de las personas inmigrantes (390); protección de menores no acompañados (391); Unidad de Apoyo a la Infancia Migrante para las CCAA (200); política migratoria europea basada en solidaridad y necesidades del mercado de trabajo (479).
-- *Hizo*: aprobó el RD 1155/2024, el RDL 2/2025 y el RD 316/2026 (este tras un acuerdo con Podemos, enero de 2026); registró con Junts la PLO de delegación de competencias de inmigración en Cataluña (rechazada 173-177 el 23-09-2025).
+- *Hizo*: aprobó el RD 1155/2024, el RDL 2/2025 y el RD 316/2026 (este tras un acuerdo con Podemos, enero de 2026). Antes del RDL 2/2025, su proposición con Sumar y CC para reformar el art. 35 LOEx fue rechazada el 23-07-2024 (es-vote-xv-2024-07-23-s056-v063). Registró con Junts la PLO de delegación de competencias de inmigración en Cataluña, rechazada 173-177 el 23-09-2025 con los 120 votos del PSOE a favor (es-vote-xv-2025-09-23-s133-v001).
 
 ### Sumar
-- Socio del Gobierno de coalición: implementa las tres normas anteriores; su grupo votó a favor de la convalidación del RDL 2/2025. En la PLO de delegación en Cataluña, un diputado de Compromís y otro de Chunta Aragonesista del grupo votaron en contra (RTVC). Su programa de 2026 no se ha revisado (hueco).
+- Socio del Gobierno de coalición: implementa las tres normas anteriores; su grupo votó a favor de la convalidación del RDL 2/2025 (27 votos). En la PLO de delegación en Cataluña, 24 diputados del grupo votaron a favor y 2 en contra: Alberto Ibáñez (Compromís) y Jorge Pueyo (Chunta Aragonesista). Àgueda Micó (Compromís, Grupo Mixto) votó a favor (voto nominal, es-vote-xv-2025-09-23-s133-v001; coincide con RTVC). Su programa de 2026 no se ha revisado (hueco).
 
 ### Podemos
-- Negoció con el PSOE la regularización extraordinaria aprobada en 2026 (es-event-2026-01-27-regularizacion-tramitacion). Votó en contra de la PLO de delegación de inmigración en Cataluña; su secretaria general calificó a Junts de "antiinmigración" (prensa). Votó a favor de la convalidación del RDL 2/2025 según la composición del bloque de investidura (no verificado voto a voto).
+- Negoció con el PSOE la regularización extraordinaria aprobada en 2026 (es-event-2026-01-27-regularizacion-tramitacion). Votó en contra de la PLO de delegación de inmigración en Cataluña (sus 4 diputados); su secretaria general calificó a Junts de "antiinmigración" (prensa). Votó a favor de la convalidación del RDL 2/2025 (4 votos; es-vote-xv-2025-04-10-s106-v015).
 
 ### Junts
-- Reclama la competencia de inmigración para Cataluña: coautor con el PSOE de la PLO de delegación (art. 150.2 CE), rechazada el 23-09-2025 (173-177, con votos en contra de PP, Vox, Podemos, UPN y dos diputados del grupo Sumar); el BOCG de 11-09-2026 recoge una nueva PLO de Junts sobre la misma delegación (resultado no verificado). Votó a favor de la convalidación del RDL 2/2025 tras un acuerdo con el Gobierno sobre los criterios de reparto (prensa).
+- Reclama la competencia de inmigración para Cataluña: coautor con el PSOE de la PLO de delegación (art. 150.2 CE), rechazada el 23-09-2025 (173-177, con votos en contra de PP, Vox, Podemos, UPN y dos diputados del grupo Sumar; voto nominal verificado, es-vote-xv-2025-09-23-s133-v001); el BOCG de 11-09-2026 recoge una nueva PLO de Junts sobre la misma delegación (sin votación en el Pleno en los datos cargados, que llegan al 30-09-2026).
+- Votó en contra de la reforma del art. 35 LOEx (23-07-2024) y, tras un acuerdo con el Gobierno sobre los criterios de reparto (prensa), a favor de la convalidación del RDL 2/2025 (7 votos; es-vote-xv-2025-04-10-s106-v015).
+- Votó en contra de las proposiciones de Vox sobre el padrón (2025) y el arraigo (2025) y de la PNL de Vox de 23-04-2024. Votó a favor de la moción del PP sobre política migratoria (18-03-2026) y de un punto de la PNL del PP sobre expulsiones (26-02-2026).
 
 ### PNV y ERC
-- Formaban parte del bloque de investidura que, según la prensa, votó a favor de la convalidación del RDL 2/2025; el RDL prevé que en el País Vasco las Diputaciones Forales ejerzan funciones de ejecución del plan de respuesta. No se han revisado sus programas de 2023/2026 en materia migratoria (hueco).
+- Votaron a favor de la convalidación del RDL 2/2025: PNV con 5 votos y ERC con 7, según el voto nominal (es-vote-xv-2025-04-10-s106-v015). También votaron a favor de la reforma del art. 35 LOEx de 2024 y de la PLO de delegación en Cataluña. El RDL prevé que en el País Vasco las Diputaciones Forales ejerzan funciones de ejecución del plan de respuesta. No se han revisado sus programas de 2023/2026 en materia migratoria (hueco).
 
 ## Huecos de datos
 - Cifras oficiales de concesiones y denegaciones de la regularización de 2026 y número de menores reubicados con el RDL 2/2025.
@@ -215,6 +246,6 @@ Terminología: "MENAS", "invasores", "remigración" y "prioridad nacional" son t
 - Estudio oficial reciente de impacto fiscal neto de la inmigración en España (AIReF, Banco de España, Seguridad Social).
 - Evidencia causal española reciente sobre vivienda (2015-2026), delincuencia con controles por edad/sexo/situación legal y segunda generación.
 - Aplicación efectiva y control judicial de la "prioridad nacional" en las comunidades con gobiernos PP-Vox (2026).
-- Programas de 2023 y 2026 de Sumar, Podemos, PNV, ERC y Junts sobre inmigración; votaciones nominales por grupo (la KB no tiene aún tabla de votos cargada para estas votaciones).
+- Programas de 2023 y 2026 de Sumar, Podemos, PNV, ERC y Junts sobre inmigración. Las votaciones electrónicas del Pleno de la XIV y XV ya están cargadas (es-cov-votes). Siguen faltando el contenido de las mociones y PNL votadas por puntos (los títulos no lo recogen) y las votaciones del Senado.
 - Series del CIS sobre la inmigración como problema (saliencia) y de opinión pública.
 - Resultado de los recursos ante el TC (RDL 2/2025) y el Supremo (RD 316/2026).

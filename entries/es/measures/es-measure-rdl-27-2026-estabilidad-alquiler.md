@@ -48,10 +48,15 @@ citations:
   - url: https://periscopiofiscalylegal.pwc.es/el-congreso-de-los-diputados-deroga-el-real-decreto-ley-8-2026/
     title: "PwC: el Congreso deroga el RDL 8/2026 (prórroga extraordinaria y tope del 2%)"
     accessed: 2026-11-25
+  - url: https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=28/04/2026
+    source_id: congreso
+    title: "Congreso, datos abiertos de votaciones, Pleno 28/04/2026 (convalidación del RDL 8/2026, voto nominal)"
+    accessed: 2026-11-25
 related:
   - {related_id: es-event-2026-10-03-manifestaciones-vivienda, relation: related}
   - {related_id: es-event-2026-10-05-disolucion-cortes-elecciones-29n, relation: related}
   - {related_id: es-measure-ley-12-2023-vivienda, relation: related}
+  - {related_id: es-vote-xv-2026-04-28-s175-v003, relation: related}
 ---
 
 ## Qué establece
@@ -62,8 +67,8 @@ related:
 Votación de convalidación en el Pleno del Congreso el 02/10/2026 (votación pública por llamamiento):
 - RDL 26/2026: 172 a favor (PSOE, Sumar, ERC, EH Bildu, PNV, Podemos, BNG, CC, Compromís) y 178 en contra (PP, Vox, Junts, UPN).
 - RDL 27/2026: 166 a favor (PSOE, Sumar, ERC, EH Bildu, Podemos, BNG, Compromís) y 184 en contra (PP, Vox, Junts, PNV, CC, UPN).
-Los actores de esta ficha reflejan la votación del RDL 27/2026. Cifras de prensa; pendientes de verificar en el Diario de Sesiones.
-Antecedente: el RDL 8/2026, de 20 de marzo (prórroga extraordinaria de hasta dos años de los contratos de vivienda habitual y tope del 2% a la actualización anual), no fue convalidado el 28/04/2026 (166 a favor, 177 en contra). Posterior: el RDL 28/2026, de 6 de octubre, con una regulación análoga de la renovación de contratos y entrada en vigor prevista el 15/11/2026, fue derogado por la Diputación Permanente el 12/11/2026 (desglose de votos no localizado).
+Los actores de esta ficha reflejan la votación del RDL 27/2026. Cifras de prensa; pendientes de verificar en el Diario de Sesiones: al ser votaciones por llamamiento, no figuran en los datos abiertos de votaciones electrónicas del Congreso (comprobado el 25/11/2026; la última votación electrónica cargada es del 30/09/2026).
+Antecedente: el RDL 8/2026, de 20 de marzo (prórroga extraordinaria de hasta dos años de los contratos de vivienda habitual y tope del 2% a la actualización anual), no fue convalidado el 28/04/2026 por 166 votos a favor, 177 en contra y 5 abstenciones (votación electrónica, voto nominal en los datos abiertos [es-vote-xv-2026-04-28-s175-v003]; atribución por partido de elaboración propia). A favor: PSOE (121), Sumar (25), ERC (7), EH Bildu (6), Podemos (4), BNG, CC y Compromís (1 cada uno). En contra: PP (137), Vox (32), Junts (6), UPN (1) y Javier Ortega Smith (en el grupo VOX, expulsado del partido). Abstención: PNV (5). Ningún partido se dividió. Posterior: el RDL 28/2026, de 6 de octubre, con una regulación análoga de la renovación de contratos y entrada en vigor prevista el 15/11/2026, fue derogado por la Diputación Permanente el 12/11/2026 (desglose de votos no localizado).
 
 ## Aplicación y estado
 Derogados por no convalidación. El 05/10/2026 se disolvieron las Cortes y se convocaron elecciones para el 29/11/2026 (es-event-2026-10-05-disolucion-cortes-elecciones-29n).

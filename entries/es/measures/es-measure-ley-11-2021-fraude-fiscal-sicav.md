@@ -27,7 +27,7 @@ citations:
     source_id: boe
     title: "Ley 11/2021, de 9 de julio (art. primero.Dos: art. 29.4.a LIS; DT 41.ª LIRPF)"
     accessed: 2026-11-25
-related: [es-dossier-fiscalidad-grandes-fortunas]
+related: [es-dossier-fiscalidad-grandes-fortunas, es-vote-xiv-2021-06-30-s112-v005]
 ---
 
 ## Qué establece
@@ -36,7 +36,7 @@ related: [es-dossier-fiscalidad-grandes-fortunas]
 - Otras medidas para grandes patrimonios: reglas de valoración de seguros de vida sin derecho de rescate en el IP; base del ISD/ITP a valor de mercado (valor de referencia catastral en inmuebles); ISD para todos los no residentes; umbral de 600.000 EUR para la lista de deudores.
 
 ## Tramitación y apoyos
-Proyecto de ley del Gobierno de coalición PSOE-Unidas Podemos (implementadores). No se ha consultado la votación final; no se asignan apoyos ni oposiciones.
+Proyecto de ley del Gobierno de coalición PSOE-Unidas Podemos (implementadores). En los datos abiertos de votaciones electrónicas del Pleno del Congreso (XIV) solo constan las votaciones de las enmiendas del Senado del 30-06-2021, en cinco bloques. En el último ("resto de enmiendas", 277-51-4) votó en contra Vox [es-vote-xiv-2021-06-30-s112-v005]. No consta una votación del dictamen o del conjunto del texto en el Pleno; no se ha comprobado si se aprobó en comisión con competencia legislativa plena. Por eso no se asignan apoyos ni oposiciones a la ley.
 
 ## Aplicación y estado
 En vigor. Varias formaciones (Sumar 2023) proponen ir más allá y eliminar el régimen de SICAV y SOCIMI.

@@ -22,13 +22,29 @@ topics: [income_tax, corporate_tax, taxation]
 actors:
   - {party_id: es-psoe, role: implementer}
   - {party_id: es-sumar, role: implementer}
+  - {party_id: es-psoe, role: supporter}
+  - {party_id: es-sumar, role: supporter}
+  - {party_id: es-erc, role: supporter}
+  - {party_id: es-junts, role: supporter}
+  - {party_id: es-eh-bildu, role: supporter}
+  - {party_id: es-pnv, role: supporter}
+  - {party_id: es-podemos, role: supporter}
+  - {party_id: es-bng, role: supporter}
+  - {party_id: es-cc, role: supporter}
+  - {party_id: es-pp, role: opponent}
+  - {party_id: es-vox, role: opponent}
+  - {party_id: es-upn, role: opponent}
 citations:
   - url: https://www.boe.es/buscar/doc.php?id=BOE-A-2024-26694
     source_id: boe
     title: "Ley 7/2024, de 20 de diciembre (DF 7.ª modificación arts. 66 y 76 Ley 35/2006; DF 14.ª derogación art. 1 Ley 38/2022)"
     accessed: 2026-11-25
     locator: "Disposiciones finales 7.ª y 14.ª"
-related: [es-measure-ley-38-2022-itsgf, es-dossier-fiscalidad-grandes-fortunas]
+  - url: https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=21/11/2024
+    source_id: congreso
+    title: "Congreso, datos abiertos de votaciones, Pleno 21-11-2024 (votación del dictamen, voto nominal); enmiendas del Senado el 19-12-2024"
+    accessed: 2026-11-25
+related: [es-measure-ley-38-2022-itsgf, es-dossier-fiscalidad-grandes-fortunas, es-vote-xv-2024-11-21-s079-v062, es-vote-xv-2024-12-19-s088-v103]
 ---
 
 ## Qué establece
@@ -38,7 +54,9 @@ related: [es-measure-ley-38-2022-itsgf, es-dossier-fiscalidad-grandes-fortunas]
 - Deroga el art. 1 de la Ley 38/2022 (gravamen temporal energético).
 
 ## Tramitación y apoyos
-Proyecto de ley del Gobierno de coalición PSOE-Sumar (se registran como implementadores). No se ha consultado la votación final del Congreso; no se asignan apoyos ni oposiciones.
+Proyecto de ley del Gobierno de coalición PSOE-Sumar (se registran como implementadores). Es una ley con varias medidas tributarias (impuesto mínimo global, impuesto sobre el margen bancario, tabaco, IRPF del ahorro y otras), así que el voto sobre ella no es un voto específico sobre el tipo del ahorro.
+- **Votación del dictamen en el Pleno del Congreso, 21-11-2024**: 178 sí, 171 no, 0 abstenciones (voto nominal en los datos abiertos del Congreso [es-vote-xv-2024-11-21-s079-v062]; atribución por partido de elaboración propia). Sí: PSOE (120), Sumar (27), ERC (7), Junts (7), EH Bildu (6), PNV (5), Podemos (4), BNG (1) y CC (1). No: PP (137), Vox (33) y UPN (1). Ningún partido se dividió. Los apoyos y oposiciones de esta ficha reflejan esta votación.
+- **Enmiendas del Senado, 19-12-2024**: las enmiendas a las "disposiciones finales nuevas, en lo relativo a la modificación de la Ley 38/2022" se aprobaron por 183-166. A favor votaron PP, Vox, Junts, PNV y UPN; en contra PSOE, Sumar, ERC, EH Bildu, Podemos, BNG y CC [es-vote-xv-2024-12-19-s088-v103]. El título de la votación no detalla el contenido de esas enmiendas; que correspondan a la derogación del gravamen energético (DF 14.ª) no se ha verificado en el BOCG.
 
 ## Aplicación y estado
 En vigor; la subida del tipo del ahorro se aplica a las rentas de 2025 (declaraciones presentadas en 2026).

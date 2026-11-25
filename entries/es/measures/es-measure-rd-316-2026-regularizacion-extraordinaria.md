@@ -31,6 +31,10 @@ citations:
     source_id: boe
     title: Real Decreto 316/2026, de 14 de abril (disposiciones adicionales 20.ª y 21.ª)
     accessed: 2026-11-25
+  - url: https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XV&targetDate=09/04/2024
+    source_id: congreso
+    title: Congreso, datos abiertos de votaciones, Pleno 09-04-2024 (toma en consideración de la ILP; también 13-06-2024 y 16-09-2025 en sus fechas respectivas)
+    accessed: 2026-11-25
   - url: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11918
     source_id: boe
     title: Emplazamiento en recursos ante el Tribunal Supremo (Vox 98/2026, Comunidad de Madrid 100/2026, HazteOír 92/2026 y otro)
@@ -66,6 +70,12 @@ related:
     relation: evidence
   - related_id: es-dossier-inmigracion
     relation: related
+  - related_id: es-vote-xv-2024-04-09-s034-v001
+    relation: related
+  - related_id: es-vote-xv-2024-06-13-s046-v021
+    relation: related
+  - related_id: es-vote-xv-2025-09-16-s131-v001
+    relation: related
 ---
 
 ## Qué establece
@@ -77,7 +87,8 @@ related:
 - Plazo de solicitud: hasta el 30-06-2026. El preámbulo vincula la norma a la próxima entrada en vigor del Pacto Europeo de Migración y Asilo y al Pacto Mundial para la Migración (objetivo 5).
 
 ## Tramitación y apoyos
-- No requirió votación parlamentaria (real decreto). Antecedentes: la ILP de regularización extraordinaria (unas 600.000 firmas) fue tomada en consideración por el Congreso el 9-4-2024 con el apoyo de todos los grupos salvo Vox (310 sí, 33 no; es-event-2024-04-09-ilp-regularizacion-toma-consideracion), pero no concluyó su tramitación. El Consejo de Ministros autorizó la tramitación urgente el 27-01-2026 tras un acuerdo PSOE-Podemos y aprobó el real decreto el 14-04-2026.
+- No requirió votación parlamentaria (real decreto). Antecedentes: la ILP de regularización extraordinaria (unas 600.000 firmas) fue tomada en consideración por el Congreso el 9-4-2024 con el apoyo de todos los grupos salvo Vox (310 sí, 33 no; es-event-2024-04-09-ilp-regularizacion-toma-consideracion). El voto nominal de los datos abiertos del Congreso lo confirma: votaron a favor PSOE, PP (136; Feijóo ausente), Sumar, ERC, Junts, EH Bildu, PNV, Podemos, BNG, CC y UPN, y en contra solo Vox (33) [es-vote-xv-2024-04-09-s034-v001]. El 13-06-2024 el Pleno rechazó por 33-315 la enmienda de totalidad de texto alternativo de Vox a la ILP; solo Vox votó a favor y el PP votó en contra [es-vote-xv-2024-06-13-s046-v021]. La ILP no concluyó su tramitación.
+- Iniciativas restrictivas posteriores: el 16-09-2025 el Pleno rechazó por 169 a favor, 177 en contra y 1 abstención tomar en consideración la proposición de ley orgánica de Vox "para restringir la regularización de inmigrantes ilegales a través del arraigo" (122/000191). Votaron a favor PP (136) y Vox (33); en contra el resto de grupos, incluido Junts; se abstuvo UPN [es-vote-xv-2025-09-16-s131-v001]. El Consejo de Ministros autorizó la tramitación urgente el 27-01-2026 tras un acuerdo PSOE-Podemos y aprobó el real decreto el 14-04-2026.
 - Recursos contencioso-administrativos ante el Tribunal Supremo: Vox (98/2026), Comunidad de Madrid (100/2026), Generalitat Valenciana, Gobierno de Aragón, Illes Balears (235/2026), Junta de Extremadura (243/2026), Región de Murcia (263/2026), además de asociaciones (HazteOír, inadmitido según la prensa) y el sindicato Solidaridad. Todas las comunidades recurrentes estaban gobernadas por el PP en 2026.
 - El Supremo rechazó la suspensión cautelar (22-05-2026) y no planteó cuestión prejudicial al TJUE; el fondo sigue pendiente (no se localiza sentencia a 25-11-2026).
 

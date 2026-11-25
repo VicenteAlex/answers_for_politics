@@ -1,3 +1,4 @@
 # Keep LF line endings (the bash wrapper and scripts break with CRLF); Windows batch files need CRLF.
 * text=auto eol=lf
 *.cmd text eol=crlf
+*.parquet binary
