@@ -193,7 +193,7 @@ Use secondary sources to locate primary ones. Record every publisher in `data/co
 
 ### 8.3 How
 
-- **CSV tables**: `kb add <table> --json '{...}'`, or a JSON list for several rows. On entity tables (votes, initiatives, events…), the keys `topics`, `actors`, `citations` and `related` are routed to the link tables automatically. Never rewrite whole CSV files by hand. Bulk loads are done by ingestion scripts in `tools/`.
+- **CSV tables**: `kb add <table> --json '{...}'`, or a JSON list for several rows. On entity tables (votes, initiatives, events…), the keys `topics`, `actors`, `citations` and `related` are routed to the link tables automatically. Never rewrite whole CSV files by hand. Bulk loads are done by ingestion scripts in `tools/`. Statistical series come from `tools/ingest_indicators.py` (INE and Eurostat APIs). Refresh them with `.venv/Scripts/python tools/ingest_indicators.py` (`.venv/bin/python` on Unix). To add a series, add a spec to that script; do not add rows by hand.
 - **Markdown entities**: `kb new <type> <id>` creates the skeleton, with allowed values as comments. For knowledge notes add `--dir economics/housing_market`. The file name is the id.
 - **Ids**: lowercase ASCII with hyphens and a jurisdiction prefix. Examples:
   - `es-measure-ley-12-2023`, `es-ct-measure-ley-11-2020`;
@@ -221,6 +221,7 @@ Use secondary sources to locate primary ones. Record every publisher in `data/co
 
 ## 9. Question log
 
+- **`questions/` is local and git-ignored**: it holds the user's personal questions and is never committed. So any durable evidence you find while answering (studies, facts, measures, events, gaps) must be saved in the committed parts of the KB (`library/`, `entries/`, `knowledge/`, `data/`, `coverage`), never only inside a question file.
 - One file per question: `kb new question es-q-<YYYY-MM-DD>-<slug>`.
 - Front matter:
   - `question`: verbatim;

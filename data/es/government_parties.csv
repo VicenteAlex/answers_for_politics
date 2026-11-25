@@ -1,1 +1,451 @@
 government_id,party_id,role,valid_from,valid_to,source_url,notes
+es-gov-1979-03-02-suarez-caretaker,es-ucd,governing,1979-03-02,,https://es.wikipedia.org/wiki/Segundo_gobierno_de_Adolfo_Su%C3%A1rez,
+es-gov-1981-01-29-suarez-caretaker,es-ucd,governing,1981-01-29,,https://www.boe.es/buscar/doc.php?id=BOE-A-1981-4589,
+es-gov-1982-10-29-calvo-sotelo-caretaker,es-ucd,governing,1982-10-29,,https://www.boe.es/buscar/doc.php?id=BOE-A-1982-31636,
+es-gov-1986-06-23-gonzalez-caretaker,es-psoe,governing,1986-06-23,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-16686,
+es-gov-1989-10-30-gonzalez-caretaker,es-psoe,governing,1989-10-30,,https://www.boe.es/buscar/doc.php?id=BOE-A-1989-25643,
+es-gov-1993-06-07-gonzalez-caretaker,es-psoe,governing,1993-06-07,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-14661,
+es-gov-1996-03-04-gonzalez-caretaker,es-psoe,governing,1996-03-04,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-5110,
+es-gov-2000-03-13-aznar-caretaker,es-pp,governing,2000-03-13,,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-4824,
+es-gov-2004-03-15-aznar-caretaker,es-pp,governing,2004-03-15,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-4782,
+es-gov-2008-03-10-zapatero-caretaker,es-psoe,governing,2008-03-10,,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-4611,
+es-gov-2011-11-21-zapatero-caretaker,es-psoe,governing,2011-11-21,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-18322,
+es-gov-2015-12-21-rajoy-caretaker,es-pp,governing,2015-12-21,,https://www.boe.es/buscar/doc.php?id=BOE-A-2015-13978,
+es-gov-2019-04-29-sanchez-caretaker,es-psoe,governing,2019-04-29,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-6355,
+es-gov-2023-07-24-sanchez-caretaker,es-psoe,governing,2023-07-24,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-17073,
+es-gov-2023-07-24-sanchez-caretaker,es-up,governing,2023-07-24,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-17073,"Ministros a propuesta de Unidas Podemos (Podemos, IU/PCE y Catalunya en Comú) hasta el nombramiento del nuevo Gobierno."
+es-gov-1977-07-05-suarez,es-ucd,governing,1977-07-05,,https://es.wikipedia.org/wiki/Segundo_gobierno_de_Adolfo_Su%C3%A1rez,
+es-gov-1979-04-02-suarez,es-ucd,governing,1979-04-02,,https://www.boe.es/buscar/doc.php?id=BOE-A-1979-9031,
+es-gov-1979-04-02-suarez,es-cd,investiture_support,1979-04-02,,https://es.wikipedia.org/wiki/I_legislatura_de_Espa%C3%B1a,Votación de investidura de 30-3-1979 (fuente secundaria).
+es-gov-1979-04-02-suarez,es-pa,investiture_support,1979-04-02,,https://es.wikipedia.org/wiki/I_legislatura_de_Espa%C3%B1a,Votación de investidura de 30-3-1979 (fuente secundaria).
+es-gov-1979-04-02-suarez,es-par,investiture_support,1979-04-02,,https://es.wikipedia.org/wiki/I_legislatura_de_Espa%C3%B1a,Votación de investidura de 30-3-1979 (fuente secundaria).
+es-gov-1979-04-02-suarez,es-upn,investiture_support,1979-04-02,,https://es.wikipedia.org/wiki/I_legislatura_de_Espa%C3%B1a,Votación de investidura de 30-3-1979 (fuente secundaria).
+es-gov-1979-04-02-suarez,es-ciu,investiture_abstention,1979-04-02,,https://es.wikipedia.org/wiki/I_legislatura_de_Espa%C3%B1a,8 abstenciones en la investidura de 30-3-1979 (fuente secundaria).
+es-gov-1981-02-26-calvo-sotelo,es-ucd,governing,1981-02-26,,https://www.boe.es/buscar/doc.php?id=BOE-A-1981-4590,
+es-gov-1981-02-26-calvo-sotelo,es-cd,investiture_support,1981-02-26,,https://es.wikipedia.org/wiki/I_legislatura_de_Espa%C3%B1a,Votación de investidura completada el 25-2-1981 (fuente secundaria).
+es-gov-1981-02-26-calvo-sotelo,es-ciu,investiture_support,1981-02-26,,https://es.wikipedia.org/wiki/I_legislatura_de_Espa%C3%B1a,Votación de investidura completada el 25-2-1981 (fuente secundaria).
+es-gov-1981-02-26-calvo-sotelo,es-par,investiture_support,1981-02-26,,https://es.wikipedia.org/wiki/I_legislatura_de_Espa%C3%B1a,Votación de investidura completada el 25-2-1981 (fuente secundaria).
+es-gov-1981-02-26-calvo-sotelo,es-upn,investiture_support,1981-02-26,,https://es.wikipedia.org/wiki/I_legislatura_de_Espa%C3%B1a,Votación de investidura completada el 25-2-1981 (fuente secundaria).
+es-gov-1982-12-02-gonzalez,es-psoe,governing,1982-12-02,,https://www.boe.es/buscar/doc.php?id=BOE-A-1982-31635,"Incluye al PSC-PSOE, federado."
+es-gov-1982-12-02-gonzalez,es-pce,investiture_support,1982-12-02,,https://es.wikipedia.org/wiki/II_legislatura_de_Espa%C3%B1a,Investidura de 1-12-1982 (fuente secundaria).
+es-gov-1982-12-02-gonzalez,es-cds,investiture_support,1982-12-02,,https://es.wikipedia.org/wiki/II_legislatura_de_Espa%C3%B1a,Investidura de 1-12-1982 (fuente secundaria).
+es-gov-1982-12-02-gonzalez,es-ee,investiture_support,1982-12-02,,https://es.wikipedia.org/wiki/II_legislatura_de_Espa%C3%B1a,Investidura de 1-12-1982 (fuente secundaria).
+es-gov-1982-12-02-gonzalez,es-ciu,investiture_abstention,1982-12-02,,https://es.wikipedia.org/wiki/II_legislatura_de_Espa%C3%B1a,12 abstenciones en la investidura de 1-12-1982 (fuente secundaria).
+es-gov-1982-12-02-gonzalez,es-pnv,investiture_abstention,1982-12-02,,https://es.wikipedia.org/wiki/II_legislatura_de_Espa%C3%B1a,8 abstenciones en la investidura de 1-12-1982 (fuente secundaria).
+es-gov-1982-12-02-gonzalez,es-erc,investiture_abstention,1982-12-02,,https://es.wikipedia.org/wiki/II_legislatura_de_Espa%C3%B1a,1 abstención en la investidura de 1-12-1982 (fuente secundaria).
+es-gov-1986-07-24-gonzalez,es-psoe,governing,1986-07-24,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-19914,"Incluye al PSC-PSOE, federado."
+es-gov-1986-07-24-gonzalez,es-pnv,investiture_abstention,1986-07-24,,https://es.wikipedia.org/wiki/III_legislatura_de_Espa%C3%B1a,6 abstenciones en la investidura de 23-7-1986; único grupo que no votó en contra (fuente secundaria).
+es-gov-1989-12-06-gonzalez,es-psoe,governing,1989-12-06,,https://www.boe.es/buscar/doc.php?id=BOE-A-1989-28901,"Incluye al PSC-PSOE, federado."
+es-gov-1989-12-06-gonzalez,es-aic,investiture_support,1989-12-06,,https://es.wikipedia.org/wiki/IV_legislatura_de_Espa%C3%B1a,"1 voto a favor en la investidura de 5-12-1989, decisivo para la mayoría absoluta de 167 sobre 332 (fuente secundaria)."
+es-gov-1989-12-06-gonzalez,es-pnv,investiture_abstention,1989-12-06,,https://es.wikipedia.org/wiki/IV_legislatura_de_Espa%C3%B1a,5 abstenciones en la investidura de 5-12-1989 (fuente secundaria).
+es-gov-1989-12-06-gonzalez,es-par,investiture_abstention,1989-12-06,,https://es.wikipedia.org/wiki/IV_legislatura_de_Espa%C3%B1a,1 abstención en la investidura de 5-12-1989 (fuente secundaria).
+es-gov-1993-07-10-gonzalez,es-psoe,governing,1993-07-10,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18045,"Incluye al PSC-PSOE, federado."
+es-gov-1993-07-10-gonzalez,es-ciu,investiture_support,1993-07-10,,https://es.wikipedia.org/wiki/V_legislatura_de_Espa%C3%B1a,Investidura de 9-7-1993 (fuente secundaria).
+es-gov-1993-07-10-gonzalez,es-pnv,investiture_support,1993-07-10,,https://es.wikipedia.org/wiki/V_legislatura_de_Espa%C3%B1a,Investidura de 9-7-1993 (fuente secundaria).
+es-gov-1993-07-10-gonzalez,es-par,investiture_abstention,1993-07-10,,https://es.wikipedia.org/wiki/V_legislatura_de_Espa%C3%B1a,1 abstención en la investidura de 9-7-1993 (fuente secundaria).
+es-gov-1996-05-05-aznar,es-pp,governing,1996-05-05,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-9942,
+es-gov-1996-05-05-aznar,es-ciu,investiture_support,1996-05-05,,https://es.wikipedia.org/wiki/VI_legislatura_de_Espa%C3%B1a,Investidura de 4-5-1996 (fuente secundaria).
+es-gov-1996-05-05-aznar,es-pnv,investiture_support,1996-05-05,,https://es.wikipedia.org/wiki/VI_legislatura_de_Espa%C3%B1a,Investidura de 4-5-1996 (fuente secundaria).
+es-gov-1996-05-05-aznar,es-cc,investiture_support,1996-05-05,,https://es.wikipedia.org/wiki/VI_legislatura_de_Espa%C3%B1a,Investidura de 4-5-1996 (fuente secundaria).
+es-gov-1996-05-05-aznar,es-uv,investiture_abstention,1996-05-05,,https://es.wikipedia.org/wiki/VI_legislatura_de_Espa%C3%B1a,1 abstención en la investidura de 4-5-1996 (fuente secundaria).
+es-gov-2000-04-27-aznar,es-pp,governing,2000-04-27,,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-7840,
+es-gov-2000-04-27-aznar,es-ciu,investiture_support,2000-04-27,,https://es.wikipedia.org/wiki/VII_legislatura_de_Espa%C3%B1a,Investidura de 26-4-2000 (fuente secundaria).
+es-gov-2000-04-27-aznar,es-cc,investiture_support,2000-04-27,,https://es.wikipedia.org/wiki/VII_legislatura_de_Espa%C3%B1a,Investidura de 26-4-2000 (fuente secundaria).
+es-gov-2004-04-17-zapatero,es-psoe,governing,2004-04-17,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-6855,"Incluye al PSC-PSOE, federado."
+es-gov-2004-04-17-zapatero,es-erc,investiture_support,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,Investidura de 16-4-2004 (fuente secundaria).
+es-gov-2004-04-17-zapatero,es-iu,investiture_support,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,"Grupo IU-ICV: 5 votos a favor (IU, ICV-EUiA y Entesa). Investidura de 16-4-2004 (fuente secundaria)."
+es-gov-2004-04-17-zapatero,es-icv-euia,investiture_support,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,"Grupo IU-ICV: 5 votos a favor (IU, ICV-EUiA y Entesa). Investidura de 16-4-2004 (fuente secundaria)."
+es-gov-2004-04-17-zapatero,es-entesa,investiture_support,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,"Grupo IU-ICV: 5 votos a favor (IU, ICV-EUiA y Entesa). Investidura de 16-4-2004 (fuente secundaria)."
+es-gov-2004-04-17-zapatero,es-cc,investiture_support,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,Investidura de 16-4-2004 (fuente secundaria).
+es-gov-2004-04-17-zapatero,es-bng,investiture_support,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,Investidura de 16-4-2004 (fuente secundaria).
+es-gov-2004-04-17-zapatero,es-cha,investiture_support,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,Investidura de 16-4-2004 (fuente secundaria).
+es-gov-2004-04-17-zapatero,es-ciu,investiture_abstention,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,10 abstenciones en la investidura de 16-4-2004 (fuente secundaria).
+es-gov-2004-04-17-zapatero,es-pnv,investiture_abstention,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,7 abstenciones en la investidura de 16-4-2004 (fuente secundaria).
+es-gov-2004-04-17-zapatero,es-ea,investiture_abstention,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,1 abstención en la investidura de 16-4-2004 (fuente secundaria).
+es-gov-2004-04-17-zapatero,es-na-bai,investiture_abstention,2004-04-17,,https://es.wikipedia.org/wiki/VIII_legislatura_de_Espa%C3%B1a,1 abstención en la investidura de 16-4-2004 (fuente secundaria).
+es-gov-2008-04-12-zapatero,es-psoe,governing,2008-04-12,,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6470,"Incluye al PSC-PSOE, federado."
+es-gov-2008-04-12-zapatero,es-ciu,investiture_abstention,2008-04-12,,https://es.wikipedia.org/wiki/IX_legislatura_de_Espa%C3%B1a,Abstenciones: 10 en la segunda votación de 11-4-2008; sus abstenciones permitieron la investidura por mayoría simple (fuente secundaria).
+es-gov-2008-04-12-zapatero,es-pnv,investiture_abstention,2008-04-12,,https://es.wikipedia.org/wiki/IX_legislatura_de_Espa%C3%B1a,Abstenciones: 6 en la segunda votación de 11-4-2008; sus abstenciones permitieron la investidura por mayoría simple (fuente secundaria).
+es-gov-2008-04-12-zapatero,es-iu,investiture_abstention,2008-04-12,,https://es.wikipedia.org/wiki/IX_legislatura_de_Espa%C3%B1a,Abstenciones: 2 (IU e ICV) en la segunda votación de 11-4-2008; sus abstenciones permitieron la investidura por mayoría simple (fuente secundaria).
+es-gov-2008-04-12-zapatero,es-bng,investiture_abstention,2008-04-12,,https://es.wikipedia.org/wiki/IX_legislatura_de_Espa%C3%B1a,Abstenciones: 2 en la segunda votación de 11-4-2008; sus abstenciones permitieron la investidura por mayoría simple (fuente secundaria).
+es-gov-2008-04-12-zapatero,es-cc,investiture_abstention,2008-04-12,,https://es.wikipedia.org/wiki/IX_legislatura_de_Espa%C3%B1a,Abstenciones: 2 en la segunda votación de 11-4-2008; sus abstenciones permitieron la investidura por mayoría simple (fuente secundaria).
+es-gov-2008-04-12-zapatero,es-na-bai,investiture_abstention,2008-04-12,,https://es.wikipedia.org/wiki/IX_legislatura_de_Espa%C3%B1a,Abstenciones: 1 en la segunda votación de 11-4-2008; sus abstenciones permitieron la investidura por mayoría simple (fuente secundaria).
+es-gov-2011-12-21-rajoy,es-pp,governing,2011-12-21,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19861,"Diputados elegidos también en las listas PP-PAR, PP-EU y UPN-PP."
+es-gov-2011-12-21-rajoy,es-upn,investiture_support,2011-12-21,,https://es.wikipedia.org/wiki/X_legislatura_de_Espa%C3%B1a,Investidura de 20-12-2011 (fuente secundaria).
+es-gov-2011-12-21-rajoy,es-foro,investiture_support,2011-12-21,,https://es.wikipedia.org/wiki/X_legislatura_de_Espa%C3%B1a,Investidura de 20-12-2011 (fuente secundaria).
+es-gov-2011-12-21-rajoy,es-amaiur,investiture_abstention,2011-12-21,,https://es.wikipedia.org/wiki/X_legislatura_de_Espa%C3%B1a,Abstenciones: 7 en la investidura de 20-12-2011 (fuente secundaria).
+es-gov-2011-12-21-rajoy,es-pnv,investiture_abstention,2011-12-21,,https://es.wikipedia.org/wiki/X_legislatura_de_Espa%C3%B1a,Abstenciones: 5 en la investidura de 20-12-2011 (fuente secundaria).
+es-gov-2011-12-21-rajoy,es-cc-nc,investiture_abstention,2011-12-21,,https://es.wikipedia.org/wiki/X_legislatura_de_Espa%C3%B1a,Abstenciones: 2 en la investidura de 20-12-2011 (fuente secundaria).
+es-gov-2016-10-31-rajoy,es-pp,governing,2016-10-31,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-9962,
+es-gov-2016-10-31-rajoy,es-cs,investiture_support,2016-10-31,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Segunda votación de 29-10-2016 (fuente secundaria).
+es-gov-2016-10-31-rajoy,es-upn,investiture_support,2016-10-31,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Segunda votación de 29-10-2016 (fuente secundaria).
+es-gov-2016-10-31-rajoy,es-cc,investiture_support,2016-10-31,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Segunda votación de 29-10-2016 (fuente secundaria).
+es-gov-2016-10-31-rajoy,es-foro,investiture_support,2016-10-31,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Segunda votación de 29-10-2016 (fuente secundaria).
+es-gov-2016-10-31-rajoy,es-psoe,investiture_abstention,2016-10-31,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,68 abstenciones del PSOE (15 diputados votaron no) en la segunda votación de 29-10-2016; decisivas para la investidura (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-psoe,governing,2018-06-02,,https://www.boe.es/buscar/doc.php?id=BOE-A-2018-7400,"Incluye al PSC-PSOE, federado."
+es-gov-2018-06-02-sanchez,es-up,investiture_support,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: votó a favor (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-en-comu-podem,investiture_support,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: votó a favor (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-erc,investiture_support,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: votó a favor (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-pdecat,investiture_support,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: votó a favor (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-en-marea,investiture_support,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: votó a favor (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-pnv,investiture_support,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: votó a favor (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-compromis,investiture_support,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: votó a favor (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-eh-bildu,investiture_support,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: votó a favor (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-nueva-canarias,investiture_support,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: votó a favor (fuente secundaria).
+es-gov-2018-06-02-sanchez,es-cc,investiture_abstention,2018-06-02,,https://es.wikipedia.org/wiki/XII_legislatura_de_Espa%C3%B1a,Moción de censura de 1-6-2018: 1 abstención (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-psoe,governing,2020-01-08,,https://www.boe.es/buscar/doc.php?id=BOE-A-2020-231,"Incluye al PSC-PSOE, federado."
+es-gov-2020-01-08-sanchez,es-up,governing,2020-01-08,,https://www.boe.es/buscar/doc.php?id=BOE-A-2020-231,"Ministerios a propuesta de Unidas Podemos: miembros de Podemos, IU/PCE e independientes (Universidades, vinculado a En Comú Podem)."
+es-gov-2020-01-08-sanchez,es-en-comu-podem,investiture_support,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Integrado en el grupo confederal de Unidas Podemos. Segunda votación de 7-1-2020 (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-galicia-en-comun,investiture_support,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Integrado en el grupo confederal de Unidas Podemos. Segunda votación de 7-1-2020 (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-pnv,investiture_support,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Segunda votación de 7-1-2020 (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-mas-pais,investiture_support,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Segunda votación de 7-1-2020 (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-mas-compromis,investiture_support,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Segunda votación de 7-1-2020 (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-nueva-canarias,investiture_support,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Diputado elegido en la lista CCa-PNC-NC. Segunda votación de 7-1-2020 (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-bng,investiture_support,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Segunda votación de 7-1-2020 (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-teruel-existe,investiture_support,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Segunda votación de 7-1-2020 (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-erc,investiture_abstention,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Abstenciones: 13 en la segunda votación de 7-1-2020; decisivas para la mayoría simple (fuente secundaria).
+es-gov-2020-01-08-sanchez,es-eh-bildu,investiture_abstention,2020-01-08,,https://es.wikipedia.org/wiki/XIV_legislatura_de_Espa%C3%B1a,Abstenciones: 5 en la segunda votación de 7-1-2020; decisivas para la mayoría simple (fuente secundaria).
+es-gov-2023-11-17-sanchez,es-psoe,governing,2023-11-17,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-23302,Incluye ministros del PSC.
+es-gov-2023-11-17-sanchez,es-sumar,governing,2023-11-17,,https://es.wikipedia.org/wiki/Tercer_Gobierno_de_Pedro_S%C3%A1nchez,"Ministerios de Sumar ocupados por miembros de Movimiento Sumar, IU/PCE, Catalunya en Comú y Más Madrid (fuente secundaria); Podemos no tuvo ministerios. Ningún socio había salido del Gobierno a 22-11-2026 según la fuente."
+es-gov-2023-11-17-sanchez,es-erc,investiture_support,2023-11-17,,https://es.wikipedia.org/wiki/XV_legislatura_de_Espa%C3%B1a,Investidura de 16-11-2023: 179 votos a favor (fuente secundaria).
+es-gov-2023-11-17-sanchez,es-junts,investiture_support,2023-11-17,,https://es.wikipedia.org/wiki/XV_legislatura_de_Espa%C3%B1a,Junts anunció el 27-10-2025 la ruptura de su pacto de investidura con el PSOE (fuente secundaria). Investidura de 16-11-2023: 179 votos a favor (fuente secundaria).
+es-gov-2023-11-17-sanchez,es-eh-bildu,investiture_support,2023-11-17,,https://es.wikipedia.org/wiki/XV_legislatura_de_Espa%C3%B1a,Investidura de 16-11-2023: 179 votos a favor (fuente secundaria).
+es-gov-2023-11-17-sanchez,es-pnv,investiture_support,2023-11-17,,https://es.wikipedia.org/wiki/XV_legislatura_de_Espa%C3%B1a,Investidura de 16-11-2023: 179 votos a favor (fuente secundaria).
+es-gov-2023-11-17-sanchez,es-bng,investiture_support,2023-11-17,,https://es.wikipedia.org/wiki/XV_legislatura_de_Espa%C3%B1a,Investidura de 16-11-2023: 179 votos a favor (fuente secundaria).
+es-gov-2023-11-17-sanchez,es-cc,investiture_support,2023-11-17,,https://es.wikipedia.org/wiki/XV_legislatura_de_Espa%C3%B1a,Investidura de 16-11-2023: 179 votos a favor (fuente secundaria).
+es-ct-08019-gov-2011-05-23-hereu-caretaker,es-psc,governing,2011-05-23,2011-06-30,https://es.wikipedia.org/w/index.php?title=Ayuntamiento_de_Barcelona&oldid=174631266,Gobierno PSC-ICV del mandato 2007-2011 según Wikipedia
+es-ct-08019-gov-2011-05-23-hereu-caretaker,es-icv-euia,governing,2011-05-23,2011-06-30,https://es.wikipedia.org/w/index.php?title=Ayuntamiento_de_Barcelona&oldid=174631266,Gobierno PSC-ICV del mandato 2007-2011 según Wikipedia
+es-ct-08019-gov-2011-07-01-trias,es-ciu,governing,2011-07-01,2015-05-24,https://ca.wikipedia.org/w/index.php?title=Xavier_Trias_i_Vidal_de_Llobatera&oldid=39038144,
+es-ct-08019-gov-2011-07-01-trias,es-ciu,investiture_support,2011-07-01,,https://ca.wikipedia.org/w/index.php?title=Xavier_Trias_i_Vidal_de_Llobatera&oldid=39038144,15 votos
+es-ct-08019-gov-2011-07-01-trias,es-upb,investiture_support,2011-07-01,,https://ca.wikipedia.org/w/index.php?title=Xavier_Trias_i_Vidal_de_Llobatera&oldid=39038144,2 votos
+es-ct-08019-gov-2015-05-25-trias-caretaker,es-ciu,governing,2015-05-25,2015-06-12,https://ca.wikipedia.org/w/index.php?title=Llista_de_batlles_de_Barcelona&oldid=35523114,
+es-ct-08019-gov-2015-06-13-colau,es-bcomu,governing,2015-06-13,2019-05-26,https://en.wikipedia.org/w/index.php?title=2015_Barcelona_municipal_election&oldid=1372479575,
+es-ct-08019-gov-2015-06-13-colau,es-psc,governing,2016-05-25,2017-11-12,https://es.wikipedia.org/w/index.php?title=Jaume_Collboni&oldid=171839072,"Entrada: firma del Acuerdo de Gobierno BComú-PSC el 25-05-2016 (Wikipedia). Salida: ruptura anunciada por BComú el 12-11-2017 tras la consulta a sus inscritos (Metrópoli Abierta, 12-11-2017, https://metropoliabierta.elespanol.com/informacion-municipal/ayuntamiento/colau-rompe-con-el-psc-y-gobernara-en-solitario-en-barcelona_3660_102.html); la fecha formal del cese de los concejales del PSC no se ha verificado."
+es-ct-08019-gov-2015-06-13-colau,es-bcomu,investiture_support,2015-06-13,,https://en.wikipedia.org/w/index.php?title=2015_Barcelona_municipal_election&oldid=1372479575,11 votos
+es-ct-08019-gov-2015-06-13-colau,es-erc,investiture_support,2015-06-13,,https://en.wikipedia.org/w/index.php?title=2015_Barcelona_municipal_election&oldid=1372479575,5 votos
+es-ct-08019-gov-2015-06-13-colau,es-psc,investiture_support,2015-06-13,,https://en.wikipedia.org/w/index.php?title=2015_Barcelona_municipal_election&oldid=1372479575,4 votos
+es-ct-08019-gov-2015-06-13-colau,es-cup,investiture_support,2015-06-13,,https://en.wikipedia.org/w/index.php?title=2015_Barcelona_municipal_election&oldid=1372479575,1 de sus 3 concejales; los otros 2 votaron en blanco
+es-ct-08019-gov-2019-05-27-colau-caretaker,es-bcomu,governing,2019-05-27,2019-06-14,https://ca.wikipedia.org/w/index.php?title=Llista_de_batlles_de_Barcelona&oldid=35523114,
+es-ct-08019-gov-2019-06-15-colau,es-bcomu,governing,2019-06-15,2023-05-28,https://ca.wikipedia.org/w/index.php?title=Ada_Colau_i_Ballano&oldid=39170315,
+es-ct-08019-gov-2019-06-15-colau,es-psc,governing,2019-06-15,2023-05-28,https://ca.wikipedia.org/w/index.php?title=Ada_Colau_i_Ballano&oldid=39170315,Pacto de gobierno BComú-PSC del mandato 2019-2023
+es-ct-08019-gov-2019-06-15-colau,es-bcomu,investiture_support,2019-06-15,,https://en.wikipedia.org/w/index.php?title=2019_Barcelona_municipal_election&oldid=1374640160,10 votos
+es-ct-08019-gov-2019-06-15-colau,es-psc,investiture_support,2019-06-15,,https://en.wikipedia.org/w/index.php?title=2019_Barcelona_municipal_election&oldid=1374640160,8 votos
+es-ct-08019-gov-2019-06-15-colau,es-bcn-canvi-cs,investiture_support,2019-06-15,,https://en.wikipedia.org/w/index.php?title=2019_Barcelona_municipal_election&oldid=1374640160,3 de sus 6 concejales (entre ellos Manuel Valls); los otros 3 se abstuvieron o votaron en blanco
+es-ct-08019-gov-2023-05-29-colau-caretaker,es-bcomu,governing,2023-05-29,2023-06-16,https://ca.wikipedia.org/w/index.php?title=Llista_de_batlles_de_Barcelona&oldid=35523114,
+es-ct-08019-gov-2023-05-29-colau-caretaker,es-psc,governing,2023-05-29,2023-06-16,https://ca.wikipedia.org/w/index.php?title=Llista_de_batlles_de_Barcelona&oldid=35523114,
+es-ct-08019-gov-2023-06-17-collboni,es-psc,governing,2023-06-17,,https://ajuntament.barcelona.cat/ca/organitzacio-municipal/corporacio-municipal,Composición del equipo de gobierno consultada el 22-11-2026
+es-ct-08019-gov-2023-06-17-collboni,es-psc,investiture_support,2023-06-17,,https://en.wikipedia.org/w/index.php?title=2023_Barcelona_municipal_election&oldid=1376993343,10 votos
+es-ct-08019-gov-2023-06-17-collboni,es-bcomu,investiture_support,2023-06-17,,https://en.wikipedia.org/w/index.php?title=2023_Barcelona_municipal_election&oldid=1376993343,9 votos
+es-ct-08019-gov-2023-06-17-collboni,es-pp,investiture_support,2023-06-17,,https://en.wikipedia.org/w/index.php?title=2023_Barcelona_municipal_election&oldid=1376993343,4 votos
+es-md-28079-gov-2011-05-23-ruiz-gallardon-caretaker,es-pp,governing,2011-05-23,2011-06-10,https://datos.madrid.es/dataset/300184-0-concejales-historico/resource/300184-0-concejales-historico-csv/download/2026-10-09-actualizacion_concejales_historico.csv,
+es-md-28079-gov-2011-06-11-ruiz-gallardon,es-pp,governing,2011-06-11,2011-12-21,https://datos.madrid.es/dataset/300184-0-concejales-historico/resource/300184-0-concejales-historico-csv/download/2026-10-09-actualizacion_concejales_historico.csv,
+es-md-28079-gov-2011-06-11-ruiz-gallardon,es-pp,investiture_support,2011-06-11,,https://en.wikipedia.org/w/index.php?title=2011_Madrid_municipal_election&oldid=1370587927,31 votos
+es-md-28079-gov-2011-12-22-cobo-caretaker,es-pp,governing,2011-12-22,2011-12-26,https://es.wikipedia.org/w/index.php?title=Anexo%3AAlcaldes_de_Madrid&oldid=171225172,
+es-md-28079-gov-2011-12-27-botella,es-pp,governing,2011-12-27,2015-05-24,https://es.wikipedia.org/w/index.php?title=Anexo%3AAlcaldes_de_Madrid&oldid=171225172,
+es-md-28079-gov-2011-12-27-botella,es-pp,investiture_support,2011-12-27,,https://en.wikipedia.org/w/index.php?title=2011_Madrid_municipal_election&oldid=1370587927,31 votos
+es-md-28079-gov-2015-05-25-botella-caretaker,es-pp,governing,2015-05-25,2015-06-12,https://datos.madrid.es/dataset/300184-0-concejales-historico/resource/300184-0-concejales-historico-csv/download/2026-10-09-actualizacion_concejales_historico.csv,
+es-md-28079-gov-2015-06-13-carmena,es-ahora-madrid,governing,2015-06-13,2019-05-26,https://en.wikipedia.org/w/index.php?title=2015_Madrid_municipal_election&oldid=1382546620,
+es-md-28079-gov-2015-06-13-carmena,es-ahora-madrid,investiture_support,2015-06-13,,https://en.wikipedia.org/w/index.php?title=2015_Madrid_municipal_election&oldid=1382546620,20 votos
+es-md-28079-gov-2015-06-13-carmena,es-psoe,investiture_support,2015-06-13,,https://en.wikipedia.org/w/index.php?title=2015_Madrid_municipal_election&oldid=1382546620,9 votos
+es-md-28079-gov-2019-05-27-carmena-caretaker,es-ahora-madrid,governing,2019-05-27,2019-06-14,https://datos.madrid.es/dataset/300184-0-concejales-historico/resource/300184-0-concejales-historico-csv/download/2026-10-09-actualizacion_concejales_historico.csv,Grupo municipal de Ahora Madrid en funciones
+es-md-28079-gov-2019-06-15-martinez-almeida,es-pp,governing,2019-06-15,2023-05-28,https://en.wikipedia.org/w/index.php?title=2019_Madrid_municipal_election&oldid=1374791714,
+es-md-28079-gov-2019-06-15-martinez-almeida,es-cs,governing,2019-06-15,2023-05-28,https://en.wikipedia.org/w/index.php?title=2019_Madrid_municipal_election&oldid=1374791714,
+es-md-28079-gov-2019-06-15-martinez-almeida,es-pp,investiture_support,2019-06-15,,https://en.wikipedia.org/w/index.php?title=2019_Madrid_municipal_election&oldid=1374791714,15 votos
+es-md-28079-gov-2019-06-15-martinez-almeida,es-cs,investiture_support,2019-06-15,,https://en.wikipedia.org/w/index.php?title=2019_Madrid_municipal_election&oldid=1374791714,11 votos
+es-md-28079-gov-2019-06-15-martinez-almeida,es-vox,investiture_support,2019-06-15,,https://en.wikipedia.org/w/index.php?title=2019_Madrid_municipal_election&oldid=1374791714,4 votos
+es-md-28079-gov-2023-05-29-martinez-almeida-caretaker,es-pp,governing,2023-05-29,2023-06-16,https://datos.madrid.es/dataset/300184-0-concejales-historico/resource/300184-0-concejales-historico-csv/download/2026-10-09-actualizacion_concejales_historico.csv,
+es-md-28079-gov-2023-05-29-martinez-almeida-caretaker,es-cs,governing,2023-05-29,2023-06-16,https://en.wikipedia.org/w/index.php?title=2019_Madrid_municipal_election&oldid=1374791714,
+es-md-28079-gov-2023-06-17-martinez-almeida,es-pp,governing,2023-06-17,,https://en.wikipedia.org/w/index.php?title=2023_Madrid_municipal_election&oldid=1377170251,
+es-md-28079-gov-2023-06-17-martinez-almeida,es-pp,investiture_support,2023-06-17,,https://en.wikipedia.org/w/index.php?title=2023_Madrid_municipal_election&oldid=1377170251,29 votos
+es-ct-gov-2012-12-24-mas,es-ciu,governing,2012-12-24,2015-06-22,https://portaljuridic.gencat.cat/eli/es-ct/d/2015/06/22/109,Federación CDC+UDC. Último día de UDC en el Govern: 22-06-2015 (Decrets 109/2015 y 110/2015 de cese de Espadaler y Pelegrí; salida de Joana Ortega el mismo día según en.wikipedia).
+es-ct-gov-2012-12-24-mas,es-cdc,governing,2015-06-23,,https://en.wikipedia.org/wiki/Second_government_of_Artur_Mas,"Tras la ruptura de CiU, el Govern quedó integrado solo por CDC e independientes (nuevos consellers de CDC desde el 22-06-2015)."
+es-ct-gov-2012-12-24-mas,es-erc,investiture_support,2012-12-24,,https://en.wikipedia.org/wiki/Second_government_of_Artur_Mas,Votó sí (21) en la investidura del 21-12-2012.
+es-ct-gov-2015-09-28-mas-caretaker,es-cdc,governing,2015-09-28,,https://en.wikipedia.org/wiki/Second_government_of_Artur_Mas,
+es-ct-gov-2016-01-12-puigdemont,es-cdc,governing,2016-01-12,2016-07-09,https://en.wikipedia.org/wiki/Puigdemont_Government,CDC se refundó en el PDeCAT el 10-07-2016 (en.wikipedia); sus consellers continuaron como PDeCAT.
+es-ct-gov-2016-01-12-puigdemont,es-pdecat,governing,2016-07-10,,https://en.wikipedia.org/wiki/Puigdemont_Government,Sucesor de CDC desde el 10-07-2016; en el Govern hasta el cese por el art. 155 (27-10-2017).
+es-ct-gov-2016-01-12-puigdemont,es-erc,governing,2016-01-12,,https://en.wikipedia.org/wiki/Puigdemont_Government,Integrada en Junts pel Sí; Oriol Junqueras vicepresident.
+es-ct-gov-2016-01-12-puigdemont,es-cup,investiture_support,2016-01-12,,https://en.wikipedia.org/wiki/Puigdemont_Government,8 votos a favor y 2 abstenciones en la investidura del 10-01-2016.
+es-ct-gov-2017-10-28-rajoy-caretaker,es-pp,governing,2017-10-28,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-12329,"Caso excepcional: no hubo partidos del Govern saliente en funciones; las funciones del Govern las ejerció el Gobierno central del PP (Rajoy, delegación en Sáenz de Santamaría) por el RD 944/2017."
+es-ct-gov-2018-05-17-torra,es-jxcat,governing,2018-05-17,,https://en.wikipedia.org/wiki/Torra_Government,"Lista de Torra (independiente). Sus consellers (PDeCAT, después en parte Junts, e independientes) tomaron posesión el 02-06-2018."
+es-ct-gov-2018-05-17-torra,es-erc,governing,2018-06-02,,https://en.wikipedia.org/wiki/Torra_Government,Consellers de ERC en el Govern desde la toma de posesión del 02-06-2018; Pere Aragonès vicepresident.
+es-ct-gov-2018-05-17-torra,es-cup,investiture_abstention,2018-05-17,,https://en.wikipedia.org/wiki/Torra_Government,"4 abstenciones, decisivas en la segunda votación (66-65) del 14-05-2018."
+es-ct-gov-2020-09-29-aragones-caretaker,es-junts,governing,2020-09-29,,https://en.wikipedia.org/wiki/Torra_Government,Consellers del espacio JxCat; en 2020 la mayoría ya integrados en el partido Junts per Catalunya (fundado en julio de 2020).
+es-ct-gov-2020-09-29-aragones-caretaker,es-erc,governing,2020-09-29,,https://en.wikipedia.org/wiki/Torra_Government,
+es-ct-gov-2021-05-24-aragones,es-erc,governing,2021-05-24,,https://en.wikipedia.org/wiki/Aragon%C3%A8s_Government,
+es-ct-gov-2021-05-24-aragones,es-junts,governing,2021-05-24,2022-10-10,https://portaljuridic.gencat.cat/eli/es-ct/d/2022/10/10/183,Salida acordada en consulta a la militancia (07-10-2022); consellers de Junts cesados por decretos de 10-10-2022 (DOGC 8769A). El vicepresident Puigneró (Junts) había sido destituido el 28-09-2022.
+es-ct-gov-2021-05-24-aragones,es-cup,investiture_support,2021-05-24,,https://en.wikipedia.org/wiki/Aragon%C3%A8s_Government,9 votos a favor en la investidura del 21-05-2021.
+es-ct-gov-2024-05-13-aragones-caretaker,es-erc,governing,2024-05-13,,https://en.wikipedia.org/wiki/Aragon%C3%A8s_Government,
+es-ct-gov-2024-08-10-illa,es-psc,governing,2024-08-10,,https://en.wikipedia.org/wiki/Government_of_Salvador_Illa,"Incluye a Ramon Espadaler (Units per Avançar, aliado electoral del PSC) e independientes."
+es-ct-gov-2024-08-10-illa,es-erc,investiture_support,2024-08-10,,https://en.wikipedia.org/wiki/Government_of_Salvador_Illa,20 votos a favor.
+es-ct-gov-2024-08-10-illa,es-comuns,investiture_support,2024-08-10,,https://en.wikipedia.org/wiki/Government_of_Salvador_Illa,6 votos a favor (Comuns Sumar).
+es-vc-gov-2011-07-28-fabra,es-pp,governing,2011-07-28,,https://es.wikipedia.org/wiki/Elecciones_a_las_Cortes_Valencianas_de_2011,
+es-vc-gov-2015-05-25-fabra-caretaker,es-pp,governing,2015-05-25,,https://es.wikipedia.org/wiki/Elecciones_a_las_Cortes_Valencianas_de_2015,
+es-vc-gov-2015-06-28-puig,es-psoe,governing,2015-06-28,,https://es.wikipedia.org/wiki/Ximo_Puig,PSPV-PSOE.
+es-vc-gov-2015-06-28-puig,es-compromis,governing,2015-06-28,,https://es.wikipedia.org/wiki/Ximo_Puig,Mónica Oltra vicepresidenta.
+es-vc-gov-2015-06-28-puig,es-podemos,investiture_support,2015-06-28,,https://es.wikipedia.org/wiki/Elecciones_a_las_Cortes_Valencianas_de_2015,Podem: 8 votos a favor y 5 abstenciones (tabla de es.wikipedia).
+es-vc-gov-2019-04-29-puig-caretaker,es-psoe,governing,2019-04-29,,https://es.wikipedia.org/wiki/Elecciones_a_las_Cortes_Valencianas_de_2019,
+es-vc-gov-2019-04-29-puig-caretaker,es-compromis,governing,2019-04-29,,https://es.wikipedia.org/wiki/Elecciones_a_las_Cortes_Valencianas_de_2019,
+es-vc-gov-2019-06-16-puig,es-psoe,governing,2019-06-16,,https://es.wikipedia.org/wiki/Elecciones_a_las_Cortes_Valencianas_de_2019,
+es-vc-gov-2019-06-16-puig,es-compromis,governing,2019-06-16,,https://es.wikipedia.org/wiki/Elecciones_a_las_Cortes_Valencianas_de_2019,
+es-vc-gov-2019-06-16-puig,es-up,governing,2019-06-16,,https://es.wikipedia.org/wiki/Ximo_Puig,"Unides Podem (Podem + EUPV); vicepresidencia segunda (Martínez Dalmau, luego Illueca)."
+es-vc-gov-2023-05-29-puig-caretaker,es-psoe,governing,2023-05-29,,https://es.wikipedia.org/wiki/Presidente_de_la_Generalitat_Valenciana,
+es-vc-gov-2023-05-29-puig-caretaker,es-compromis,governing,2023-05-29,,https://es.wikipedia.org/wiki/Presidente_de_la_Generalitat_Valenciana,
+es-vc-gov-2023-05-29-puig-caretaker,es-up,governing,2023-05-29,,https://es.wikipedia.org/wiki/Presidente_de_la_Generalitat_Valenciana,
+es-vc-gov-2023-07-17-mazon,es-pp,governing,2023-07-17,,https://es.wikipedia.org/wiki/Gobierno_Maz%C3%B3n,
+es-vc-gov-2023-07-17-mazon,es-vox,governing,2023-07-17,2024-07-11,https://www.eldiario.es/comunitat-valenciana/vox-rompe-pp-deja-mazon-minoria-gobierno-valenciano-aceptar-acogida-menores-migrantes_1_11514592.html,"Vicepresidencia primera (Vicente Barrera) y dos consellerias; ceses publicados en el DOGV el 11-07-2024 tras el anuncio de ruptura de Abascal ese mismo día (las tablas de es.wikipedia indican 12-07-2024, fecha de los sustitutos)."
+es-vc-gov-2025-11-05-mazon-caretaker,es-pp,governing,2025-11-05,,https://es.wikipedia.org/wiki/Gobierno_Maz%C3%B3n,
+es-vc-gov-2025-12-02-perez-llorca,es-pp,governing,2025-12-02,,https://es.wikipedia.org/wiki/Gobierno_P%C3%A9rez_Llorca,
+es-vc-gov-2025-12-02-perez-llorca,es-vox,investiture_support,2025-12-02,,https://es.wikipedia.org/wiki/Juanfran_P%C3%A9rez_Llorca,13 votos a favor en la investidura del 27-11-2025; Vox no entró en el Consell.
+es-ib-gov-2011-06-18-bauza,es-pp,governing,2011-06-18,,https://en.wikipedia.org/wiki/Government_of_Jos%C3%A9_Ram%C3%B3n_Bauz%C3%A1,
+es-ib-gov-2015-05-25-bauza-caretaker,es-pp,governing,2015-05-25,,https://en.wikipedia.org/wiki/Government_of_Jos%C3%A9_Ram%C3%B3n_Bauz%C3%A1,
+es-ib-gov-2015-07-02-armengol,es-psoe,governing,2015-07-02,,https://en.wikipedia.org/wiki/First_government_of_Francina_Armengol,PSIB-PSOE.
+es-ib-gov-2015-07-02-armengol,es-mes,governing,2015-07-02,,https://en.wikipedia.org/wiki/First_government_of_Francina_Armengol,Més per Mallorca: vicepresidencia y consellerias.
+es-ib-gov-2015-07-02-armengol,es-mes-menorca,investiture_support,2015-07-02,,https://en.wikipedia.org/wiki/First_government_of_Francina_Armengol,3 votos a favor (MpM).
+es-ib-gov-2015-07-02-armengol,es-mes-menorca,governing,2016-04-07,2017-04-01,https://en.wikipedia.org/wiki/First_government_of_Francina_Armengol,"Ruth Mateu (MpM), consellera de Transparencia, Cultura y Deportes del 07-04-2016 al 01-04-2017 (en.wikipedia; no verificado en el BOIB)."
+es-ib-gov-2015-07-02-armengol,es-podemos,investiture_support,2015-07-02,,https://en.wikipedia.org/wiki/First_government_of_Francina_Armengol,10 votos a favor.
+es-ib-gov-2015-07-02-armengol,es-gxf,investiture_support,2015-07-02,,https://en.wikipedia.org/wiki/First_government_of_Francina_Armengol,1 voto a favor.
+es-ib-gov-2019-05-27-armengol-caretaker,es-psoe,governing,2019-05-27,,https://en.wikipedia.org/wiki/First_government_of_Francina_Armengol,
+es-ib-gov-2019-05-27-armengol-caretaker,es-mes,governing,2019-05-27,,https://en.wikipedia.org/wiki/First_government_of_Francina_Armengol,
+es-ib-gov-2019-07-01-armengol,es-psoe,governing,2019-07-01,,https://en.wikipedia.org/wiki/Second_government_of_Francina_Armengol,PSIB-PSOE.
+es-ib-gov-2019-07-01-armengol,es-up,governing,2019-07-01,,https://en.wikipedia.org/wiki/Second_government_of_Francina_Armengol,Unidas Podemos (Podem + EUIB): vicepresidente Juan Pedro Yllanes (independiente propuesto por Podem) y consellera Mae de la Concha (Podem).
+es-ib-gov-2019-07-01-armengol,es-mes,governing,2019-07-01,,https://en.wikipedia.org/wiki/Second_government_of_Francina_Armengol,Més per Mallorca.
+es-ib-gov-2019-07-01-armengol,es-mes-menorca,investiture_support,2019-07-01,,https://en.wikipedia.org/wiki/Second_government_of_Francina_Armengol,2 votos a favor; apoyo externo.
+es-ib-gov-2019-07-01-armengol,es-gxf,investiture_support,2019-07-01,,https://en.wikipedia.org/wiki/Second_government_of_Francina_Armengol,1 voto a favor; apoyo externo.
+es-ib-gov-2023-05-29-armengol-caretaker,es-psoe,governing,2023-05-29,,https://en.wikipedia.org/wiki/Second_government_of_Francina_Armengol,
+es-ib-gov-2023-05-29-armengol-caretaker,es-up,governing,2023-05-29,,https://en.wikipedia.org/wiki/Second_government_of_Francina_Armengol,
+es-ib-gov-2023-05-29-armengol-caretaker,es-mes,governing,2023-05-29,,https://en.wikipedia.org/wiki/Second_government_of_Francina_Armengol,
+es-ib-gov-2023-06-19-de-la-concha-caretaker,es-psoe,governing,2023-06-19,,https://www.caib.es/eboibfront/eli/es-ib/d/2023/06/23/5/dof/cat/html,
+es-ib-gov-2023-06-19-de-la-concha-caretaker,es-up,governing,2023-06-19,,https://www.caib.es/eboibfront/eli/es-ib/d/2023/06/23/5/dof/cat/html,
+es-ib-gov-2023-06-19-de-la-concha-caretaker,es-mes,governing,2023-06-19,,https://www.caib.es/eboibfront/eli/es-ib/d/2023/06/23/5/dof/cat/html,
+es-ib-gov-2023-07-07-prohens,es-pp,governing,2023-07-07,,https://en.wikipedia.org/wiki/Government_of_Marga_Prohens,
+es-ib-gov-2023-07-07-prohens,es-sa-unio,investiture_support,2023-07-07,,https://en.wikipedia.org/wiki/Government_of_Marga_Prohens,1 voto a favor (diputado de Formentera).
+es-ib-gov-2023-07-07-prohens,es-vox,investiture_abstention,2023-07-07,,https://en.wikipedia.org/wiki/Government_of_Marga_Prohens,"8 abstenciones, decisivas para la mayoría simple en la segunda votación del 06-07-2023."
+es-ar-gov-2011-07-14-rudi,es-pp,governing,2011-07-14,,https://es.wikipedia.org/wiki/Luisa_Fernanda_Rudi,
+es-ar-gov-2011-07-14-rudi,es-par,governing,2011-07-14,,https://es.wikipedia.org/wiki/Arturo_Aliaga,Arturo Aliaga (PAR) consejero de Industria e Innovación 2011-2015 (es.wikipedia).
+es-ar-gov-2015-05-25-rudi-caretaker,es-pp,governing,2015-05-25,,https://es.wikipedia.org/wiki/Presidente_del_Gobierno_de_Arag%C3%B3n,
+es-ar-gov-2015-05-25-rudi-caretaker,es-par,governing,2015-05-25,,https://es.wikipedia.org/wiki/Arturo_Aliaga,
+es-ar-gov-2015-07-05-lamban,es-psoe,governing,2015-07-05,,https://en.wikipedia.org/wiki/First_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2015-07-05-lamban,es-cha,governing,2015-07-05,,https://en.wikipedia.org/wiki/First_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2015-07-05-lamban,es-podemos,investiture_support,2015-07-05,,https://en.wikipedia.org/wiki/First_government_of_Javier_Lamb%C3%A1n,14 votos a favor; apoyo externo.
+es-ar-gov-2015-07-05-lamban,es-iu,investiture_support,2015-07-05,,https://en.wikipedia.org/wiki/First_government_of_Javier_Lamb%C3%A1n,1 voto a favor; apoyo externo.
+es-ar-gov-2019-05-27-lamban-caretaker,es-psoe,governing,2019-05-27,,https://en.wikipedia.org/wiki/First_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2019-05-27-lamban-caretaker,es-cha,governing,2019-05-27,,https://en.wikipedia.org/wiki/First_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2019-08-03-lamban,es-psoe,governing,2019-08-03,,https://en.wikipedia.org/wiki/Second_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2019-08-03-lamban,es-podemos,governing,2019-08-03,,https://en.wikipedia.org/wiki/Second_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2019-08-03-lamban,es-cha,governing,2019-08-03,,https://en.wikipedia.org/wiki/Second_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2019-08-03-lamban,es-par,governing,2019-08-03,,https://es.wikipedia.org/wiki/Arturo_Aliaga,Arturo Aliaga (PAR) vicepresidente y consejero de Industria del 07-08-2019 al 11-08-2023.
+es-ar-gov-2019-08-03-lamban,es-iu,investiture_support,2019-08-03,,https://en.wikipedia.org/wiki/Second_government_of_Javier_Lamb%C3%A1n,1 voto a favor.
+es-ar-gov-2023-05-29-lamban-caretaker,es-psoe,governing,2023-05-29,,https://en.wikipedia.org/wiki/Second_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2023-05-29-lamban-caretaker,es-podemos,governing,2023-05-29,,https://en.wikipedia.org/wiki/Second_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2023-05-29-lamban-caretaker,es-cha,governing,2023-05-29,,https://en.wikipedia.org/wiki/Second_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2023-05-29-lamban-caretaker,es-par,governing,2023-05-29,,https://en.wikipedia.org/wiki/Second_government_of_Javier_Lamb%C3%A1n,
+es-ar-gov-2023-08-11-azcon,es-pp,governing,2023-08-11,,https://en.wikipedia.org/wiki/First_government_of_Jorge_Azc%C3%B3n,
+es-ar-gov-2023-08-11-azcon,es-vox,governing,2023-08-11,2024-07-12,https://es.wikipedia.org/wiki/Alejandro_Nolasco,Vicepresidencia primera y consejería (Nolasco) más cargos de rango inferior; cese de Nolasco por Decreto de 12-07-2024 (BOA) tras la ruptura anunciada por Abascal el 11-07-2024.
+es-ar-gov-2023-08-11-azcon,es-par,investiture_support,2023-08-11,,https://en.wikipedia.org/wiki/First_government_of_Jorge_Azc%C3%B3n,1 voto a favor; el PAR no entró en el Gobierno.
+es-ar-gov-2026-02-09-azcon-caretaker,es-pp,governing,2026-02-09,,https://en.wikipedia.org/wiki/2026_Aragonese_regional_election,
+es-ar-gov-2026-04-30-azcon,es-pp,governing,2026-04-30,,https://en.wikipedia.org/wiki/Second_government_of_Jorge_Azc%C3%B3n,
+es-ar-gov-2026-04-30-azcon,es-vox,governing,2026-05-04,,https://en.wikipedia.org/wiki/Second_government_of_Jorge_Azc%C3%B3n,Entra en el Gobierno con la formación del gabinete el 04-05-2026 (vicepresidencia primera y consejerías).
+es-an-gov-2013-09-07-diaz,es-psoe,governing,2013-09-07,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2013-9388,
+es-an-gov-2013-09-07-diaz,es-iu,governing,2013-09-07,2015-01-26,https://www.juntadeandalucia.es/eboja/2015/17/s2.1.html,"IULV-CA. Decretos de la Presidenta 2/2015 a 5/2015, de 26-1-2015 (BOJA nº 17, 27-1-2015): cese de Diego Valderas como Vicepresidente y consejero de Administración Local y Relaciones Institucionales, de Elena Cortés (Fomento y Vivienda) y de Rafael Rodríguez Bermúdez (Turismo y Comercio). Investidura de 2013: votó a favor."
+es-an-gov-2015-03-23-diaz-caretaker,es-psoe,governing,2015-03-23,,https://www.juntadeandalucia.es/eboja/2015/17/BOJA15-017-00002-1360-01_00062638.pdf,
+es-an-gov-2015-06-14-diaz,es-psoe,governing,2015-06-14,,https://juntadeandalucia.es/presidencia/portavoz/resources/files/2015/6/14/1434284973772Discurso%20toma%20de%20posesion.pdf,
+es-an-gov-2015-06-14-diaz,es-cs,investiture_support,2015-06-14,,https://en.wikipedia.org/wiki/Second_government_of_Susana_D%C3%ADaz,Votó sí (9) en la votación del 11-6-2015 tras pacto con el PSOE-A; había votado no en las tres votaciones de mayo.
+es-an-gov-2018-12-03-diaz-caretaker,es-psoe,governing,2018-12-03,,https://www.juntadeandalucia.es/eboja/2018/506/BOJA18-506-00002-16569-01_00143849.pdf,
+es-an-gov-2019-01-18-moreno,es-pp,governing,2019-01-18,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-551,
+es-an-gov-2019-01-18-moreno,es-cs,governing,2019-01-18,,https://en.wikipedia.org/wiki/First_government_of_Juanma_Moreno,"Consejeros de Cs desde el 22-1-2019 (Juan Marín, Javier Imbroda, Rocío Ruiz; luego Manuel Cardenete) hasta el 26-7-2022."
+es-an-gov-2019-01-18-moreno,es-vox,investiture_support,2019-01-18,,https://en.wikipedia.org/wiki/First_government_of_Juanma_Moreno,Votó sí (12) en la investidura del 16-1-2019; sin consejerías.
+es-an-gov-2022-06-20-moreno-caretaker,es-pp,governing,2022-06-20,,https://www.juntadeandalucia.es/boja/2022/105/1,
+es-an-gov-2022-06-20-moreno-caretaker,es-cs,governing,2022-06-20,,https://en.wikipedia.org/wiki/First_government_of_Juanma_Moreno,
+es-an-gov-2022-07-23-moreno,es-pp,governing,2022-07-23,,https://juntadeandalucia.es/presidencia/portavoz/resources/files/2022/7/23/1658572483141220723%20JMM%20Discurso%20Toma%20de%20Posesi%C3%B3n.pdf,
+es-an-gov-2022-07-23-moreno,es-vox,investiture_abstention,2022-07-23,,https://en.wikipedia.org/wiki/Second_government_of_Juanma_Moreno,Abstención (13) no decisiva en la investidura del 21-7-2022 (el PP tenía mayoría absoluta).
+es-an-gov-2026-05-18-moreno-caretaker,es-pp,governing,2026-05-18,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-9439,
+es-an-gov-2026-07-05-moreno,es-pp,governing,2026-07-05,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14503,
+es-an-gov-2026-07-05-moreno,es-vox,governing,2026-07-05,,https://juntadeandalucia.es/boja/2026/512/3,"Votó sí (15) en la investidura del 2-7-2026. Manuel Gavira nombrado vicepresidente segundo y consejero por Decreto del Presidente 10/2026, de 9-7-2026."
+es-ex-gov-2011-07-08-monago,es-pp,governing,2011-07-08,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-11708,
+es-ex-gov-2011-07-08-monago,es-iu,investiture_abstention,2011-07-08,,https://www.idpbarcelona.net/docs/public/iccaa/2011/extremadura_2011.pdf,"IU-V-SIEX (3) se abstuvo, abstención decisiva que permitió la investidura de Monago por mayoría simple."
+es-ex-gov-2015-05-25-monago-caretaker,es-pp,governing,2015-05-25,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3459,
+es-ex-gov-2015-07-04-fernandez-vara,es-psoe,governing,2015-07-04,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7403,
+es-ex-gov-2015-07-04-fernandez-vara,es-podemos,investiture_support,2015-07-04,,https://idpbarcelona.net/docs/public/iccaa/2015/extremadura_2015.pdf,"Votó sí (6) en la investidura del 1-7-2015; apoyo puntual, sin acuerdo de gobierno."
+es-ex-gov-2015-07-04-fernandez-vara,es-pp,investiture_abstention,2015-07-04,,https://idpbarcelona.net/docs/public/iccaa/2015/extremadura_2015.pdf,Abstención (28) en la investidura del 1-7-2015 (no decisiva: PSOE+Podemos sumaban mayoría absoluta).
+es-ex-gov-2015-07-04-fernandez-vara,es-cs,investiture_abstention,2015-07-04,,https://idpbarcelona.net/docs/public/iccaa/2015/extremadura_2015.pdf,Abstención (1) en la investidura del 1-7-2015 (no decisiva).
+es-ex-gov-2019-05-27-fernandez-vara-caretaker,es-psoe,governing,2019-05-27,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-4844,
+es-ex-gov-2019-06-27-fernandez-vara,es-psoe,governing,2019-06-27,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-9598,
+es-ex-gov-2023-05-29-fernandez-vara-caretaker,es-psoe,governing,2023-05-29,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8486,
+es-ex-gov-2023-07-17-guardiola,es-pp,governing,2023-07-17,,https://www.juntaex.es/w/maria-guardiola-toma-posesion-como-presidenta-de-la-junta-de-extremadura,
+es-ex-gov-2023-07-17-guardiola,es-vox,governing,2023-07-17,2024-07-11,https://www.juntaex.es/w/20240712-comparencia-presidenta,"Votó sí (5) en la investidura del 14-7-2023. Vox anunció la ruptura de sus gobiernos de coalición con el PP el 11-7-2024; su consejero Ignacio Higuero siguió en el gobierno como independiente (comparecencia de Guardiola, 12-7-2024). valid_to = fecha del anuncio de ruptura."
+es-ex-gov-2025-12-22-guardiola-caretaker,es-pp,governing,2025-12-22,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21731,
+es-ex-gov-2026-04-24-guardiola,es-pp,governing,2026-04-24,,https://www.juntaex.es/w/20260425-maria-guardiola-toma-posesion-como-presidenta-de-la-junta-de-extremadura,
+es-ex-gov-2026-04-24-guardiola,es-vox,governing,2026-04-24,,https://en.wikipedia.org/wiki/Second_government_of_Mar%C3%ADa_Guardiola,"Votó sí (11) en la investidura del 22-4-2026. Sus dos consejeros tomaron posesión el 30-4-2026 (decretos de 29-4-2026, según en.wikipedia)."
+es-mc-gov-2014-04-10-garre,es-pp,governing,2014-04-10,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-3756,
+es-mc-gov-2015-05-25-garre-caretaker,es-pp,governing,2015-05-25,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3452,
+es-mc-gov-2015-07-03-sanchez,es-pp,governing,2015-07-03,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7399,
+es-mc-gov-2015-07-03-sanchez,es-cs,investiture_support,2015-07-03,,https://en.wikipedia.org/wiki/2015_Murcian_regional_election,"Votó sí (4) en la investidura del 30-6-2015, tras acuerdo con el PP; sin consejerías."
+es-mc-gov-2017-04-04-pagan-caretaker,es-pp,governing,2017-04-04,,https://es.wikipedia.org/wiki/Mar%C3%ADa_Dolores_Pag%C3%A1n,
+es-mc-gov-2017-05-03-lopez-miras,es-pp,governing,2017-05-03,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2017-4803,
+es-mc-gov-2017-05-03-lopez-miras,es-cs,investiture_abstention,2017-05-03,,https://en.wikipedia.org/wiki/2015_Murcian_regional_election,"Abstención decisiva (4) en la segunda votación del 29-4-2017, sin acuerdo de gobierno; había votado no el 27-4-2017."
+es-mc-gov-2019-05-27-lopez-miras-caretaker,es-pp,governing,2019-05-27,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-4835,
+es-mc-gov-2019-07-29-lopez-miras,es-pp,governing,2019-07-29,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-11032,
+es-mc-gov-2019-07-29-lopez-miras,es-cs,governing,2019-07-29,2021-03-10,https://en.wikipedia.org/wiki/Second_government_of_Fernando_L%C3%B3pez_Miras,"Votó sí (6) en la investidura. Consejeros de Cs desde el 1-8-2019. El 10-3-2021 Cs firmó con el PSOE la moción de censura y López Miras cesó a sus consejeros Ana Martínez Vidal y José Gabriel Sánchez Torregrosa; los tres consejeros díscolos (Franco, Miguélez, Álvarez) siguieron como independientes tras su expulsión de Cs."
+es-mc-gov-2019-07-29-lopez-miras,es-vox,investiture_support,2019-07-29,,https://en.wikipedia.org/wiki/Second_government_of_Fernando_L%C3%B3pez_Miras,Votó sí (4) en la investidura del 26-7-2019 tras acuerdo programático con PP y Cs; sin consejerías.
+es-mc-gov-2023-05-29-lopez-miras-caretaker,es-pp,governing,2023-05-29,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8471,
+es-mc-gov-2023-09-11-lopez-miras,es-pp,governing,2023-09-11,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-19118,
+es-mc-gov-2023-09-11-lopez-miras,es-vox,governing,2023-09-11,2024-07-12,https://www.eldiario.es/murcia/politica/antelo-dimite-vicepresidente-murcia-ahora-region-gobierno-debil-pp_1_11519353.html,"Votó sí (9) en la investidura del 7-9-2023; consejeros desde el 14/15-9-2023. Antelo y Pancorbo presentaron su dimisión el viernes 12-7-2024 (eldiario.es, 12-7-2024), tras el anuncio de ruptura de Vox del 11-7-2024; es.wikipedia (ficha de Antelo) da 11-7-2024 como fin."
+es-cm-gov-2011-06-22-de-cospedal,es-pp,governing,2011-06-22,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-10832,
+es-cm-gov-2015-05-25-de-cospedal-caretaker,es-pp,governing,2015-05-25,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3456,
+es-cm-gov-2015-07-04-garcia-page,es-psoe,governing,2015-07-04,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7401,
+es-cm-gov-2015-07-04-garcia-page,es-podemos,investiture_support,2015-07-04,,https://en.wikipedia.org/wiki/2015_Castilian-Manchegan_regional_election,Votó sí (2) en la investidura del 1-7-2015; voto decisivo (17 frente a 16 del PP).
+es-cm-gov-2015-07-04-garcia-page,es-podemos,governing,2017-08-10,,http://docm.castillalamancha.es/portaldocm/descargarArchivo.do?ruta=2017/08/10/pdf/2017_9602.pdf&tipo=rutaDocm,"Entró en el gobierno el 10-8-2017 (Decreto 54/2017, de 9-8, nombramiento de José García Molina como Vicepresidente Segundo, efectos desde su publicación en el DOCM nº 155 de 10-8-2017; Decreto 55/2017, Inmaculada Herranz)."
+es-cm-gov-2019-05-27-garcia-page-caretaker,es-psoe,governing,2019-05-27,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-4839,
+es-cm-gov-2019-05-27-garcia-page-caretaker,es-podemos,governing,2019-05-27,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-4839,Consejeros de Podemos en funciones hasta la toma de posesión del nuevo gobierno (8-7-2019).
+es-cm-gov-2019-07-06-garcia-page,es-psoe,governing,2019-07-06,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-9986,
+es-cm-gov-2023-05-29-garcia-page-caretaker,es-psoe,governing,2023-05-29,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8477,
+es-cm-gov-2023-07-08-garcia-page,es-psoe,governing,2023-07-08,,https://www.cmmedia.es/noticias/castilla-la-mancha/emiliano-garcia-page-toma-posesion-presidente-c-lm-siguelo-minuto-minuto.html,
+es-md-gov-2012-09-27-gonzalez,es-pp,governing,2012-09-27,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-12088,
+es-md-gov-2015-05-25-gonzalez-caretaker,es-pp,governing,2015-05-25,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7051,
+es-md-gov-2015-06-25-cifuentes,es-pp,governing,2015-06-25,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7052,
+es-md-gov-2015-06-25-cifuentes,es-cs,investiture_support,2015-06-25,,https://www.publico.es/politica/cifuentes-investida-presidenta-votos-pp.html,Ciudadanos votó sí en la investidura del 24-06-2015 (65 sí / 64 no); no entró en el gobierno.
+es-md-gov-2018-04-25-garrido-caretaker,es-pp,governing,2018-04-25,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-5804,
+es-md-gov-2018-05-21-garrido,es-pp,governing,2018-05-21,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-6655,
+es-md-gov-2018-05-21-garrido,es-cs,investiture_support,2018-05-21,,https://es.wikipedia.org/wiki/Anexo:X_Legislatura_de_la_Asamblea_de_Madrid,Ciudadanos votó sí en la investidura del 18-05-2018 (65 sí / 64 no).
+es-md-gov-2019-04-11-rollan-caretaker,es-pp,governing,2019-04-11,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-5582,
+es-md-gov-2019-08-19-diaz-ayuso,es-pp,governing,2019-08-19,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-12165,
+es-md-gov-2019-08-19-diaz-ayuso,es-cs,governing,2019-08-19,2021-03-10,https://www.bocm.es/boletin/CM_Orden_BOCM/2021/03/11/BOCM-20210311-2.PDF,"Cs ocupó la Vicepresidencia y cinco consejerías (consejeros en posesión desde el 20-08-2019). Cese de todos ellos (Aguado, Giménez, Luengo, Garrido, Sicilia, Rivera de la Cruz) por Decretos 16 a 21/2021, de 10 de marzo, de la Presidenta, publicados en el BOCM del 11-03-2021 (BOCM-20210311-2 a -7; la web de transparencia de la Comunidad registra como fecha de cese el 11-03-2021). valid_to = fecha de los decretos."
+es-md-gov-2019-08-19-diaz-ayuso,es-vox,investiture_support,2019-08-19,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Madrid_de_2019,Vox (12) votó sí en la investidura del 14-08-2019 (68 sí / 64 no); sus votos eran necesarios para la mayoría absoluta (67).
+es-md-gov-2021-05-05-diaz-ayuso-caretaker,es-pp,governing,2021-05-05,,https://www.bocm.es/boletin/CM_Orden_BOCM/2021/03/11/BOCM-20210311-1.PDF,
+es-md-gov-2021-06-19-diaz-ayuso,es-pp,governing,2021-06-19,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-10230,
+es-md-gov-2021-06-19-diaz-ayuso,es-vox,investiture_support,2021-06-19,,https://es.wikipedia.org/wiki/XII_Legislatura_de_la_Asamblea_de_Madrid,Vox votó sí en la investidura del 18-06-2021 (77 sí / 57 no); sus votos eran necesarios para la mayoría absoluta (69).
+es-md-gov-2023-05-29-diaz-ayuso-caretaker,es-pp,governing,2023-05-29,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8491,
+es-md-gov-2023-06-23-diaz-ayuso,es-pp,governing,2023-06-23,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-14826,
+es-cl-gov-2011-06-27-herrera,es-pp,governing,2011-06-27,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-11013,
+es-cl-gov-2015-05-25-herrera-caretaker,es-pp,governing,2015-05-25,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-3464,
+es-cl-gov-2015-07-06-herrera,es-pp,governing,2015-07-06,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7462,
+es-cl-gov-2015-07-06-herrera,es-cs,investiture_abstention,2015-07-06,,https://es.wikipedia.org/wiki/Elecciones_a_las_Cortes_de_Castilla_y_Le%C3%B3n_de_2015,"Abstención decisiva de Cs (5) en las dos votaciones del 03-07-2015; Herrera fue elegido por mayoría simple en segunda votación (42 sí, 37 no, 5 abst.)."
+es-cl-gov-2019-05-27-herrera-caretaker,es-pp,governing,2019-05-27,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-10291,
+es-cl-gov-2019-07-12-fernandez-manueco,es-pp,governing,2019-07-12,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-10292,
+es-cl-gov-2019-07-12-fernandez-manueco,es-cs,governing,2019-07-12,2021-12-20,https://bocyl.jcyl.es/boletines/2021/12/21/pdf/BOCYL-D-21122021-2.pdf,"Cs tuvo la Vicepresidencia, la Portavocía y cuatro consejerías (en posesión desde el 17-07-2019). Cesados por Acuerdos 14/2021 (Igea, vicepresidente), 15/2021 (Empleo e Industria), 16/2021 (Sanidad) y 17/2021 (Cultura y Turismo), de 20 de diciembre, del Presidente, publicados en el BOCYL de 21-12-2021. valid_to = fecha de los acuerdos."
+es-cl-gov-2022-02-14-fernandez-manueco-caretaker,es-pp,governing,2022-02-14,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-21009,
+es-cl-gov-2022-04-19-fernandez-manueco,es-pp,governing,2022-04-19,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-6052,
+es-cl-gov-2022-04-19-fernandez-manueco,es-vox,governing,2022-04-19,2024-07-12,https://bocyl.jcyl.es/boletines/2024/07/13/pdf/BOCYL-D-13072024-1.pdf,"Vox tuvo la Vicepresidencia (García-Gallardo, nombrado por Acuerdo 5/2022 de 19 de abril) y tres consejerías. Tras la ruptura anunciada por Vox el 11-07-2024, cese del vicepresidente García-Gallardo (Acuerdo 6/2024), del consejero de Industria Veganzones (Acuerdo 7/2024) y del de Agricultura Dueñas (Acuerdo 9/2024), todos de 12 de julio, BOCYL extraordinario núm. 1 de 13-07-2024. es.wikipedia fecha el fin el 11-07-2024; valid_to = fecha de los acuerdos de cese. El consejero de Cultura Gonzalo Santonja, propuesto por Vox, siguió en el gobierno."
+es-cl-gov-2026-03-16-fernandez-manueco-caretaker,es-pp,governing,2026-03-16,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-1260,
+es-cl-gov-2026-06-11-fernandez-manueco,es-pp,governing,2026-06-11,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-12615,
+es-cl-gov-2026-06-11-fernandez-manueco,es-vox,governing,2026-06-11,,https://sirdoc.ccyl.es/sirdoc/PDF/PUBLOFI/BO/CCL/12L/BOCCL1200013/BOCCL-12-000166.pdf,"Vox ocupa la Vicepresidencia primera (Carlos Pollán, consejero de Desregulación, Familia y Ayudas Sociales) y otras dos consejerías (Cultura, Turismo y Deporte; Agricultura, Ganadería, Medio Rural y Política Ambiental) según Diario de León (15-06-2026). Nombramientos por Acuerdos de 13-06-2026 (BOCYL 15-06-2026); toma de posesión de los consejeros el 15-06-2026. valid_from = inicio del gobierno."
+es-ri-gov-2011-06-24-sanz,es-pp,governing,2011-06-24,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-10978,
+es-ri-gov-2015-05-25-sanz-caretaker,es-pp,governing,2015-05-25,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7597,
+es-ri-gov-2015-07-08-ceniceros,es-pp,governing,2015-07-08,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7598,
+es-ri-gov-2015-07-08-ceniceros,es-cs,investiture_abstention,2015-07-08,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_La_Rioja_de_2015,"Abstención decisiva de Cs (4) en las votaciones del 01-07 y 03-07-2015, tras firmar un acuerdo de investidura y gobernabilidad con el PP; Ceniceros fue elegido por mayoría simple (15 sí, 14 no, 4 abst.)."
+es-ri-gov-2019-05-27-ceniceros-caretaker,es-pp,governing,2019-05-27,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-12530,
+es-ri-gov-2019-08-29-andreu,es-psoe,governing,2019-08-29,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-12531,
+es-ri-gov-2019-08-29-andreu,es-podemos,governing,2019-08-29,2022-03-18,https://nuevecuatrouno.com/2022/03/18/expulsion-podemos-raquel-romero-gobierno-rioja-garantiza-estabilidad/,"Podemos (Podemos-Equo) tuvo una consejería (Participación, Cooperación y Derechos Humanos; después Igualdad), ocupada por Raquel Romero desde el 29-08-2019 (nombramiento; posesión de consejeros 30-08-2019, en.wikipedia). El 18-03-2022 se conoció la expulsión de Romero de Podemos (expediente 'aún no firme' ese día según EFE/NueveCuatroUno); el Gobierno indicó que Romero seguiría como independiente. valid_to aproximado (fecha de la noticia de la expulsión), no verificado en fuente primaria."
+es-ri-gov-2019-08-29-andreu,es-iu,investiture_support,2019-08-29,,https://es.wikipedia.org/wiki/Concha_Andreu,"IU (Henar Moreno, elegida en la lista de Unidas Podemos) votó sí en la investidura del 27-08-2019 (17-16) y firmó el acuerdo tripartito de 20-08-2019 sin entrar en el gobierno."
+es-ri-gov-2023-05-29-andreu-caretaker,es-psoe,governing,2023-05-29,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-8470,
+es-ri-gov-2023-06-30-capellan,es-pp,governing,2023-06-30,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-15140,
+es-ga-gov-2012-12-01-nunez-feijoo,es-pp,governing,2012-12-01,2016-09-25,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-14655,PPdeG en solitario con mayoría absoluta.
+es-ga-gov-2016-09-26-nunez-feijoo-caretaker,es-pp,governing,2016-09-26,2016-11-11,https://es.wikipedia.org/wiki/Alberto_N%C3%BA%C3%B1ez_Feij%C3%B3o,
+es-ga-gov-2016-11-12-nunez-feijoo,es-pp,governing,2016-11-12,2020-07-12,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-10462,
+es-ga-gov-2020-07-13-nunez-feijoo-caretaker,es-pp,governing,2020-07-13,2020-09-04,https://www.elindependiente.com/politica/2020/09/05/feijoo-promete-su-cargo-por-cuarta-vez-apelando-a-la-moderacion-y-a-la-cogobernanza/amp/,
+es-ga-gov-2020-09-05-nunez-feijoo,es-pp,governing,2020-09-05,2022-04-29,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-10196,
+es-ga-gov-2022-04-30-nunez-feijoo-caretaker,es-pp,governing,2022-04-30,2022-05-13,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-6978,
+es-ga-gov-2022-05-14-rueda,es-pp,governing,2022-05-14,2024-02-18,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-7789,
+es-ga-gov-2024-02-19-rueda-caretaker,es-pp,governing,2024-02-19,2024-04-12,https://es.wikipedia.org/wiki/Alfonso_Rueda,
+es-ga-gov-2024-04-13-rueda,es-pp,governing,2024-04-13,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-7204,
+es-pv-gov-2012-12-15-urkullu,es-pnv,governing,2012-12-15,2016-09-25,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-15144,
+es-pv-gov-2012-12-15-urkullu,es-psoe,investiture_abstention,2012-12-15,2016-09-25,https://orain.eus/es/politica/elecciones/autonomicas-vascas/2012/12/13/inigo-urkullu-lehendakari--elegido-mayoria-simple-pleno/,"PSE-EE se abstuvo en la votación de investidura del 13-12-2012 (segunda votación, mayoría simple: Urkullu 27, Mintegi 21)."
+es-pv-gov-2012-12-15-urkullu,es-pp,investiture_abstention,2012-12-15,2016-09-25,https://orain.eus/es/politica/elecciones/autonomicas-vascas/2012/12/13/inigo-urkullu-lehendakari--elegido-mayoria-simple-pleno/,El PP vasco se abstuvo en la votación de investidura del 13-12-2012 (también UPyD).
+es-pv-gov-2016-09-26-urkullu-caretaker,es-pnv,governing,2016-09-26,2016-11-25,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Vasco_de_2016,
+es-pv-gov-2016-11-26-urkullu,es-pnv,governing,2016-11-26,2020-07-12,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-11133,
+es-pv-gov-2016-11-26-urkullu,es-psoe,governing,2016-11-26,2020-07-12,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-11133,PSE-EE (PSOE) entra en el Gobierno Vasco en coalición con el PNV desde la formación de Urkullu II (noviembre de 2016).
+es-pv-gov-2020-07-13-urkullu-caretaker,es-pnv,governing,2020-07-13,2020-09-04,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Vasco_de_2020,
+es-pv-gov-2020-07-13-urkullu-caretaker,es-psoe,governing,2020-07-13,2020-09-04,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Vasco_de_2020,
+es-pv-gov-2020-09-05-urkullu,es-pnv,governing,2020-09-05,2024-04-21,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-10256,
+es-pv-gov-2020-09-05-urkullu,es-psoe,governing,2020-09-05,2024-04-21,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-10256,PSE-EE (PSOE).
+es-pv-gov-2024-04-22-urkullu-caretaker,es-pnv,governing,2024-04-22,2024-06-21,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Vasco_de_2024,
+es-pv-gov-2024-04-22-urkullu-caretaker,es-psoe,governing,2024-04-22,2024-06-21,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_Vasco_de_2024,
+es-pv-gov-2024-06-22-pradales,es-pnv,governing,2024-06-22,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12645,
+es-pv-gov-2024-06-22-pradales,es-psoe,governing,2024-06-22,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-12645,PSE-EE (PSOE); vicepresidente segundo Mikel Torres.
+es-nc-gov-2011-07-01-barcina,es-upn,governing,2011-07-01,2015-05-24,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-11112,
+es-nc-gov-2011-07-01-barcina,es-psoe,governing,2011-07-01,2012-06-15,https://en.wikipedia.org/wiki/Government_of_Yolanda_Barcina,PSN-PSOE en la coalición hasta el 15-06-2012: destitución del vicepresidente Roberto Jiménez y dimisión de los consejeros Elena Torres y Anai Astiz. en.wikipedia da el 16-06-2012 como fecha de salida (publicación del cese en el BON); fecha exacta del último día no verificada en el BON.
+es-nc-gov-2015-05-25-barcina-caretaker,es-upn,governing,2015-05-25,2015-07-21,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-8175,
+es-nc-gov-2015-07-22-barkos,es-geroa-bai,governing,2015-07-22,2019-05-26,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-8176,"Partido de la presidenta (Barkos, independiente en Geroa Bai); consejeros de GBai/PNV (p. ej. Manu Ayerdi) e independientes propuestos por GBai."
+es-nc-gov-2015-07-22-barkos,es-eh-bildu,governing,2015-07-22,2019-05-26,https://en.wikipedia.org/wiki/Government_of_Uxue_Barkos,"Socio del gobierno a través de consejeros independientes propuestos por EH Bildu (María José Beaumont, Presidencia e Interior; Isabel Elizalde, Desarrollo Rural) según en.wikipedia."
+es-nc-gov-2015-07-22-barkos,es-ie,governing,2015-07-22,2019-05-26,https://en.wikipedia.org/wiki/Government_of_Uxue_Barkos,"Miguel Laparra (IUN-NEB), vicepresidente segundo y consejero de Derechos Sociales."
+es-nc-gov-2015-07-22-barkos,es-podemos,investiture_support,2015-07-22,2019-05-26,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Navarra_de_2015,"Votó sí (7) en la investidura del 20-07-2015; apoyo externo durante la legislatura, sin consejerías."
+es-nc-gov-2015-07-22-barkos,es-psoe,investiture_abstention,2015-07-22,2019-05-26,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Navarra_de_2015,PSN-PSOE se abstuvo (7) en la investidura del 20-07-2015.
+es-nc-gov-2019-05-27-barkos-caretaker,es-geroa-bai,governing,2019-05-27,2019-08-05,https://en.wikipedia.org/wiki/Government_of_Uxue_Barkos,
+es-nc-gov-2019-05-27-barkos-caretaker,es-eh-bildu,governing,2019-05-27,2019-08-05,https://en.wikipedia.org/wiki/Government_of_Uxue_Barkos,
+es-nc-gov-2019-05-27-barkos-caretaker,es-ie,governing,2019-05-27,2019-08-05,https://en.wikipedia.org/wiki/Government_of_Uxue_Barkos,
+es-nc-gov-2019-08-06-chivite,es-psoe,governing,2019-08-06,2023-05-28,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-11525,PSN-PSOE.
+es-nc-gov-2019-08-06-chivite,es-geroa-bai,governing,2019-08-06,2023-05-28,https://en.wikipedia.org/wiki/First_government_of_Mar%C3%ADa_Chivite,Vicepresidente segundo José María Aierdi y otros consejeros de GBai.
+es-nc-gov-2019-08-06-chivite,es-podemos,governing,2019-08-06,2023-05-28,https://en.wikipedia.org/wiki/First_government_of_Mar%C3%ADa_Chivite,Podemos Navarra: consejero Eduardo Santos (Políticas Migratorias y Justicia).
+es-nc-gov-2019-08-06-chivite,es-ie,investiture_support,2019-08-06,2023-05-28,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Navarra_de_2019,"Votó sí (1) en ambas votaciones de investidura; apoyo externo, sin consejerías (en.wikipedia)."
+es-nc-gov-2019-08-06-chivite,es-eh-bildu,investiture_abstention,2019-08-06,2023-05-28,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Navarra_de_2019,Abstención decisiva de 5 de sus 7 parlamentarios en la segunda votación (02-08-2019); los otros 2 votaron no.
+es-nc-gov-2023-05-29-chivite-caretaker,es-psoe,governing,2023-05-29,2023-08-16,https://en.wikipedia.org/wiki/First_government_of_Mar%C3%ADa_Chivite,
+es-nc-gov-2023-05-29-chivite-caretaker,es-geroa-bai,governing,2023-05-29,2023-08-16,https://en.wikipedia.org/wiki/First_government_of_Mar%C3%ADa_Chivite,
+es-nc-gov-2023-05-29-chivite-caretaker,es-podemos,governing,2023-05-29,2023-08-16,https://en.wikipedia.org/wiki/First_government_of_Mar%C3%ADa_Chivite,
+es-nc-gov-2023-08-17-chivite,es-psoe,governing,2023-08-17,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-18498,PSN-PSOE.
+es-nc-gov-2023-08-17-chivite,es-geroa-bai,governing,2023-08-17,,https://en.wikipedia.org/wiki/Second_government_of_Mar%C3%ADa_Chivite,Vicepresidenta segunda Ana Ollo y otros consejeros de GBai.
+es-nc-gov-2023-08-17-chivite,es-contigo-zurekin,governing,2023-08-17,,https://en.wikipedia.org/wiki/Second_government_of_Mar%C3%ADa_Chivite,"Representada por Begoña Alfaro (Podemos), vicepresidenta tercera y consejera de Vivienda, Juventud y Políticas Migratorias. En 2025-2026 hubo tensiones entre Podemos y el resto de Contigo-Zurekin, sin salida del gobierno localizada."
+es-nc-gov-2023-08-17-chivite,es-eh-bildu,investiture_abstention,2023-08-17,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Navarra_de_2023,Abstención decisiva de sus 9 parlamentarios en las votaciones del 14 y 15-08-2023.
+es-cn-gov-2011-07-07-rivero,es-cc,governing,2011-07-07,2015-05-24,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-11644,CC-PNC (incluye AHI).
+es-cn-gov-2011-07-07-rivero,es-psoe,governing,2011-07-07,2015-05-24,https://es.wikipedia.org/wiki/Paulino_Rivero,PSC-PSOE (vicepresidente José Miguel Pérez García).
+es-cn-gov-2015-05-25-rivero-caretaker,es-cc,governing,2015-05-25,2015-07-08,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7665,
+es-cn-gov-2015-05-25-rivero-caretaker,es-psoe,governing,2015-05-25,2015-07-08,https://es.wikipedia.org/wiki/Paulino_Rivero,
+es-cn-gov-2015-07-09-clavijo,es-cc,governing,2015-07-09,2019-05-26,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-7666,CC-PNC (incluye AHI).
+es-cn-gov-2015-07-09-clavijo,es-psoe,governing,2015-07-09,2016-12-23,https://www.gobiernodecanarias.org/boc/2016/248/,"PSOE salió del gobierno al ser cesados sus consejeros (Patricia Hernández, Aarón Afonso, Jesús Morera, Ornella Chacón) por decretos de 23-12-2016 publicados en el BOC del 24-12-2016; ruptura del pacto CC-PSOE."
+es-cn-gov-2015-07-09-clavijo,es-asg,investiture_support,2015-07-09,2019-05-26,https://en.wikipedia.org/wiki/2015_Canarian_regional_election,Votó sí (3) en la investidura del 07-07-2015 según en.wikipedia.
+es-cn-gov-2019-05-27-clavijo-caretaker,es-cc,governing,2019-05-27,2019-07-15,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-10439,
+es-cn-gov-2019-07-16-torres,es-psoe,governing,2019-07-16,2023-05-28,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-10440,
+es-cn-gov-2019-07-16-torres,es-nueva-canarias,governing,2019-07-16,2023-05-28,https://en.wikipedia.org/wiki/Government_of_%C3%81ngel_V%C3%ADctor_Torres,
+es-cn-gov-2019-07-16-torres,es-podemos,governing,2019-07-16,2023-05-28,https://en.wikipedia.org/wiki/Government_of_%C3%81ngel_V%C3%ADctor_Torres,Sí Podemos Canarias.
+es-cn-gov-2019-07-16-torres,es-asg,governing,2019-07-16,2023-05-28,https://en.wikipedia.org/wiki/Government_of_%C3%81ngel_V%C3%ADctor_Torres,ASG con consejería según en.wikipedia (parte del 'pacto de las flores').
+es-cn-gov-2023-05-29-torres-caretaker,es-psoe,governing,2023-05-29,2023-07-13,https://en.wikipedia.org/wiki/Government_of_%C3%81ngel_V%C3%ADctor_Torres,
+es-cn-gov-2023-05-29-torres-caretaker,es-nueva-canarias,governing,2023-05-29,2023-07-13,https://en.wikipedia.org/wiki/Government_of_%C3%81ngel_V%C3%ADctor_Torres,
+es-cn-gov-2023-05-29-torres-caretaker,es-podemos,governing,2023-05-29,2023-07-13,https://en.wikipedia.org/wiki/Government_of_%C3%81ngel_V%C3%ADctor_Torres,
+es-cn-gov-2023-05-29-torres-caretaker,es-asg,governing,2023-05-29,2023-07-13,https://en.wikipedia.org/wiki/Government_of_%C3%81ngel_V%C3%ADctor_Torres,
+es-cn-gov-2023-07-14-clavijo,es-cc,governing,2023-07-14,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-16293,
+es-cn-gov-2023-07-14-clavijo,es-pp,governing,2023-07-14,,https://www.lavozdelanzarote.com/en/news/politics/meet-the-new-councilors-of-the-government-of-the-canary-islands_220013_102.html,PP de Canarias: vicepresidencia (Manuel Domínguez) y cinco consejerías.
+es-cn-gov-2023-07-14-clavijo,es-ahi,governing,2023-07-14,,https://www.lavozdelanzarote.com/en/news/politics/meet-the-new-councilors-of-the-government-of-the-canary-islands_220013_102.html,"Alejandro Narvay Quintero (AHI), consejero de Agricultura, Ganadería, Pesca y Soberanía Alimentaria (La Voz de Lanzarote, 15-07-2023; es.wikipedia 'Gobierno de Canarias' incluye a AHI entre los partidos del gobierno)."
+es-cn-gov-2023-07-14-clavijo,es-asg,investiture_support,2023-07-14,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Canarias_de_2023,"Votó sí (3) en la investidura del 12-07-2023; apoyo externo, con direcciones generales y empresas públicas pero sin consejerías."
+es-cb-gov-2011-06-27-diego,es-pp,governing,2011-06-27,,https://es.wikipedia.org/wiki/Anexo:Presidentes_de_Cantabria,
+es-cb-gov-2015-05-25-diego-caretaker,es-pp,governing,2015-05-25,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2015,
+es-cb-gov-2015-07-07-revilla,es-prc,governing,2015-07-07,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2015,
+es-cb-gov-2015-07-07-revilla,es-psoe,governing,2015-07-07,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2015,
+es-cb-gov-2015-07-07-revilla,es-podemos,investiture_abstention,2015-07-07,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2015,"Abstención de los 3 diputados de Podemos, que permitió la elección por mayoría simple."
+es-cb-gov-2019-05-27-revilla-caretaker,es-prc,governing,2019-05-27,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2019,
+es-cb-gov-2019-05-27-revilla-caretaker,es-psoe,governing,2019-05-27,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2019,
+es-cb-gov-2019-06-29-revilla,es-prc,governing,2019-06-29,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2019,
+es-cb-gov-2019-06-29-revilla,es-psoe,governing,2019-06-29,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2019,
+es-cb-gov-2023-05-29-revilla-caretaker,es-prc,governing,2023-05-29,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2023,
+es-cb-gov-2023-05-29-revilla-caretaker,es-psoe,governing,2023-05-29,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2023,
+es-cb-gov-2023-07-05-saenz-de-buruaga,es-pp,governing,2023-07-05,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2023,
+es-cb-gov-2023-07-05-saenz-de-buruaga,es-prc,investiture_abstention,2023-07-05,,https://es.wikipedia.org/wiki/Elecciones_al_Parlamento_de_Cantabria_de_2023,Abstención de los 8 diputados del PRC en ambas votaciones; decisiva para la elección por mayoría simple.
+es-as-gov-2012-05-26-fernandez,es-psoe,governing,2012-05-26,,https://es.wikipedia.org/wiki/Anexo:Presidentes_del_Principado_de_Asturias,
+es-as-gov-2012-05-26-fernandez,es-iu,investiture_support,2012-05-26,,https://es.wikipedia.org/wiki/Javier_Fern%C3%A1ndez_Fern%C3%A1ndez,Apoyo de IU en la investidura según es.wikipedia; recuento de votos no verificado.
+es-as-gov-2015-05-25-fernandez-caretaker,es-psoe,governing,2015-05-25,,https://es.wikipedia.org/wiki/Elecciones_a_la_Junta_General_del_Principado_de_Asturias_de_2015,
+es-as-gov-2015-07-22-fernandez,es-psoe,governing,2015-07-22,,https://es.wikipedia.org/wiki/Elecciones_a_la_Junta_General_del_Principado_de_Asturias_de_2015,
+es-as-gov-2015-07-22-fernandez,es-iu,investiture_support,2015-07-22,,https://es.wikipedia.org/wiki/Elecciones_a_la_Junta_General_del_Principado_de_Asturias_de_2015,Los 5 diputados de IU votaron a Javier Fernández el 21-07-2015.
+es-as-gov-2015-07-22-fernandez,es-podemos,investiture_abstention,2015-07-22,,https://es.wikipedia.org/wiki/Elecciones_a_la_Junta_General_del_Principado_de_Asturias_de_2015,Abstención de Podemos (9) en la votación decisiva del 21-07-2015.
+es-as-gov-2019-05-27-fernandez-caretaker,es-psoe,governing,2019-05-27,,https://es.wikipedia.org/wiki/Elecciones_a_la_Junta_General_del_Principado_de_Asturias_de_2019,
+es-as-gov-2019-07-20-barbon,es-psoe,governing,2019-07-20,,https://es.wikipedia.org/wiki/Elecciones_a_la_Junta_General_del_Principado_de_Asturias_de_2019,
+es-as-gov-2019-07-20-barbon,es-iu,investiture_support,2019-07-20,,https://es.wikipedia.org/wiki/Elecciones_a_la_Junta_General_del_Principado_de_Asturias_de_2019,Votos de los 2 diputados de Asturias por la Izquierda (IU-IAS).
+es-as-gov-2023-05-29-barbon-caretaker,es-psoe,governing,2023-05-29,,https://es.wikipedia.org/wiki/Elecciones_a_la_Junta_General_del_Principado_de_Asturias_de_2023,
+es-as-gov-2023-07-27-barbon,es-psoe,governing,2023-07-27,,https://es.wikipedia.org/wiki/Segundo_Gobierno_Barb%C3%B3n,
+es-as-gov-2023-07-27-barbon,es-iu,governing,2023-07-27,,https://es.wikipedia.org/wiki/Segundo_Gobierno_Barb%C3%B3n,"Convocatoria por Asturias (IU, Más País, Izquierda Asturiana) ocupa una consejería (Ordenación del Territorio, Urbanismo, Vivienda y Derechos Ciudadanos, Ovidio Zapico, de IU), nombrada por Decreto 23/2023, de 31 de julio. Se registra con el id de IU."
+es-as-gov-2023-07-27-barbon,es-podemos,investiture_support,2023-07-27,,https://es.wikipedia.org/wiki/Elecciones_a_la_Junta_General_del_Principado_de_Asturias_de_2023,"Voto a favor de la única diputada de Podemos (Covadonga Tomé), que dio la mayoría absoluta (23/45)."
+es-ce-gov-2011-06-11-vivas,es-pp,governing,2011-06-11,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-10287,
+es-ce-gov-2015-05-25-vivas-caretaker,es-pp,governing,2015-05-25,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Ceuta_de_2015,
+es-ce-gov-2015-06-13-vivas,es-pp,governing,2015-06-13,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-6743,
+es-ce-gov-2019-05-27-vivas-caretaker,es-pp,governing,2019-05-27,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Ceuta_de_2019,
+es-ce-gov-2019-06-15-vivas,es-pp,governing,2019-06-15,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-9182,
+es-ce-gov-2023-05-29-vivas-caretaker,es-pp,governing,2023-05-29,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Ceuta_de_2023,
+es-ce-gov-2023-06-17-vivas,es-pp,governing,2023-06-17,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-14604,
+es-ml-gov-2011-07-01-imbroda,es-pp,governing,2011-07-01,,https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-11516,
+es-ml-gov-2015-05-25-imbroda-caretaker,es-pp,governing,2015-05-25,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Melilla_de_2015,
+es-ml-gov-2015-07-03-imbroda,es-pp,governing,2015-07-03,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Melilla_de_2015,
+es-ml-gov-2015-07-03-imbroda,es-ppl,investiture_support,2015-07-03,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Melilla_de_2015,El diputado del PPL dio el voto 13 (mayoría absoluta).
+es-ml-gov-2019-05-27-imbroda-caretaker,es-pp,governing,2019-05-27,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Melilla_de_2019,
+es-ml-gov-2019-06-15-de-castro,es-cs,governing,2019-06-15,2021-03-30,https://es.wikipedia.org/wiki/Eduardo_de_Castro,Partido del presidente hasta su expulsión de Cs el 30-03-2021 (anunciada el 2-04-2021); desde entonces gobierna como independiente.
+es-ml-gov-2019-06-15-de-castro,es-cpm,governing,2019-06-15,,https://es.wikipedia.org/wiki/Coalici%C3%B3n_por_Melilla,Vicepresidencia y varias consejerías según es.wikipedia.
+es-ml-gov-2019-06-15-de-castro,es-psoe,governing,2019-06-15,,https://es.wikipedia.org/wiki/Gloria_Rojas_Ruiz,"Gloria Rojas (PSOE), vicepresidenta primera y consejera de Presidencia 2019-2023."
+es-ml-gov-2023-05-29-de-castro-caretaker,es-cpm,governing,2023-05-29,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Melilla_de_2023,
+es-ml-gov-2023-05-29-de-castro-caretaker,es-psoe,governing,2023-05-29,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Melilla_de_2023,
+es-ml-gov-2023-07-07-imbroda,es-pp,governing,2023-07-07,,https://es.wikipedia.org/wiki/Elecciones_a_la_Asamblea_de_Melilla_de_2023,

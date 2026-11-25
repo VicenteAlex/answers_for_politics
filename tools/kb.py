@@ -54,6 +54,8 @@ STEMMERS = {"es": "spanish", "en": "english", "ca": "catalan", "eu": "basque", "
 COUNTRY_LANG = {"es": "es"}  # default language of a country's content (CSV titles, new entries)
 MAX_ERRORS_PER_CHECK = 20
 
+if hasattr(sys.stdin, "reconfigure"):
+    sys.stdin.reconfigure(encoding="utf-8")
 for _stream in (sys.stdout, sys.stderr):
     if hasattr(_stream, "reconfigure"):
         _stream.reconfigure(encoding="utf-8", errors="replace")
@@ -957,15 +959,18 @@ def cmd_add(args):
     countries = known_countries()
     list_fields = schema.common["lists"] if t.get("entity") else {}
     written: dict[str, int] = {}
-    for row in rows:
+    pending = []
+    for row in rows:  # check every row before writing any, so a bad row leaves no partial write
         if not isinstance(row, dict):
             fail("each row must be a JSON object")
         links = {lf: row.pop(lf) for lf in list(row) if lf in list_fields}
         unknown = [k for k in row if k not in t["all_columns"]]
         missing = [c for c, s in t["all_columns"].items() if s.get("required") and row.get(c) in (None, "")]
         if unknown or missing:
-            fail(f"row {row}: unknown columns {unknown}, missing required {missing}")
+            fail(f"row {row}: unknown columns {unknown}, missing required {missing}; nothing was written")
         path = Path(args.file).resolve() if args.file else resolve_path(t, row, countries)
+        pending.append((row, links, path))
+    for row, links, path in pending:
         append_csv(path, t, row)
         written[rel(path)] = written.get(rel(path), 0) + 1
         eid = row[t["key"][0]]

@@ -13,3 +13,30 @@ seg_social,Seguridad Social,official_statistics,es,https://www.seg-social.es,,,,
 interior,Ministerio del Interior,official,es,https://www.interior.gob.es,,,,"Llegadas irregulares, balance de criminalidad"
 eurostat,Eurostat,official_statistics,eu,https://ec.europa.eu/eurostat,,,,
 oecd,OCDE,international_org,,https://www.oecd.org,,,,
+fedea,Fundación de Estudios de Economía Aplicada (Fedea),think_tank,es,https://fedea.net,,,Private foundation funded mainly by companies and financial institutions (patrons listed on its website),Publishes Apuntes and Estudios sobre la Economía Española; documents state that opinions are the authors'.
+frbsf,Federal Reserve Bank of San Francisco,official,us,https://www.frbsf.org,,,US Federal Reserve System,Working Paper series; views are the authors'.
+cepr,Centre for Economic Policy Research (CEPR) / VoxEU,think_tank,eu,https://cepr.org,,,"Research network funded by grants, central banks and corporate members",Discussion Papers and VoxEU columns (non-peer-reviewed summaries of research).
+diw,Deutsches Institut für Wirtschaftsforschung (DIW Berlin),academic,de,https://www.diw.de,,,Publicly funded (Leibniz Association; federal and Berlin state funding),"Discussion Papers, DIW Roundup and Wochenbericht."
+dogc,Diari Oficial de la Generalitat de Catalunya,official,es,https://dogc.gencat.cat,,,Generalitat de Catalunya,Official gazette of Catalonia.
+incasol,Institut Català del Sòl (Incasòl),official_statistics,es,https://incasol.gencat.cat,,,Generalitat de Catalunya,Holds the register of rental deposits (fiances) used for Catalan rent statistics (new contracts by municipality).
+repec,RePEc / IDEAS (Research Papers in Economics),academic,,https://ideas.repec.org,,,Volunteer-run bibliographic service hosted by the Federal Reserve Bank of St. Louis,Abstract pages used to verify study citations
+nber,National Bureau of Economic Research,think_tank,us,https://www.nber.org,,,"Private non-profit; foundations, government grants",Working papers (not peer reviewed)
+iza,IZA Institute of Labor Economics,think_tank,de,https://www.iza.org,,,Deutsche Post Foundation,Discussion papers (not peer reviewed)
+nasem,"National Academies of Sciences, Engineering, and Medicine",academic,us,https://www.nationalacademies.org,,,,Consensus reports
+bbva_research,BBVA Research,company,es,https://www.bbvaresearch.com,,,BBVA (bank research department),
+mpt,Ministerio de Política Territorial y Memoria Democrática,official,es,https://mptmd.gob.es,,,Public,Conflictividad Estado-CCAA (régimen jurídico autonómico)
+inclusion,"Ministerio de Inclusión, Seguridad Social y Migraciones",official,es,https://www.inclusion.gob.es,,,Public,"Afiliación de extranjeros, regularización; notas también en lamoncloa.gob.es"
+cgpj,Consejo General del Poder Judicial (Poder Judicial España),court,es,https://www.poderjudicial.es,,,Public,Notas del Tribunal Supremo
+european_commission,Comisión Europea,official,eu,https://commission.europa.eu,,,Public,Pacto de Migración y Asilo (home-affairs.ec.europa.eu)
+vox,Vox (partido),party,es,https://www.voxespana.es,,,,"Programas 2023 y 2026 citados desde copias alojadas por medios (The Objective, El Independiente)"
+pp,Partido Popular,party,es,https://www.pp.es,,,,Plan Nacional de Inmigración (oct. 2025) en pp.es; programas 2023/2026 desde copias de medios
+psoe,PSOE,party,es,https://www.psoe.es,,,,Programa 2026 citado desde copia alojada por El Independiente
+theobjective,The Objective,press,es,https://theobjective.com,,,,Hosts copies of 2023 party programs
+elindependiente,El Independiente,press,es,https://www.elindependiente.com,,,,Hosts copies of 2026 programs and PP-Vox Extremadura agreement
+articulo14,Artículo 14,press,es,https://www.articulo14.es,,,,Hosts copy of PP 2026 program
+rtvc,Radio Televisión Canaria,press,es,https://rtvc.es,,,Public (Canarias),Votes by group in Congreso
+euronews,Euronews,press,eu,https://es.euronews.com,,,,Interior arrival balances via AP/EFE
+ief,Instituto de Estudios Fiscales,official,es,https://www.ief.es,,,Public; autonomous body attached to the Ministerio de Hacienda,Research arm of the Ministry of Finance; working papers reflect the authors'/ministry framing
+eu_tax_observatory,EU Tax Observatory (Paris School of Economics),academic,fr,https://taxobservatory.world,,,Academic lab at PSE; funded by EU (Horizon/DG TAXUD grants) and philanthropic donors (per its website; not verified here),Directed by Gabriel Zucman; advocates minimum taxation of billionaires
+tax_foundation,Tax Foundation (incl. Tax Foundation Europe),think_tank,us,https://taxfoundation.org,,,"Private non-profit funded by individuals, foundations and corporations",Generally favours broad bases and low rates; critical of wealth taxes
+minhacienda,Ministerio de Hacienda,official,es,https://www.hacienda.gob.es,,,Public,Publishes 'Tributación Autonómica. Medidas' yearly; currently cited without source_id in es-dossier-fiscalidad-grandes-fortunas and Madrid/Andalucía measures

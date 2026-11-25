@@ -141,6 +141,7 @@ key: (election_id) · id pattern `^[a-z]{2}(-[a-z]{2})?(-[0-9]{5})?-elec-[0-9]{4
 - `election_type` enum* [general|regional|municipal|european|referendum]
 - `jurisdiction_id` id* → jurisdictions
 - `turnout_pct` float
+- `notes` text
 - `source_url` url
 - `verification` enum [primary|secondary|unverified|disputed]
 
@@ -153,6 +154,7 @@ key: (election_id, party_id, body)
 - `votes` int
 - `vote_share_pct` float
 - `seats` int
+- `notes` text — e.g. how federated or coalition lists were aggregated
 - `source_url` url
 
 ### `governments` (csv: data/{country}/governments.csv)
@@ -174,7 +176,7 @@ Parties in each government and parties supporting it (investiture or external su
 key: (government_id, party_id, role, valid_from)
 - `government_id` id* → governments
 - `party_id` id* → parties
-- `role` enum* [governing|investiture_support|external_support]
+- `role` enum* [governing|investiture_support|investiture_abstention|external_support] — investiture_* = how the party voted in the successful investiture vote
 - `valid_from` date*
 - `valid_to` date
 - `source_url` url
@@ -448,7 +450,7 @@ key: (entity_id, asked_on)
 - `documents` (table) — id, type, lang, title, summary, body, path: the searchable text (`kb search`).
 
 ## Views
-- `v_governments` — Governments with head's name and governing / supporting parties (comma lists; check government_parties for dates).
+- `v_governments` — Governments with head's name and governing / supporting parties. A partner that joined late or left early shows its dates, e.g. "es-vox (2023-07-11→2024-07-11)".
 - `v_entity_context` — Each dated entity with the local, regional and state government in office on its date (ASOF join).
 - `v_vote_party` — Position of each party in each vote (summed over groups). split = the party's deputies did not all vote alike.
 - `v_party_actions` — Everything a party did: its position in each vote plus every entity where it appears as actor (author, implementer...).

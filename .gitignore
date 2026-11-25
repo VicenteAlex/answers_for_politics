@@ -6,3 +6,13 @@ raw/
 __pycache__/
 *.pyc
 .DS_Store
+# question log: personal questions and answers stay on this machine
+# (evidence found while answering is saved in library/, entries/, knowledge/, data/ and IS committed)
+questions/
+# logs and local tool settings
+*.log
+.claude/settings.local.json
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

@@ -1,1 +1,623 @@
-election_id,party_id,body,votes,vote_share_pct,seats,source_url
+election_id,party_id,body,votes,vote_share_pct,seats,notes,source_url
+es-elec-1977-06-15-general,es-ucd,congreso,6310391,34.44,165,,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-psoe,congreso,5371866,29.32,118,"Agrega la candidatura Socialistes de Catalunya (PSC-C y federación catalana del PSOE), tal como la presenta la fuente secundaria.",https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-pce,congreso,1709890,9.33,20,Agrega al PSUC en Cataluña (8 escaños según la fuente).,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-ap,congreso,1504771,8.21,16,Federación de Partidos de Alianza Popular; sin Alianza Foral Navarra.,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-psp-us,congreso,816582,4.46,6,,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-pdpc,congreso,514647,2.81,11,,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-pnv,congreso,296193,1.62,8,,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-ucidcc,congreso,172791,0.94,2,,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-ec-fed,congreso,143954,0.79,1,,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-ee,congreso,61417,0.34,1,Candidatura Euskadiko Ezkerra (EIA y EMK).,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-caic,congreso,37183,0.2,1,,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1977-06-15-general,es-cic,congreso,29834,0.16,1,,https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_1977
+es-elec-1979-03-01-general,es-ucd,congreso,6268593,34.84,168,Incluye Centristes de Catalunya-UCD.,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-psoe,congreso,5469813,30.4,121,Incluye PSC-PSOE y PSE-PSOE.,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-pce,congreso,1938487,10.77,23,Incluye al PSUC.,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-cd,congreso,1060330,5.89,9,"Wikipedia en español agrega aquí el escaño de UPN (1.088.578 votos, 10 escaños); se sigue el desglose de la Wikipedia en inglés.",https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-ciu,congreso,483353,2.69,8,,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-un,congreso,378964,2.11,1,,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-pa,congreso,325842,1.81,5,Candidatura PSA-PA.,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-pnv,congreso,296597,1.65,7,,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-hb,congreso,172110,0.96,3,,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-erc,congreso,123452,0.69,1,Candidatura ERC-FNC (ERC-FNC-PSDC).,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-ee,congreso,85677,0.48,1,,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-upc,congreso,58953,0.33,1,,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-par,congreso,38042,0.21,1,,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1979-03-01-general,es-upn,congreso,28248,0.16,1,,https://en.wikipedia.org/wiki/1979_Spanish_general_election
+es-elec-1982-10-28-general,es-psoe,congreso,10127392,48.11,202,Incluye PSC-PSOE y PAD (según la fuente).,https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1982-10-28-general,es-ap-pdp,congreso,5548107,26.36,107,"Incluye candidaturas conjuntas con UPN, PAR y UV y liberales independientes.",https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1982-10-28-general,es-ucd,congreso,1425093,6.77,11,Incluye Centristes de Catalunya-UCD.,https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1982-10-28-general,es-pce,congreso,846515,4.02,4,Incluye al PSUC (1 escaño).,https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1982-10-28-general,es-ciu,congreso,772726,3.67,12,,https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1982-10-28-general,es-cds,congreso,604309,2.87,2,,https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1982-10-28-general,es-pnv,congreso,395656,1.88,8,,https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1982-10-28-general,es-hb,congreso,210601,1.0,2,,https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1982-10-28-general,es-erc,congreso,138118,0.66,1,,https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1982-10-28-general,es-ee,congreso,100326,0.48,1,Euskadiko Ezkerra-Izquierda para el Socialismo.,https://en.wikipedia.org/wiki/1982_Spanish_general_election
+es-elec-1986-06-22-general,es-psoe,congreso,7601985,37.86,163,"Sin PSC-PSOE, que la JEC publica por separado.",https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-cp,congreso,5247677,26.14,105,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-psc,congreso,1299733,6.47,21,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-cds,congreso,1838799,9.16,19,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-ciu,congreso,1014258,5.05,18,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-iu,congreso,768158,3.83,6,La JEC publica por separado Unió de l'Esquerra Catalana (1 escaño); fuentes secundarias agregan ambas (y otras listas) como IU con 7 escaños.,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-pnv,congreso,309610,1.54,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-hb,congreso,231722,1.15,5,"Suma de cuatro agrupaciones de electores provinciales que la JEC publica por separado: Vizcaya 97.252 (2), Guipúzcoa 80.032 (2), Navarra 37.998 (1) y Álava 16.440 (0, cuadro III).",https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-ee,congreso,107053,0.53,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-uec,congreso,123912,0.62,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-cg,congreso,79972,0.4,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-par,congreso,73004,0.36,1,Partido Aragonés Regionalista.,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-aic,congreso,65664,0.33,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1986-06-22-general,es-uv,congreso,64403,0.32,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1986-20864
+es-elec-1989-10-29-general,es-psoe,congreso,6991593,34.16,155,"Sin PSC-PSOE, publicado aparte.",https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-pp,congreso,5117049,25.0,101,"Sin UPN-PP ni PP-Centristas de Galicia, publicados aparte.",https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-psc,congreso,1123975,5.49,20,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-ciu,congreso,1032243,5.04,18,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-iu,congreso,1627136,7.95,14,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-cds,congreso,1617716,7.9,14,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-pnv,congreso,252119,1.23,5,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-hb,congreso,217278,1.06,4,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-icv,congreso,231452,1.13,3,Candidatura Iniciativa per Catalunya (IC).,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-upn-pp,congreso,92216,0.45,3,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-pp-cdg,congreso,76707,0.37,3,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-pa,congreso,212687,1.04,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-uv,congreso,144924,0.71,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-ea,congreso,136955,0.67,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-ee,congreso,105238,0.51,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-par,congreso,71733,0.35,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1989-10-29-general,es-aic,congreso,64767,0.32,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1990-14391
+es-elec-1993-06-06-general,es-psoe,congreso,7872245,33.37,141,Sin PSC-PSOE.,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-pp,congreso,8089235,34.29,138,Sin UPN-PP.,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-psc,congreso,1277838,5.42,18,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-ciu,congreso,1165783,4.94,17,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-iu,congreso,1905673,8.08,15,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-pnv,congreso,291448,1.24,5,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-cc,congreso,207077,0.88,4,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-icv,congreso,273444,1.16,3,Candidatura Iniciativa per Catalunya (IC).,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-upn-pp,congreso,112228,0.48,3,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-hb,congreso,206876,0.88,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-erc,congreso,189632,0.8,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-par,congreso,144544,0.61,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-ea,congreso,129293,0.55,1,Candidatura Coalición Eusko Alkartasuna-Euskal Ezkerra (EA-EUE).,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1993-06-06-general,es-uv,congreso,112341,0.48,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1993-18739
+es-elec-1996-03-03-general,es-pp,congreso,9224696,36.83,146,Sin PP-PAR ni UPN-PP.,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-psoe,congreso,7894535,31.52,122,Sin PSC-PSOE.,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-iu,congreso,2342789,9.35,19,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-psc,congreso,1531143,6.11,19,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-ciu,congreso,1151633,4.6,16,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-pp-par,congreso,370975,1.48,8,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-pnv,congreso,318951,1.27,5,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-cc,congreso,220418,0.88,4,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-icv,congreso,296985,1.19,2,Candidatura Iniciativa per Catalunya-Els Verds (IC-EV).,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-bng,congreso,220147,0.88,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-hb,congreso,181304,0.72,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-upn-pp,congreso,120335,0.48,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-erc,congreso,167641,0.67,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-ea,congreso,115861,0.46,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-1996-03-03-general,es-uv,congreso,91575,0.37,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-1996-7025
+es-elec-2000-03-12-general,es-pp,congreso,10321178,44.52,183,La JEC agrega aquí las coaliciones UPN-PP (Navarra) y PP-UPM (Melilla).,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-psoe,congreso,7918752,34.16,125,Candidatura PSOE-Progresistas; la JEC agrega en esta columna al PSC-PSOE en Cataluña.,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-ciu,congreso,970421,4.19,15,,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-iu,congreso,1263043,5.45,8,"Izquierda Unida-Esquerra Unida i Alternativa, con varias denominaciones regionales.",https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-pnv,congreso,353953,1.53,7,,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-cc,congreso,248261,1.07,4,,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-bng,congreso,306268,1.32,3,,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-pa,congreso,206255,0.89,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-erc,congreso,194715,0.84,1,"Incluye coalición Front del País Valencià-ERC en Alicante, Castellón y Valencia.",https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-icv,congreso,119290,0.51,1,Candidatura Iniciativa per Catalunya-Verds (IC-V).,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-ea,congreso,100742,0.43,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2000-03-12-general,es-cha,congreso,75356,0.33,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2000-6480
+es-elec-2004-03-14-general,es-psoe,congreso,11026163,42.59,164,La JEC agrega en esta columna al PSC-PSOE en Cataluña.,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-pp,congreso,9635491,37.22,146,Sin UPN-PP.,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-ciu,congreso,835471,3.23,10,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-erc,congreso,652196,2.52,8,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-pnv,congreso,420980,1.63,7,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-cc,congreso,235221,0.91,3,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-iu,congreso,801821,3.1,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-icv-euia,congreso,234790,0.91,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-bng,congreso,208688,0.81,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-upn-pp,congreso,127653,0.49,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-entesa,congreso,123611,0.48,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-cha,congreso,94252,0.36,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-ea,congreso,80905,0.31,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2004-03-14-general,es-na-bai,congreso,61045,0.24,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2004-8358
+es-elec-2008-03-09-general,es-pp,congreso,10144951,39.42,152,Votos corregidos (BOE-A-2008-13161); sin UPN-PP.,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-psoe,congreso,9599424,37.3,144,Votos corregidos (BOE-A-2008-13161); sin PSC-PSOE.,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-psc,congreso,1689911,6.57,25,,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-ciu,congreso,779425,3.03,10,,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-pnv,congreso,306128,1.19,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-erc,congreso,291532,1.13,3,,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-iu,congreso,969946,3.77,2,"Izquierda Unida-Alternativa; votos corregidos (BOE-A-2008-13161). La JEC incluye en esta columna la candidatura de Cataluña (ICV-EUiA), según el escaño de Barcelona.",https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-bng,congreso,212543,0.83,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-cc,congreso,174629,0.68,2,Candidatura Coalición Canaria-Partido Nacionalista Canario (CC-PNC).,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-upn-pp,congreso,133059,0.52,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-upyd,congreso,306079,1.19,1,Votos corregidos (BOE-A-2008-13161).,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2008-03-09-general,es-na-bai,congreso,62398,0.24,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2008-6851
+es-elec-2011-11-20-general,es-pp,congreso,10061311,41.32,170,"Sin PP-PAR, PP-EU ni UPN-PP, publicados aparte.",https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-psoe,congreso,6080964,24.97,96,Sin PSC-PSOE.,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-ciu,congreso,1015691,4.17,16,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-psc,congreso,922547,3.79,14,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-izquierda-plural,congreso,1686040,6.92,11,Votos corregidos por BOE-A-2012-6674.,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-pp-par,congreso,339502,1.39,8,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-amaiur,congreso,334498,1.37,7,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-pp-eu,congreso,339237,1.39,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-upyd,congreso,1143225,4.7,5,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-pnv,congreso,324317,1.33,5,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-erc,congreso,244854,1.01,3,Candidatura Coalición Esquerra Republicana de Catalunya.,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-bng,congreso,184037,0.76,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-cc-nc,congreso,143881,0.59,2,Candidatura CC-NC-PNC.,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-upn-pp,congreso,126516,0.52,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-compromis,congreso,125306,0.51,1,Candidatura Coalición Bloc-Iniciativa-Verds-Equo-Coalició Compromís (COMPROMÍS-Q).,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-foro,congreso,99473,0.41,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2011-11-20-general,es-geroa-bai,congreso,42415,0.17,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2011-19391
+es-elec-2015-12-20-general,es-pp,congreso,6717462,26.64,112,"Sin PP-PAR, PP-Foro ni UPN-PP.",https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-psoe,congreso,4736628,18.79,78,Sin PSC-PSOE ni PSOE-NCa.,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-cs,congreso,3514528,13.94,40,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-podemos,congreso,3176641,12.6,41,"Solo las listas propias de Podemos; las coaliciones En Comú Podem, Compromís-Podemos, En Marea y Podemos-Ahora Alto Aragón se publican aparte.",https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-en-comu-podem,congreso,929880,3.69,12,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-unidad-popular,congreso,926783,3.68,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-compromis-podemos,congreso,673549,2.67,9,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-erc,congreso,601782,2.39,9,Candidatura ERC-Catalunya Sí (ERC-CATSÍ).,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-psc,congreso,590274,2.34,8,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-dl,congreso,567253,2.25,8,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-en-marea,congreso,410698,1.63,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-pnv,congreso,302316,1.2,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-pp-par,congreso,229691,0.91,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-eh-bildu,congreso,219125,0.87,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-psoe-nca,congreso,218413,0.87,4,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-pp-foro,congreso,187568,0.74,3,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-upn-pp,congreso,102244,0.41,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-cc,congreso,81917,0.32,1,Candidatura Coalición Canaria-Partido Nacionalista Canario (CCa-PNC).,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2015-12-20-general,es-podemos-alto-aragon,congreso,21943,0.09,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867
+es-elec-2016-06-26-general,es-pp,congreso,7372172,30.65,126,"Sin PP-PAR, PP-Foro ni UPN-PP.",https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-psoe,congreso,4663505,19.39,75,Sin PSC-PSOE ni PSOE-NCa.,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-up,congreso,3227123,13.42,45,"Unidos Podemos (Podemos-IU-Equo-CLIAS); sin ECP, A la Valenciana ni En Marea.",https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-cs,congreso,3141570,13.06,32,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-en-comu-podem,congreso,853102,3.55,12,En Comú Podem-Guanyem el Canvi.,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-a-la-valenciana,congreso,659771,2.74,9,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-erc,congreso,632234,2.63,9,Candidatura ERC-Catalunya Sí.,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-psc,congreso,559870,2.33,7,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-cdc,congreso,483488,2.01,8,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-en-marea,congreso,347542,1.44,5,Candidatura Podemos-En Marea-Anova-EU.,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-pnv,congreso,287014,1.19,5,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-pp-par,congreso,252456,1.05,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-psoe-nca,congreso,220471,0.92,3,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-pp-foro,congreso,209632,0.87,3,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-eh-bildu,congreso,184713,0.77,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-upn-pp,congreso,106976,0.44,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2016-06-26-general,es-cc,congreso,78253,0.33,1,Candidatura CCa-PNC.,https://www.boe.es/buscar/doc.php?id=BOE-A-2016-7133
+es-elec-2019-04-28-general,es-psoe,congreso,6550885,25.0,111,Sin PSC-PSOE.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-pp,congreso,4261473,16.26,65,Sin PP-Foro.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-cs,congreso,4155665,15.86,57,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-up,congreso,2897419,11.06,33,Unidas Podemos (PODEMOS-IU-EQUO); sin ECP ni la candidatura gallega.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-vox,congreso,2688092,10.26,24,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-erc,congreso,1020392,3.89,15,Candidatura ERC-Sobiranistes.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-psc,congreso,962257,3.67,12,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-en-comu-podem,congreso,615665,2.35,7,En Comú Podem-Guanyem el Canvi.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-jxcat,congreso,500787,1.91,7,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-pnv,congreso,395884,1.51,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-eh-bildu,congreso,259647,0.99,4,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-galicia-en-comun,congreso,238061,0.91,2,Candidatura En Común-Unidas Podemos (PODEMOS-EU-MAREAS EN COMÚN-EQUO).,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-compromis,congreso,173821,0.66,1,Candidatura Compromís: Bloc-Iniciativa-VerdsEquo (COMPROMÍS 2019).,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-cc,congreso,137664,0.53,2,Candidatura CCa-PNC.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-pp-foro,congreso,112180,0.43,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-navarra-suma,congreso,107619,0.41,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-04-28-general,es-prc,congreso,52266,0.2,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-8070
+es-elec-2019-11-10-general,es-psoe,congreso,5997533,24.72,108,Sin PSC-PSOE.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-pp,congreso,4917095,20.27,87,Sin PP-Foro.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-vox,congreso,3656979,15.08,52,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-up,congreso,2381960,9.82,26,Unidas Podemos (PODEMOS-IU); sin ECP ni la candidatura gallega.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-erc,congreso,874859,3.61,13,Candidatura ERC-Sobiranistes.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-psc,congreso,794666,3.28,12,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-cs,congreso,1650318,6.8,10,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-jxcat,congreso,530225,2.19,8,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-en-comu-podem,congreso,549173,2.26,7,En Comú Podem-Guanyem el Canvi.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-pnv,congreso,379002,1.56,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-eh-bildu,congreso,277621,1.14,5,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-mas-pais,congreso,330345,1.36,2,"Candidatura Más País-Equo; votos tras la corrección BOE-A-2019-18147 (Más País-CHA-Equo en Zaragoza, sin escaño, va aparte).",https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-cup,congreso,246971,1.02,2,Candidatura CUP-Per la Ruptura.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-galicia-en-comun,congreso,188231,0.78,2,Candidatura En Común-Unidas Podemos (PODEMOS-EU).,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-pp-foro,congreso,129945,0.54,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-cc-nc,congreso,124289,0.51,2,Candidatura CCa-PNC-NC.,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-navarra-suma,congreso,99078,0.41,2,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-mas-compromis,congreso,176287,0.73,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-bng,congreso,120456,0.5,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-prc,congreso,68830,0.28,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2019-11-10-general,es-teruel-existe,congreso,19761,0.08,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2019-18147
+es-elec-2023-07-23-general,es-pp,congreso,8160837,33.06,137,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-psoe,congreso,6600383,26.74,102,Sin PSC-PSOE.,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-vox,congreso,3057000,12.38,33,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-sumar,congreso,3044996,12.33,31,Una sola columna Sumar en la JEC (suma provincial verificada). Difiere de la cifra de 3.014.006 citada a menudo (posiblemente escrutinio provisional; no verificado).,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-psc,congreso,1221335,4.95,19,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-erc,congreso,466020,1.89,7,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-junts,congreso,395429,1.6,7,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-eh-bildu,congreso,335129,1.36,6,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-pnv,congreso,277289,1.12,5,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-bng,congreso,153995,0.62,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-cc,congreso,116363,0.47,1,Candidatura Coalición Canaria (CCa).,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-elec-2023-07-23-general,es-upn,congreso,52188,0.21,1,,https://www.boe.es/buscar/doc.php?id=BOE-A-2023-18907
+es-an-elec-2015-03-22-regional,es-psoe,regional_parliament,1411278,35.41,47,Candidatura: PSOE–A,https://www.juntadeandalucia.es/eboja/2015/137/BOJA15-137-00001-12318-01_00073358.pdf
+es-an-elec-2015-03-22-regional,es-pp,regional_parliament,1065685,26.74,33,Candidatura: PP,https://www.juntadeandalucia.es/eboja/2015/137/BOJA15-137-00001-12318-01_00073358.pdf
+es-an-elec-2015-03-22-regional,es-podemos,regional_parliament,592133,14.86,15,Candidatura: Podemos,https://www.juntadeandalucia.es/eboja/2015/137/BOJA15-137-00001-12318-01_00073358.pdf
+es-an-elec-2015-03-22-regional,es-cs,regional_parliament,369896,9.28,9,Candidatura: C's,https://www.juntadeandalucia.es/eboja/2015/137/BOJA15-137-00001-12318-01_00073358.pdf
+es-an-elec-2015-03-22-regional,es-iu,regional_parliament,274426,6.89,5,Candidatura: IULV–CA,https://www.juntadeandalucia.es/eboja/2015/137/BOJA15-137-00001-12318-01_00073358.pdf
+es-ar-elec-2015-05-24-regional,es-pp,regional_parliament,183654,27.5,21,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2015_Aragonese_regional_election&oldid=1371229603
+es-ar-elec-2015-05-24-regional,es-psoe,regional_parliament,143096,21.43,18,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2015_Aragonese_regional_election&oldid=1371229603
+es-ar-elec-2015-05-24-regional,es-podemos,regional_parliament,137325,20.56,14,Candidatura: Podemos,https://en.wikipedia.org/w/index.php?title=2015_Aragonese_regional_election&oldid=1371229603
+es-ar-elec-2015-05-24-regional,es-cs,regional_parliament,62907,9.42,5,Candidatura: C's,https://en.wikipedia.org/w/index.php?title=2015_Aragonese_regional_election&oldid=1371229603
+es-ar-elec-2015-05-24-regional,es-par,regional_parliament,45846,6.86,6,Candidatura: PAR,https://en.wikipedia.org/w/index.php?title=2015_Aragonese_regional_election&oldid=1371229603
+es-ar-elec-2015-05-24-regional,es-cha,regional_parliament,30618,4.58,2,Candidatura: CHA,https://en.wikipedia.org/w/index.php?title=2015_Aragonese_regional_election&oldid=1371229603
+es-ar-elec-2015-05-24-regional,es-iu,regional_parliament,28184,4.22,1,Candidatura: IU,https://en.wikipedia.org/w/index.php?title=2015_Aragonese_regional_election&oldid=1371229603
+es-as-elec-2015-05-24-regional,es-psoe,regional_parliament,143851,26.48,14,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2015_Asturian_regional_election&oldid=1372465280
+es-as-elec-2015-05-24-regional,es-pp,regional_parliament,117319,21.59,11,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2015_Asturian_regional_election&oldid=1372465280
+es-as-elec-2015-05-24-regional,es-podemos,regional_parliament,103571,19.06,9,Candidatura: Podemos,https://en.wikipedia.org/w/index.php?title=2015_Asturian_regional_election&oldid=1372465280
+es-as-elec-2015-05-24-regional,es-iu,regional_parliament,64868,11.94,5,Candidatura: IU/IX,https://en.wikipedia.org/w/index.php?title=2015_Asturian_regional_election&oldid=1372465280
+es-as-elec-2015-05-24-regional,es-foro,regional_parliament,44480,8.19,3,Candidatura: FAC,https://en.wikipedia.org/w/index.php?title=2015_Asturian_regional_election&oldid=1372465280
+es-as-elec-2015-05-24-regional,es-cs,regional_parliament,38687,7.12,3,Candidatura: C's,https://en.wikipedia.org/w/index.php?title=2015_Asturian_regional_election&oldid=1372465280
+es-ib-elec-2015-05-24-regional,es-pp,regional_parliament,123183,28.52,20,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2015_Balearic_regional_election&oldid=1379504775
+es-ib-elec-2015-05-24-regional,es-psoe,regional_parliament,81798,18.94,14,Candidatura: PSIB–PSOE,https://en.wikipedia.org/w/index.php?title=2015_Balearic_regional_election&oldid=1379504775
+es-ib-elec-2015-05-24-regional,es-podemos,regional_parliament,63489,14.7,10,Candidatura: Podemos/Podem,https://en.wikipedia.org/w/index.php?title=2015_Balearic_regional_election&oldid=1379504775
+es-ib-elec-2015-05-24-regional,es-mes-mallorca,regional_parliament,59617,13.8,6,Candidatura: Més,https://en.wikipedia.org/w/index.php?title=2015_Balearic_regional_election&oldid=1379504775
+es-ib-elec-2015-05-24-regional,es-el-pi,regional_parliament,34237,7.93,3,Candidatura: El Pi,https://en.wikipedia.org/w/index.php?title=2015_Balearic_regional_election&oldid=1379504775
+es-ib-elec-2015-05-24-regional,es-cs,regional_parliament,25651,5.94,2,Candidatura: C's,https://en.wikipedia.org/w/index.php?title=2015_Balearic_regional_election&oldid=1379504775
+es-ib-elec-2015-05-24-regional,es-mes-menorca,regional_parliament,6582,1.52,3,Candidatura: MpM,https://en.wikipedia.org/w/index.php?title=2015_Balearic_regional_election&oldid=1379504775
+es-ib-elec-2015-05-24-regional,es-gxf,regional_parliament,2006,0.46,1,Candidatura: GxF+PSOE,https://en.wikipedia.org/w/index.php?title=2015_Balearic_regional_election&oldid=1379504775
+es-cn-elec-2015-05-24-regional,es-psoe,regional_parliament,182006,19.89,15,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2015_Canarian_regional_election&oldid=1381719846
+es-cn-elec-2015-05-24-regional,es-pp,regional_parliament,170129,18.59,12,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2015_Canarian_regional_election&oldid=1381719846
+es-cn-elec-2015-05-24-regional,es-cc,regional_parliament,166979,18.25,18,Candidatura: CCa–PNC,https://en.wikipedia.org/w/index.php?title=2015_Canarian_regional_election&oldid=1381719846
+es-cn-elec-2015-05-24-regional,es-podemos,regional_parliament,133044,14.54,7,Candidatura: Podemos,https://en.wikipedia.org/w/index.php?title=2015_Canarian_regional_election&oldid=1381719846
+es-cn-elec-2015-05-24-regional,es-nueva-canarias,regional_parliament,93634,10.23,5,Candidatura: NCa,https://en.wikipedia.org/w/index.php?title=2015_Canarian_regional_election&oldid=1381719846
+es-cn-elec-2015-05-24-regional,es-asg,regional_parliament,5090,0.56,3,Candidatura: ASG,https://en.wikipedia.org/w/index.php?title=2015_Canarian_regional_election&oldid=1381719846
+es-cb-elec-2015-05-24-regional,es-pp,regional_parliament,105944,32.58,13,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2015_Cantabrian_regional_election&oldid=1370711228
+es-cb-elec-2015-05-24-regional,es-prc,regional_parliament,97185,29.89,12,Candidatura: PRC,https://en.wikipedia.org/w/index.php?title=2015_Cantabrian_regional_election&oldid=1370711228
+es-cb-elec-2015-05-24-regional,es-psoe,regional_parliament,45653,14.04,5,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2015_Cantabrian_regional_election&oldid=1370711228
+es-cb-elec-2015-05-24-regional,es-podemos,regional_parliament,28895,8.89,3,Candidatura: Podemos,https://en.wikipedia.org/w/index.php?title=2015_Cantabrian_regional_election&oldid=1370711228
+es-cb-elec-2015-05-24-regional,es-cs,regional_parliament,22552,6.94,2,Candidatura: C's,https://en.wikipedia.org/w/index.php?title=2015_Cantabrian_regional_election&oldid=1370711228
+es-cl-elec-2015-05-24-regional,es-pp,regional_parliament,514301,37.73,42,Candidatura: PP,https://bocyl.jcyl.es/boletines/2015/07/06/pdf/BOCYL-D-06072015-6.pdf
+es-cl-elec-2015-05-24-regional,es-psoe,regional_parliament,353575,25.94,25,Candidatura: PSOE,https://bocyl.jcyl.es/boletines/2015/07/06/pdf/BOCYL-D-06072015-6.pdf
+es-cl-elec-2015-05-24-regional,es-podemos,regional_parliament,165475,12.14,10,Candidatura: Podemos,https://bocyl.jcyl.es/boletines/2015/07/06/pdf/BOCYL-D-06072015-6.pdf
+es-cl-elec-2015-05-24-regional,es-cs,regional_parliament,139954,10.27,5,Candidatura: C's,https://bocyl.jcyl.es/boletines/2015/07/06/pdf/BOCYL-D-06072015-6.pdf
+es-cl-elec-2015-05-24-regional,es-iu,regional_parliament,56516,4.15,1,Candidatura: IU–Equo,https://bocyl.jcyl.es/boletines/2015/07/06/pdf/BOCYL-D-06072015-6.pdf
+es-cl-elec-2015-05-24-regional,es-upl,regional_parliament,19176,1.41,1,Candidatura: UPL,https://bocyl.jcyl.es/boletines/2015/07/06/pdf/BOCYL-D-06072015-6.pdf
+es-cm-elec-2015-05-24-regional,es-pp,regional_parliament,413349,37.49,16,Candidatura: PP,http://www.juntaelectoralcentral.es/cs/jec/documentos/CASTILLA_LA_MANCHA_2015_Resultados.pdf
+es-cm-elec-2015-05-24-regional,es-psoe,regional_parliament,398104,36.11,15,Candidatura: PSOE,http://www.juntaelectoralcentral.es/cs/jec/documentos/CASTILLA_LA_MANCHA_2015_Resultados.pdf
+es-cm-elec-2015-05-24-regional,es-podemos,regional_parliament,107463,9.75,2,Candidatura: Podemos,http://www.juntaelectoralcentral.es/cs/jec/documentos/CASTILLA_LA_MANCHA_2015_Resultados.pdf
+es-ct-elec-2015-09-27-regional,es-jxsi,regional_parliament,1628714,39.59,62,Candidatura: JxSí,https://portaldogc.gencat.cat/utilsEADOP/PDF/6992/1455237.pdf
+es-ct-elec-2015-09-27-regional,es-cs,regional_parliament,736364,17.9,25,Candidatura: C's,https://portaldogc.gencat.cat/utilsEADOP/PDF/6992/1455237.pdf
+es-ct-elec-2015-09-27-regional,es-psc,regional_parliament,523283,12.72,16,Candidatura: PSC–PSOE,https://portaldogc.gencat.cat/utilsEADOP/PDF/6992/1455237.pdf
+es-ct-elec-2015-09-27-regional,es-catalunya-si-que-es-pot,regional_parliament,367613,8.94,11,Candidatura: CatSíqueesPot,https://portaldogc.gencat.cat/utilsEADOP/PDF/6992/1455237.pdf
+es-ct-elec-2015-09-27-regional,es-pp,regional_parliament,349193,8.49,11,Candidatura: PP,https://portaldogc.gencat.cat/utilsEADOP/PDF/6992/1455237.pdf
+es-ct-elec-2015-09-27-regional,es-cup,regional_parliament,337794,8.21,10,Candidatura: CUP,https://portaldogc.gencat.cat/utilsEADOP/PDF/6992/1455237.pdf
+es-ce-elec-2015-05-24-regional,es-pp,regional_parliament,13372,45.74,13,Candidatura: PP,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-ce-elec-2015-05-24-regional,es-psoe,regional_parliament,4104,14.04,4,Candidatura: PSOE,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-ce-elec-2015-05-24-regional,es-coalicion-caballas,regional_parliament,3881,13.27,4,Candidatura: Caballas,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-ce-elec-2015-05-24-regional,es-mdyc,regional_parliament,3265,11.17,3,Candidatura: MDyC,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-ce-elec-2015-05-24-regional,es-cs,regional_parliament,1758,6.01,1,Candidatura: C's,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-ex-elec-2015-05-24-regional,es-psoe,regional_parliament,265015,41.5,30,Candidatura: PSOE–SIEx,https://en.wikipedia.org/w/index.php?title=2015_Extremaduran_regional_election&oldid=1381917759
+es-ex-elec-2015-05-24-regional,es-pp,regional_parliament,236266,37.0,28,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2015_Extremaduran_regional_election&oldid=1381917759
+es-ex-elec-2015-05-24-regional,es-podemos,regional_parliament,51216,8.02,6,Candidatura: Podemos,https://en.wikipedia.org/w/index.php?title=2015_Extremaduran_regional_election&oldid=1381917759
+es-ex-elec-2015-05-24-regional,es-cs,regional_parliament,28010,4.39,1,Candidatura: C's,https://en.wikipedia.org/w/index.php?title=2015_Extremaduran_regional_election&oldid=1381917759
+es-md-elec-2015-05-24-regional,es-pp,regional_parliament,1050256,33.08,48,Candidatura: PP,https://www.bocm.es/boletin/CM_Orden_BOCM/2015/06/10/BOCM-20150610-35.PDF
+es-md-elec-2015-05-24-regional,es-psoe,regional_parliament,807385,25.43,37,Candidatura: PSOE,https://www.bocm.es/boletin/CM_Orden_BOCM/2015/06/10/BOCM-20150610-35.PDF
+es-md-elec-2015-05-24-regional,es-podemos,regional_parliament,591697,18.64,27,Candidatura: Podemos,https://www.bocm.es/boletin/CM_Orden_BOCM/2015/06/10/BOCM-20150610-35.PDF
+es-md-elec-2015-05-24-regional,es-cs,regional_parliament,385836,12.15,17,Candidatura: C's,https://www.bocm.es/boletin/CM_Orden_BOCM/2015/06/10/BOCM-20150610-35.PDF
+es-ml-elec-2015-05-24-regional,es-pp,regional_parliament,13672,42.73,12,Candidatura: PP,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-ml-elec-2015-05-24-regional,es-cpm,regional_parliament,8450,26.41,7,Candidatura: CpM,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-ml-elec-2015-05-24-regional,es-psoe,regional_parliament,4028,12.59,3,Candidatura: PSOE,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-ml-elec-2015-05-24-regional,es-cs,regional_parliament,2161,6.75,2,Candidatura: C's,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-ml-elec-2015-05-24-regional,es-ppl,regional_parliament,1734,5.42,1,Candidatura: PPL,https://boe.es/boe/dias/2015/10/16/pdfs/BOE-A-2015-11158.pdf
+es-mc-elec-2015-05-24-regional,es-pp,regional_parliament,239011,37.35,22,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2015_Murcian_regional_election&oldid=1372691697
+es-mc-elec-2015-05-24-regional,es-psoe,regional_parliament,153231,23.95,13,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2015_Murcian_regional_election&oldid=1372691697
+es-mc-elec-2015-05-24-regional,es-podemos,regional_parliament,84577,13.22,6,Candidatura: Podemos,https://en.wikipedia.org/w/index.php?title=2015_Murcian_regional_election&oldid=1372691697
+es-mc-elec-2015-05-24-regional,es-cs,regional_parliament,80459,12.57,4,Candidatura: C's,https://en.wikipedia.org/w/index.php?title=2015_Murcian_regional_election&oldid=1372691697
+es-nc-elec-2015-05-24-regional,es-upn,regional_parliament,92705,27.44,15,Candidatura: UPN,https://www.juntaelectoralcentral.es/cs/jec/documentos/NAVARRA_2015_Resultados.pdf
+es-nc-elec-2015-05-24-regional,es-geroa-bai,regional_parliament,53497,15.83,9,Candidatura: GBai,https://www.juntaelectoralcentral.es/cs/jec/documentos/NAVARRA_2015_Resultados.pdf
+es-nc-elec-2015-05-24-regional,es-eh-bildu,regional_parliament,48166,14.25,8,Candidatura: EH Bildu,https://www.juntaelectoralcentral.es/cs/jec/documentos/NAVARRA_2015_Resultados.pdf
+es-nc-elec-2015-05-24-regional,es-podemos,regional_parliament,46207,13.67,7,Candidatura: Podemos/Ahal Dugu,https://www.juntaelectoralcentral.es/cs/jec/documentos/NAVARRA_2015_Resultados.pdf
+es-nc-elec-2015-05-24-regional,es-psoe,regional_parliament,45164,13.37,7,Candidatura: PSN–PSOE,https://www.juntaelectoralcentral.es/cs/jec/documentos/NAVARRA_2015_Resultados.pdf
+es-nc-elec-2015-05-24-regional,es-pp,regional_parliament,13289,3.93,2,Candidatura: PP,https://www.juntaelectoralcentral.es/cs/jec/documentos/NAVARRA_2015_Resultados.pdf
+es-nc-elec-2015-05-24-regional,es-izquierda-ezkerra,regional_parliament,12482,3.69,2,Candidatura: I–E (n),https://www.juntaelectoralcentral.es/cs/jec/documentos/NAVARRA_2015_Resultados.pdf
+es-ri-elec-2015-05-24-regional,es-pp,regional_parliament,63094,38.62,15,Candidatura: PP,https://www.juntaelectoralcentral.es/cs/jec/documentos/LA_RIOJA_2015_Resultados.pdf
+es-ri-elec-2015-05-24-regional,es-psoe,regional_parliament,43689,26.74,10,Candidatura: PSOE,https://www.juntaelectoralcentral.es/cs/jec/documentos/LA_RIOJA_2015_Resultados.pdf
+es-ri-elec-2015-05-24-regional,es-podemos,regional_parliament,18319,11.21,4,Candidatura: Podemos,https://www.juntaelectoralcentral.es/cs/jec/documentos/LA_RIOJA_2015_Resultados.pdf
+es-ri-elec-2015-05-24-regional,es-cs,regional_parliament,17042,10.43,4,Candidatura: C's,https://www.juntaelectoralcentral.es/cs/jec/documentos/LA_RIOJA_2015_Resultados.pdf
+es-vc-elec-2015-05-24-regional,es-pp,regional_parliament,658612,26.61,31,Candidatura: PP,https://dogv.gva.es/datos/2015/06/09/pdf/2015_5390.pdf
+es-vc-elec-2015-05-24-regional,es-psoe,regional_parliament,509098,20.57,23,Candidatura: PSPV–PSOE,https://dogv.gva.es/datos/2015/06/09/pdf/2015_5390.pdf
+es-vc-elec-2015-05-24-regional,es-compromis,regional_parliament,456823,18.46,19,Candidatura: Compromís,https://dogv.gva.es/datos/2015/06/09/pdf/2015_5390.pdf
+es-vc-elec-2015-05-24-regional,es-cs,regional_parliament,309121,12.49,13,Candidatura: C's,https://dogv.gva.es/datos/2015/06/09/pdf/2015_5390.pdf
+es-vc-elec-2015-05-24-regional,es-podemos,regional_parliament,282389,11.41,13,Candidatura: Podemos/Podem,https://dogv.gva.es/datos/2015/06/09/pdf/2015_5390.pdf
+es-pv-elec-2016-09-25-regional,es-pnv,regional_parliament,398168,37.36,28,Candidatura: EAJ/PNV,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2016/10/1604297a.pdf
+es-pv-elec-2016-09-25-regional,es-eh-bildu,regional_parliament,225172,21.13,18,Candidatura: EH Bildu,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2016/10/1604297a.pdf
+es-pv-elec-2016-09-25-regional,es-elkarrekin-podemos,regional_parliament,157334,14.76,11,"Candidatura: Podemos, Ezker Anitza–IU, Equo",https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2016/10/1604297a.pdf
+es-pv-elec-2016-09-25-regional,es-psoe,regional_parliament,126420,11.86,9,Candidatura: PSE–EE (PSOE),https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2016/10/1604297a.pdf
+es-pv-elec-2016-09-25-regional,es-pp,regional_parliament,107771,10.11,9,Candidatura: PP,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2016/10/1604297a.pdf
+es-ga-elec-2016-09-25-regional,es-pp,regional_parliament,682150,47.56,41,Candidatura: PP,https://www.xunta.gal/dog/Publicados/2016/20161011/AnuncioG2453-101016-0004_es.pdf
+es-ga-elec-2016-09-25-regional,es-en-marea,regional_parliament,273523,19.07,14,Candidatura: En Marea,https://www.xunta.gal/dog/Publicados/2016/20161011/AnuncioG2453-101016-0004_es.pdf
+es-ga-elec-2016-09-25-regional,es-psoe,regional_parliament,256381,17.87,14,Candidatura: PSdeG–PSOE,https://www.xunta.gal/dog/Publicados/2016/20161011/AnuncioG2453-101016-0004_es.pdf
+es-ga-elec-2016-09-25-regional,es-bng,regional_parliament,119446,8.33,6,Candidatura: BNG–Nós,https://www.xunta.gal/dog/Publicados/2016/20161011/AnuncioG2453-101016-0004_es.pdf
+es-ct-elec-2017-12-21-regional,es-cs,regional_parliament,1109732,25.35,36,Candidatura: Cs,https://www.boe.es/boe/dias/2018/01/12/pdfs/BOE-A-2018-426.pdf
+es-ct-elec-2017-12-21-regional,es-jxcat,regional_parliament,948233,21.66,34,Candidatura: JuntsxCat,https://www.boe.es/boe/dias/2018/01/12/pdfs/BOE-A-2018-426.pdf
+es-ct-elec-2017-12-21-regional,es-erc,regional_parliament,935861,21.38,32,Candidatura: ERC–CatSí,https://www.boe.es/boe/dias/2018/01/12/pdfs/BOE-A-2018-426.pdf
+es-ct-elec-2017-12-21-regional,es-psc,regional_parliament,606659,13.86,17,Candidatura: PSC–PSOE,https://www.boe.es/boe/dias/2018/01/12/pdfs/BOE-A-2018-426.pdf
+es-ct-elec-2017-12-21-regional,es-catalunya-en-comu-podem,regional_parliament,326360,7.46,8,Candidatura: CatComú–Podem,https://www.boe.es/boe/dias/2018/01/12/pdfs/BOE-A-2018-426.pdf
+es-ct-elec-2017-12-21-regional,es-cup,regional_parliament,195246,4.46,4,Candidatura: CUP,https://www.boe.es/boe/dias/2018/01/12/pdfs/BOE-A-2018-426.pdf
+es-ct-elec-2017-12-21-regional,es-pp,regional_parliament,185670,4.24,4,Candidatura: PP,https://www.boe.es/boe/dias/2018/01/12/pdfs/BOE-A-2018-426.pdf
+es-an-elec-2018-12-02-regional,es-psoe,regional_parliament,1010889,27.94,33,Candidatura: PSOE–A,https://www.juntadeandalucia.es/eboja/2018/248/BOJA18-248-00008-20949-01_00148173.pdf
+es-an-elec-2018-12-02-regional,es-pp,regional_parliament,750778,20.75,26,Candidatura: PP,https://www.juntadeandalucia.es/eboja/2018/248/BOJA18-248-00008-20949-01_00148173.pdf
+es-an-elec-2018-12-02-regional,es-cs,regional_parliament,661371,18.28,21,Candidatura: Cs,https://www.juntadeandalucia.es/eboja/2018/248/BOJA18-248-00008-20949-01_00148173.pdf
+es-an-elec-2018-12-02-regional,es-adelante-andalucia-coalicion,regional_parliament,585949,16.19,17,Candidatura: Adelante Andalucía,https://www.juntadeandalucia.es/eboja/2018/248/BOJA18-248-00008-20949-01_00148173.pdf
+es-an-elec-2018-12-02-regional,es-vox,regional_parliament,396607,10.96,12,Candidatura: Vox,https://www.juntadeandalucia.es/eboja/2018/248/BOJA18-248-00008-20949-01_00148173.pdf
+es-ar-elec-2019-05-26-regional,es-psoe,regional_parliament,206400,30.84,24,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2019_Aragonese_regional_election&oldid=1371229605
+es-ar-elec-2019-05-26-regional,es-pp,regional_parliament,139660,20.87,16,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2019_Aragonese_regional_election&oldid=1371229605
+es-ar-elec-2019-05-26-regional,es-cs,regional_parliament,111602,16.67,12,Candidatura: Cs,https://en.wikipedia.org/w/index.php?title=2019_Aragonese_regional_election&oldid=1371229605
+es-ar-elec-2019-05-26-regional,es-podemos,regional_parliament,54252,8.11,5,Candidatura: Podemos–Equo,https://en.wikipedia.org/w/index.php?title=2019_Aragonese_regional_election&oldid=1371229605
+es-ar-elec-2019-05-26-regional,es-cha,regional_parliament,41879,6.26,3,Candidatura: CHA,https://en.wikipedia.org/w/index.php?title=2019_Aragonese_regional_election&oldid=1371229605
+es-ar-elec-2019-05-26-regional,es-vox,regional_parliament,40671,6.08,3,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2019_Aragonese_regional_election&oldid=1371229605
+es-ar-elec-2019-05-26-regional,es-par,regional_parliament,33978,5.08,3,Candidatura: PAR,https://en.wikipedia.org/w/index.php?title=2019_Aragonese_regional_election&oldid=1371229605
+es-ar-elec-2019-05-26-regional,es-iu,regional_parliament,22229,3.32,1,Candidatura: IU,https://en.wikipedia.org/w/index.php?title=2019_Aragonese_regional_election&oldid=1371229605
+es-as-elec-2019-05-26-regional,es-psoe,regional_parliament,187462,35.26,20,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2019_Asturian_regional_election&oldid=1376341289
+es-as-elec-2019-05-26-regional,es-pp,regional_parliament,93147,17.52,10,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2019_Asturian_regional_election&oldid=1376341289
+es-as-elec-2019-05-26-regional,es-cs,regional_parliament,74271,13.97,5,Candidatura: Cs,https://en.wikipedia.org/w/index.php?title=2019_Asturian_regional_election&oldid=1376341289
+es-as-elec-2019-05-26-regional,es-podemos,regional_parliament,58674,11.04,4,Candidatura: Podemos Asturies,https://en.wikipedia.org/w/index.php?title=2019_Asturian_regional_election&oldid=1376341289
+es-as-elec-2019-05-26-regional,es-iu,regional_parliament,35174,6.62,2,Candidatura: IU–IAS,https://en.wikipedia.org/w/index.php?title=2019_Asturian_regional_election&oldid=1376341289
+es-as-elec-2019-05-26-regional,es-foro,regional_parliament,34687,6.52,2,Candidatura: FAC,https://en.wikipedia.org/w/index.php?title=2019_Asturian_regional_election&oldid=1376341289
+es-as-elec-2019-05-26-regional,es-vox,regional_parliament,34210,6.43,2,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2019_Asturian_regional_election&oldid=1376341289
+es-ib-elec-2019-05-26-regional,es-psoe,regional_parliament,117480,27.37,19,Candidatura: PSIB–PSOE,https://en.wikipedia.org/w/index.php?title=2019_Balearic_regional_election&oldid=1376141328
+es-ib-elec-2019-05-26-regional,es-pp,regional_parliament,95295,22.2,16,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2019_Balearic_regional_election&oldid=1376141328
+es-ib-elec-2019-05-26-regional,es-cs,regional_parliament,42519,9.9,5,Candidatura: Cs,https://en.wikipedia.org/w/index.php?title=2019_Balearic_regional_election&oldid=1376141328
+es-ib-elec-2019-05-26-regional,es-up,regional_parliament,41824,9.74,6,Candidatura: Podemos–EUIB,https://en.wikipedia.org/w/index.php?title=2019_Balearic_regional_election&oldid=1376141328
+es-ib-elec-2019-05-26-regional,es-mes-mallorca,regional_parliament,39415,9.18,4,Candidatura: Més,https://en.wikipedia.org/w/index.php?title=2019_Balearic_regional_election&oldid=1376141328
+es-ib-elec-2019-05-26-regional,es-vox,regional_parliament,34871,8.12,3,Candidatura: Vox–ACTUA Baleares,https://en.wikipedia.org/w/index.php?title=2019_Balearic_regional_election&oldid=1376141328
+es-ib-elec-2019-05-26-regional,es-el-pi,regional_parliament,31348,7.3,3,Candidatura: El Pi,https://en.wikipedia.org/w/index.php?title=2019_Balearic_regional_election&oldid=1376141328
+es-ib-elec-2019-05-26-regional,es-mes-menorca,regional_parliament,6058,1.41,2,Candidatura: MxMe,https://en.wikipedia.org/w/index.php?title=2019_Balearic_regional_election&oldid=1376141328
+es-ib-elec-2019-05-26-regional,es-gxf,regional_parliament,2036,0.47,1,Candidatura: GxF+PSOE+EUIB,https://en.wikipedia.org/w/index.php?title=2019_Balearic_regional_election&oldid=1376141328
+es-cn-elec-2019-05-26-regional,es-psoe,regional_parliament,258255,28.88,25,Candidatura: PSOE. Votos y % en las circunscripciones insulares; circunscripción autonómica: 264221 votos (29.53 %),https://en.wikipedia.org/w/index.php?title=2019_Canarian_regional_election&oldid=1381719868
+es-cn-elec-2019-05-26-regional,es-cc,regional_parliament,196080,21.93,20,Candidatura: CCa–PNC. Votos y % en las circunscripciones insulares; circunscripción autonómica: 209150 votos (23.37 %),https://en.wikipedia.org/w/index.php?title=2019_Canarian_regional_election&oldid=1381719868
+es-cn-elec-2019-05-26-regional,es-pp,regional_parliament,135722,15.18,11,Candidatura: PP. Votos y % en las circunscripciones insulares; circunscripción autonómica: 130617 votos (14.60 %),https://en.wikipedia.org/w/index.php?title=2019_Canarian_regional_election&oldid=1381719868
+es-cn-elec-2019-05-26-regional,es-nueva-canarias,regional_parliament,80891,9.05,5,Candidatura: NCa. Votos y % en las circunscripciones insulares; circunscripción autonómica: 82980 votos (9.27 %),https://en.wikipedia.org/w/index.php?title=2019_Canarian_regional_election&oldid=1381719868
+es-cn-elec-2019-05-26-regional,es-si-podemos-canarias,regional_parliament,78532,8.78,4,Candidatura: Podemos–SSP–Equo. Votos y % en las circunscripciones insulares; circunscripción autonómica: 76433 votos (8.54 %),https://en.wikipedia.org/w/index.php?title=2019_Canarian_regional_election&oldid=1381719868
+es-cn-elec-2019-05-26-regional,es-cs,regional_parliament,65854,7.36,2,Candidatura: Cs. Votos y % en las circunscripciones insulares; circunscripción autonómica: 62115 votos (6.94 %),https://en.wikipedia.org/w/index.php?title=2019_Canarian_regional_election&oldid=1381719868
+es-cn-elec-2019-05-26-regional,es-asg,regional_parliament,6222,0.7,3,Candidatura: ASG. Votos y % en las circunscripciones insulares; no concurrió en la circunscripción autonómica,https://en.wikipedia.org/w/index.php?title=2019_Canarian_regional_election&oldid=1381719868
+es-cb-elec-2019-05-26-regional,es-prc,regional_parliament,122679,37.64,14,Candidatura: PRC,http://www.juntaelectoralcentral.es/cs/jec/documentos/Cantabria_resultados.pdf
+es-cb-elec-2019-05-26-regional,es-pp,regional_parliament,78347,24.04,9,Candidatura: PP,http://www.juntaelectoralcentral.es/cs/jec/documentos/Cantabria_resultados.pdf
+es-cb-elec-2019-05-26-regional,es-psoe,regional_parliament,57383,17.61,7,Candidatura: PSOE,http://www.juntaelectoralcentral.es/cs/jec/documentos/Cantabria_resultados.pdf
+es-cb-elec-2019-05-26-regional,es-cs,regional_parliament,25872,7.94,3,Candidatura: Cs,http://www.juntaelectoralcentral.es/cs/jec/documentos/Cantabria_resultados.pdf
+es-cb-elec-2019-05-26-regional,es-vox,regional_parliament,16496,5.06,2,Candidatura: Vox,http://www.juntaelectoralcentral.es/cs/jec/documentos/Cantabria_resultados.pdf
+es-cl-elec-2019-05-26-regional,es-psoe,regional_parliament,479916,34.84,35,Candidatura: PSOE,https://bocyl.jcyl.es/boletines/2019/06/20/pdf/BOCYL-D-20062019-7.pdf
+es-cl-elec-2019-05-26-regional,es-pp,regional_parliament,433905,31.5,29,Candidatura: PP,https://bocyl.jcyl.es/boletines/2019/06/20/pdf/BOCYL-D-20062019-7.pdf
+es-cl-elec-2019-05-26-regional,es-cs,regional_parliament,205855,14.94,12,Candidatura: Cs,https://bocyl.jcyl.es/boletines/2019/06/20/pdf/BOCYL-D-20062019-7.pdf
+es-cl-elec-2019-05-26-regional,es-vox,regional_parliament,75731,5.5,1,Candidatura: Vox,https://bocyl.jcyl.es/boletines/2019/06/20/pdf/BOCYL-D-20062019-7.pdf
+es-cl-elec-2019-05-26-regional,es-podemos,regional_parliament,68869,5.0,2,Candidatura: Podemos–Equo,https://bocyl.jcyl.es/boletines/2019/06/20/pdf/BOCYL-D-20062019-7.pdf
+es-cl-elec-2019-05-26-regional,es-upl,regional_parliament,28057,2.04,1,Candidatura: UPL,https://bocyl.jcyl.es/boletines/2019/06/20/pdf/BOCYL-D-20062019-7.pdf
+es-cl-elec-2019-05-26-regional,es-xav,regional_parliament,9455,0.69,1,Candidatura: XAV,https://bocyl.jcyl.es/boletines/2019/06/20/pdf/BOCYL-D-20062019-7.pdf
+es-cm-elec-2019-05-26-regional,es-psoe,regional_parliament,476469,44.1,19,Candidatura: PSOE,http://www.juntaelectoralcentral.es/cs/jec/documentos/CASTILLA%20LA%20MANCHA_2019_Resultado.pdf
+es-cm-elec-2019-05-26-regional,es-pp,regional_parliament,308184,28.53,10,Candidatura: PP,http://www.juntaelectoralcentral.es/cs/jec/documentos/CASTILLA%20LA%20MANCHA_2019_Resultado.pdf
+es-cm-elec-2019-05-26-regional,es-cs,regional_parliament,122955,11.38,4,Candidatura: Cs,http://www.juntaelectoralcentral.es/cs/jec/documentos/CASTILLA%20LA%20MANCHA_2019_Resultado.pdf
+es-ce-elec-2019-05-26-regional,es-pp,regional_parliament,10527,31.12,9,Candidatura: PP,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-ce-elec-2019-05-26-regional,es-psoe,regional_parliament,8658,25.6,7,Candidatura: PSOE,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-ce-elec-2019-05-26-regional,es-vox,regional_parliament,7566,22.37,6,Candidatura: Vox,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-ce-elec-2019-05-26-regional,es-mdyc,regional_parliament,2353,6.96,2,Candidatura: MDyC,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-ce-elec-2019-05-26-regional,es-coalicion-caballas,regional_parliament,2105,6.22,1,Candidatura: Caballas,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-ex-elec-2019-05-26-regional,es-psoe,regional_parliament,287619,46.77,34,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2019_Extremaduran_regional_election&oldid=1381917868
+es-ex-elec-2019-05-26-regional,es-pp,regional_parliament,168982,27.48,20,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2019_Extremaduran_regional_election&oldid=1381917868
+es-ex-elec-2019-05-26-regional,es-cs,regional_parliament,68343,11.11,7,Candidatura: Cs,https://en.wikipedia.org/w/index.php?title=2019_Extremaduran_regional_election&oldid=1381917868
+es-ex-elec-2019-05-26-regional,es-unidas-por-extremadura,regional_parliament,44309,7.2,4,Candidatura: Podemos–IU–eXtremeños–Equo,https://en.wikipedia.org/w/index.php?title=2019_Extremaduran_regional_election&oldid=1381917868
+es-md-elec-2019-05-26-regional,es-psoe,regional_parliament,884218,27.31,37,Candidatura: PSOE,https://www.bocm.es/boletin/CM_Orden_BOCM/2019/06/07/BOCM-20190607-28.PDF
+es-md-elec-2019-05-26-regional,es-pp,regional_parliament,719852,22.23,30,Candidatura: PP,https://www.bocm.es/boletin/CM_Orden_BOCM/2019/06/07/BOCM-20190607-28.PDF
+es-md-elec-2019-05-26-regional,es-cs,regional_parliament,629940,19.46,26,Candidatura: Cs,https://www.bocm.es/boletin/CM_Orden_BOCM/2019/06/07/BOCM-20190607-28.PDF
+es-md-elec-2019-05-26-regional,es-mas-madrid,regional_parliament,475672,14.69,20,Candidatura: Más Madrid,https://www.bocm.es/boletin/CM_Orden_BOCM/2019/06/07/BOCM-20190607-28.PDF
+es-md-elec-2019-05-26-regional,es-vox,regional_parliament,287667,8.88,12,Candidatura: Vox,https://www.bocm.es/boletin/CM_Orden_BOCM/2019/06/07/BOCM-20190607-28.PDF
+es-md-elec-2019-05-26-regional,es-up,regional_parliament,181231,5.6,7,Candidatura: Podemos–IU,https://www.bocm.es/boletin/CM_Orden_BOCM/2019/06/07/BOCM-20190607-28.PDF
+es-ml-elec-2019-05-26-regional,es-pp,regional_parliament,12943,37.84,10,Candidatura: PP,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-ml-elec-2019-05-26-regional,es-cpm,regional_parliament,10472,30.62,8,Candidatura: CpM,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-ml-elec-2019-05-26-regional,es-psoe,regional_parliament,4928,14.41,4,Candidatura: PSOE,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-ml-elec-2019-05-26-regional,es-vox,regional_parliament,2655,7.76,2,Candidatura: Vox,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-ml-elec-2019-05-26-regional,es-cs,regional_parliament,1897,5.55,1,Candidatura: Cs,https://boe.es/boe/dias/2019/09/30/pdfs/BOE-A-2019-13900.pdf
+es-mc-elec-2019-05-26-regional,es-psoe,regional_parliament,212600,32.47,17,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2019_Murcian_regional_election&oldid=1370711836
+es-mc-elec-2019-05-26-regional,es-pp,regional_parliament,211849,32.35,16,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2019_Murcian_regional_election&oldid=1370711836
+es-mc-elec-2019-05-26-regional,es-cs,regional_parliament,78483,11.99,6,Candidatura: Cs,https://en.wikipedia.org/w/index.php?title=2019_Murcian_regional_election&oldid=1370711836
+es-mc-elec-2019-05-26-regional,es-vox,regional_parliament,61998,9.47,4,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2019_Murcian_regional_election&oldid=1370711836
+es-mc-elec-2019-05-26-regional,es-podemos,regional_parliament,36486,5.57,2,Candidatura: Podemos–Equo,https://en.wikipedia.org/w/index.php?title=2019_Murcian_regional_election&oldid=1370711836
+es-nc-elec-2019-05-26-regional,es-navarra-suma,regional_parliament,127346,36.57,20,Candidatura: NA+,https://en.wikipedia.org/w/index.php?title=2019_Navarrese_regional_election&oldid=1370711922
+es-nc-elec-2019-05-26-regional,es-psoe,regional_parliament,71838,20.63,11,Candidatura: PSN–PSOE,https://en.wikipedia.org/w/index.php?title=2019_Navarrese_regional_election&oldid=1370711922
+es-nc-elec-2019-05-26-regional,es-geroa-bai,regional_parliament,60323,17.32,9,Candidatura: GBai,https://en.wikipedia.org/w/index.php?title=2019_Navarrese_regional_election&oldid=1370711922
+es-nc-elec-2019-05-26-regional,es-eh-bildu,regional_parliament,50631,14.54,7,Candidatura: EH Bildu,https://en.wikipedia.org/w/index.php?title=2019_Navarrese_regional_election&oldid=1370711922
+es-nc-elec-2019-05-26-regional,es-podemos,regional_parliament,16518,4.74,2,Candidatura: Podemos,https://en.wikipedia.org/w/index.php?title=2019_Navarrese_regional_election&oldid=1370711922
+es-nc-elec-2019-05-26-regional,es-izquierda-ezkerra,regional_parliament,10472,3.01,1,Candidatura: I–E (n),https://en.wikipedia.org/w/index.php?title=2019_Navarrese_regional_election&oldid=1370711922
+es-ri-elec-2019-05-26-regional,es-psoe,regional_parliament,63068,38.67,15,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2019_Riojan_regional_election&oldid=1370711508
+es-ri-elec-2019-05-26-regional,es-pp,regional_parliament,53925,33.06,12,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2019_Riojan_regional_election&oldid=1370711508
+es-ri-elec-2019-05-26-regional,es-cs,regional_parliament,18807,11.53,4,Candidatura: Cs,https://en.wikipedia.org/w/index.php?title=2019_Riojan_regional_election&oldid=1370711508
+es-ri-elec-2019-05-26-regional,es-up,regional_parliament,10844,6.65,2,Candidatura: Podemos–IU–Equo,https://en.wikipedia.org/w/index.php?title=2019_Riojan_regional_election&oldid=1370711508
+es-vc-elec-2019-04-28-regional,es-psoe,regional_parliament,643909,24.21,27,Candidatura: PSPV–PSOE,https://dogv.gva.es/datos/2019/05/10/pdf/2019_4726.pdf
+es-vc-elec-2019-04-28-regional,es-pp,regional_parliament,508534,19.12,19,Candidatura: PP,https://dogv.gva.es/datos/2019/05/10/pdf/2019_4726.pdf
+es-vc-elec-2019-04-28-regional,es-cs,regional_parliament,470676,17.7,18,Candidatura: Cs,https://dogv.gva.es/datos/2019/05/10/pdf/2019_4726.pdf
+es-vc-elec-2019-04-28-regional,es-compromis,regional_parliament,443640,16.68,17,Candidatura: Compromís,https://dogv.gva.es/datos/2019/05/10/pdf/2019_4726.pdf
+es-vc-elec-2019-04-28-regional,es-vox,regional_parliament,281608,10.59,10,Candidatura: Vox,https://dogv.gva.es/datos/2019/05/10/pdf/2019_4726.pdf
+es-vc-elec-2019-04-28-regional,es-up,regional_parliament,215392,8.1,8,Candidatura: Unides Podem–EUPV,https://dogv.gva.es/datos/2019/05/10/pdf/2019_4726.pdf
+es-pv-elec-2020-07-12-regional,es-pnv,regional_parliament,349960,38.7,31,Candidatura: EAJ/PNV,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2020/07/2003044a.pdf
+es-pv-elec-2020-07-12-regional,es-eh-bildu,regional_parliament,249580,27.6,21,Candidatura: EH Bildu,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2020/07/2003044a.pdf
+es-pv-elec-2020-07-12-regional,es-psoe,regional_parliament,122248,13.52,10,Candidatura: PSE–EE (PSOE),https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2020/07/2003044a.pdf
+es-pv-elec-2020-07-12-regional,es-elkarrekin-podemos,regional_parliament,72113,7.97,6,"Candidatura: Podemos/Ahal Dugu, Ezker Anitza–IU",https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2020/07/2003044a.pdf
+es-pv-elec-2020-07-12-regional,es-pp-cs,regional_parliament,60650,6.71,6,Candidatura: PP+Cs,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2020/07/2003044a.pdf
+es-pv-elec-2020-07-12-regional,es-vox,regional_parliament,17569,1.94,1,Candidatura: Vox,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2020/07/2003044a.pdf
+es-ga-elec-2020-07-12-regional,es-pp,regional_parliament,627762,47.96,42,Candidatura: PP,https://www.xunta.gal/dog/Publicados/2020/20200729/AnuncioG2453-280720-0003_es.pdf
+es-ga-elec-2020-07-12-regional,es-bng,regional_parliament,311340,23.79,19,Candidatura: BNG,https://www.xunta.gal/dog/Publicados/2020/20200729/AnuncioG2453-280720-0003_es.pdf
+es-ga-elec-2020-07-12-regional,es-psoe,regional_parliament,253750,19.39,14,Candidatura: PSdeG–PSOE,https://www.xunta.gal/dog/Publicados/2020/20200729/AnuncioG2453-280720-0003_es.pdf
+es-ct-elec-2021-02-14-regional,es-psc,regional_parliament,654766,23.03,33,Candidatura: PSC–PSOE,https://portaldogc.gencat.cat/utilsEADOP/PDF/8355/1838769.pdf
+es-ct-elec-2021-02-14-regional,es-erc,regional_parliament,605581,21.3,33,Candidatura: ERC,https://portaldogc.gencat.cat/utilsEADOP/PDF/8355/1838769.pdf
+es-ct-elec-2021-02-14-regional,es-junts,regional_parliament,570539,20.07,32,Candidatura: JxCat,https://portaldogc.gencat.cat/utilsEADOP/PDF/8355/1838769.pdf
+es-ct-elec-2021-02-14-regional,es-vox,regional_parliament,218121,7.67,11,Candidatura: Vox,https://portaldogc.gencat.cat/utilsEADOP/PDF/8355/1838769.pdf
+es-ct-elec-2021-02-14-regional,es-en-comu-podem,regional_parliament,195345,6.87,8,Candidatura: ECP–PEC,https://portaldogc.gencat.cat/utilsEADOP/PDF/8355/1838769.pdf
+es-ct-elec-2021-02-14-regional,es-cup,regional_parliament,189924,6.68,9,Candidatura: CUP–G,https://portaldogc.gencat.cat/utilsEADOP/PDF/8355/1838769.pdf
+es-ct-elec-2021-02-14-regional,es-cs,regional_parliament,158606,5.58,6,Candidatura: Cs,https://portaldogc.gencat.cat/utilsEADOP/PDF/8355/1838769.pdf
+es-ct-elec-2021-02-14-regional,es-pp,regional_parliament,109453,3.85,3,Candidatura: PP,https://portaldogc.gencat.cat/utilsEADOP/PDF/8355/1838769.pdf
+es-md-elec-2021-05-04-regional,es-pp,regional_parliament,1631608,44.76,65,Candidatura: PP,https://www.bocm.es/boletin/CM_Orden_BOCM/2021/05/20/BOCM-20210520-42.PDF
+es-md-elec-2021-05-04-regional,es-mas-madrid,regional_parliament,619215,16.99,24,Candidatura: Más Madrid,https://www.bocm.es/boletin/CM_Orden_BOCM/2021/05/20/BOCM-20210520-42.PDF
+es-md-elec-2021-05-04-regional,es-psoe,regional_parliament,612622,16.8,24,Candidatura: PSOE,https://www.bocm.es/boletin/CM_Orden_BOCM/2021/05/20/BOCM-20210520-42.PDF
+es-md-elec-2021-05-04-regional,es-vox,regional_parliament,333403,9.15,13,Candidatura: Vox,https://www.bocm.es/boletin/CM_Orden_BOCM/2021/05/20/BOCM-20210520-42.PDF
+es-md-elec-2021-05-04-regional,es-up,regional_parliament,263871,7.24,10,Candidatura: Podemos–IU,https://www.bocm.es/boletin/CM_Orden_BOCM/2021/05/20/BOCM-20210520-42.PDF
+es-an-elec-2022-06-19-regional,es-pp,regional_parliament,1589272,43.11,58,Candidatura: PP,https://www.juntadeandalucia.es/eboja/2022/132/BOJA22-132-00008-11436-01_00264695.pdf
+es-an-elec-2022-06-19-regional,es-psoe,regional_parliament,888325,24.1,30,Candidatura: PSOE–A,https://www.juntadeandalucia.es/eboja/2022/132/BOJA22-132-00008-11436-01_00264695.pdf
+es-an-elec-2022-06-19-regional,es-vox,regional_parliament,496618,13.47,14,Candidatura: Vox,https://www.juntadeandalucia.es/eboja/2022/132/BOJA22-132-00008-11436-01_00264695.pdf
+es-an-elec-2022-06-19-regional,es-por-andalucia,regional_parliament,284027,7.7,5,Candidatura: PorA,https://www.juntadeandalucia.es/eboja/2022/132/BOJA22-132-00008-11436-01_00264695.pdf
+es-an-elec-2022-06-19-regional,es-adelante-andalucia,regional_parliament,168960,4.58,2,Candidatura: Adelante Andalucía–Andalucistas,https://www.juntadeandalucia.es/eboja/2022/132/BOJA22-132-00008-11436-01_00264695.pdf
+es-cl-elec-2022-02-13-regional,es-pp,regional_parliament,382157,31.4,31,Candidatura: PP,https://bocyl.jcyl.es/boletines/2022/03/09/pdf/BOCYL-D-09032022-13.pdf
+es-cl-elec-2022-02-13-regional,es-psoe,regional_parliament,365434,30.02,28,Candidatura: PSOE,https://bocyl.jcyl.es/boletines/2022/03/09/pdf/BOCYL-D-09032022-13.pdf
+es-cl-elec-2022-02-13-regional,es-vox,regional_parliament,214668,17.64,13,Candidatura: Vox,https://bocyl.jcyl.es/boletines/2022/03/09/pdf/BOCYL-D-09032022-13.pdf
+es-cl-elec-2022-02-13-regional,es-up,regional_parliament,62138,5.11,1,Candidatura: Podemos–IU–AV,https://bocyl.jcyl.es/boletines/2022/03/09/pdf/BOCYL-D-09032022-13.pdf
+es-cl-elec-2022-02-13-regional,es-cs,regional_parliament,54721,4.5,1,Candidatura: Cs,https://bocyl.jcyl.es/boletines/2022/03/09/pdf/BOCYL-D-09032022-13.pdf
+es-cl-elec-2022-02-13-regional,es-upl,regional_parliament,52098,4.28,3,Candidatura: UPL,https://bocyl.jcyl.es/boletines/2022/03/09/pdf/BOCYL-D-09032022-13.pdf
+es-cl-elec-2022-02-13-regional,es-soria-ya,regional_parliament,19385,1.59,3,Candidatura: SY,https://bocyl.jcyl.es/boletines/2022/03/09/pdf/BOCYL-D-09032022-13.pdf
+es-cl-elec-2022-02-13-regional,es-xav,regional_parliament,13875,1.14,1,Candidatura: XAV,https://bocyl.jcyl.es/boletines/2022/03/09/pdf/BOCYL-D-09032022-13.pdf
+es-ar-elec-2023-05-28-regional,es-pp,regional_parliament,237817,35.51,28,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2023_Aragonese_regional_election&oldid=1371229606
+es-ar-elec-2023-05-28-regional,es-psoe,regional_parliament,197919,29.55,23,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2023_Aragonese_regional_election&oldid=1371229606
+es-ar-elec-2023-05-28-regional,es-vox,regional_parliament,75349,11.25,7,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2023_Aragonese_regional_election&oldid=1371229606
+es-ar-elec-2023-05-28-regional,es-cha,regional_parliament,34163,5.1,3,Candidatura: CHA,https://en.wikipedia.org/w/index.php?title=2023_Aragonese_regional_election&oldid=1371229606
+es-ar-elec-2023-05-28-regional,es-existe,regional_parliament,33190,4.96,3,Candidatura: Existe,https://en.wikipedia.org/w/index.php?title=2023_Aragonese_regional_election&oldid=1371229606
+es-ar-elec-2023-05-28-regional,es-podemos,regional_parliament,26923,4.02,1,Candidatura: Podemos–AV,https://en.wikipedia.org/w/index.php?title=2023_Aragonese_regional_election&oldid=1371229606
+es-ar-elec-2023-05-28-regional,es-iu,regional_parliament,20959,3.13,1,Candidatura: IU,https://en.wikipedia.org/w/index.php?title=2023_Aragonese_regional_election&oldid=1371229606
+es-ar-elec-2023-05-28-regional,es-par,regional_parliament,13988,2.09,1,Candidatura: PAR,https://en.wikipedia.org/w/index.php?title=2023_Aragonese_regional_election&oldid=1371229606
+es-as-elec-2023-05-28-regional,es-psoe,regional_parliament,195999,36.5,19,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2023_Asturian_regional_election&oldid=1376998504
+es-as-elec-2023-05-28-regional,es-pp,regional_parliament,175131,32.61,17,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2023_Asturian_regional_election&oldid=1376998504
+es-as-elec-2023-05-28-regional,es-vox,regional_parliament,54273,10.11,4,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2023_Asturian_regional_election&oldid=1376998504
+es-as-elec-2023-05-28-regional,es-convocatoria-por-asturies,regional_parliament,40774,7.59,3,Candidatura: IU–MP–IAS,https://en.wikipedia.org/w/index.php?title=2023_Asturian_regional_election&oldid=1376998504
+es-as-elec-2023-05-28-regional,es-podemos,regional_parliament,21052,3.92,1,Candidatura: Podemos Asturies,https://en.wikipedia.org/w/index.php?title=2023_Asturian_regional_election&oldid=1376998504
+es-as-elec-2023-05-28-regional,es-foro,regional_parliament,19652,3.66,1,Candidatura: Foro,https://en.wikipedia.org/w/index.php?title=2023_Asturian_regional_election&oldid=1376998504
+es-ib-elec-2023-05-28-regional,es-pp,regional_parliament,161267,35.79,25,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2023_Balearic_regional_election&oldid=1387080242
+es-ib-elec-2023-05-28-regional,es-psoe,regional_parliament,119540,26.53,18,Candidatura: PSIB–PSOE,https://en.wikipedia.org/w/index.php?title=2023_Balearic_regional_election&oldid=1387080242
+es-ib-elec-2023-05-28-regional,es-vox,regional_parliament,62637,13.9,8,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2023_Balearic_regional_election&oldid=1387080242
+es-ib-elec-2023-05-28-regional,es-mes-mallorca,regional_parliament,37651,8.35,4,Candidatura: Més,https://en.wikipedia.org/w/index.php?title=2023_Balearic_regional_election&oldid=1387080242
+es-ib-elec-2023-05-28-regional,es-up,regional_parliament,19980,4.43,1,Candidatura: EUIB–Podemos,https://en.wikipedia.org/w/index.php?title=2023_Balearic_regional_election&oldid=1387080242
+es-ib-elec-2023-05-28-regional,es-mes-menorca,regional_parliament,6486,1.44,2,Candidatura: MxMe,https://en.wikipedia.org/w/index.php?title=2023_Balearic_regional_election&oldid=1387080242
+es-ib-elec-2023-05-28-regional,es-sa-unio,regional_parliament,1747,0.39,1,Candidatura: Sa Unió,https://en.wikipedia.org/w/index.php?title=2023_Balearic_regional_election&oldid=1387080242
+es-cn-elec-2023-05-28-regional,es-psoe,regional_parliament,247811,27.17,23,Candidatura: PSOE. Votos y % en las circunscripciones insulares; circunscripción autonómica: 295969 votos (32.43 %),https://en.wikipedia.org/w/index.php?title=2023_Canarian_regional_election&oldid=1387080273
+es-cn-elec-2023-05-28-regional,es-cc,regional_parliament,201401,22.08,19,Candidatura: CCa. Votos y % en las circunscripciones insulares; circunscripción autonómica: 175198 votos (19.20 %),https://en.wikipedia.org/w/index.php?title=2023_Canarian_regional_election&oldid=1387080273
+es-cn-elec-2023-05-28-regional,es-pp,regional_parliament,176308,19.33,15,Candidatura: PP. Votos y % en las circunscripciones insulares; circunscripción autonómica: 183761 votos (20.13 %),https://en.wikipedia.org/w/index.php?title=2023_Canarian_regional_election&oldid=1387080273
+es-cn-elec-2023-05-28-regional,es-nueva-canarias,regional_parliament,72372,7.93,5,Candidatura: NC–BC. Votos y % en las circunscripciones insulares; circunscripción autonómica: 65028 votos (7.13 %),https://en.wikipedia.org/w/index.php?title=2023_Canarian_regional_election&oldid=1387080273
+es-cn-elec-2023-05-28-regional,es-vox,regional_parliament,71740,7.86,4,Candidatura: Vox. Votos y % en las circunscripciones insulares; circunscripción autonómica: 71887 votos (7.88 %),https://en.wikipedia.org/w/index.php?title=2023_Canarian_regional_election&oldid=1387080273
+es-cn-elec-2023-05-28-regional,es-asg,regional_parliament,6765,0.74,3,Candidatura: ASG. Votos y % en las circunscripciones insulares; no concurrió en la circunscripción autonómica,https://en.wikipedia.org/w/index.php?title=2023_Canarian_regional_election&oldid=1387080273
+es-cn-elec-2023-05-28-regional,es-ahi,regional_parliament,1660,0.18,1,Candidatura: AHI. Votos y % en las circunscripciones insulares; no concurrió en la circunscripción autonómica,https://en.wikipedia.org/w/index.php?title=2023_Canarian_regional_election&oldid=1387080273
+es-cb-elec-2023-05-28-regional,es-pp,regional_parliament,116198,35.78,15,Candidatura: PP,https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=390459
+es-cb-elec-2023-05-28-regional,es-prc,regional_parliament,67523,20.79,8,Candidatura: PRC,https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=390459
+es-cb-elec-2023-05-28-regional,es-psoe,regional_parliament,66917,20.61,8,Candidatura: PSOE,https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=390459
+es-cb-elec-2023-05-28-regional,es-vox,regional_parliament,35982,11.08,4,Candidatura: Vox,https://boc.cantabria.es/boces/verAnuncioAction.do?idAnuBlob=390459
+es-cm-elec-2023-05-28-regional,es-psoe,regional_parliament,490288,45.04,17,Candidatura: PSOE,https://docm.jccm.es/docm/descargarArchivo.do?ruta=2023/06/16/pdf/2023_5411.pdf&tipo=rutaDocm
+es-cm-elec-2023-05-28-regional,es-pp,regional_parliament,366312,33.65,12,Candidatura: PP,https://docm.jccm.es/docm/descargarArchivo.do?ruta=2023/06/16/pdf/2023_5411.pdf&tipo=rutaDocm
+es-cm-elec-2023-05-28-regional,es-vox,regional_parliament,139607,12.83,4,Candidatura: Vox,https://docm.jccm.es/docm/descargarArchivo.do?ruta=2023/06/16/pdf/2023_5411.pdf&tipo=rutaDocm
+es-ce-elec-2023-05-28-regional,es-pp,regional_parliament,11774,34.34,9,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2023_Ceuta_Assembly_election&oldid=1386012782
+es-ce-elec-2023-05-28-regional,es-psoe,regional_parliament,7198,21.0,6,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2023_Ceuta_Assembly_election&oldid=1386012782
+es-ce-elec-2023-05-28-regional,es-vox,regional_parliament,7073,20.63,5,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2023_Ceuta_Assembly_election&oldid=1386012782
+es-ce-elec-2023-05-28-regional,es-mdyc,regional_parliament,3848,11.22,3,Candidatura: MDyC,https://en.wikipedia.org/w/index.php?title=2023_Ceuta_Assembly_election&oldid=1386012782
+es-ce-elec-2023-05-28-regional,es-ceuta-ya,regional_parliament,3442,10.04,2,Candidatura: Ceuta Ya!,https://en.wikipedia.org/w/index.php?title=2023_Ceuta_Assembly_election&oldid=1386012782
+es-ex-elec-2023-05-28-regional,es-psoe,regional_parliament,244227,39.9,28,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2023_Extremaduran_regional_election&oldid=1371229574
+es-ex-elec-2023-05-28-regional,es-pp,regional_parliament,237384,38.78,28,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2023_Extremaduran_regional_election&oldid=1371229574
+es-ex-elec-2023-05-28-regional,es-vox,regional_parliament,49798,8.13,5,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2023_Extremaduran_regional_election&oldid=1371229574
+es-ex-elec-2023-05-28-regional,es-unidas-por-extremadura,regional_parliament,36836,6.01,4,Candidatura: Podemos–IU–AV,https://en.wikipedia.org/w/index.php?title=2023_Extremaduran_regional_election&oldid=1371229574
+es-md-elec-2023-05-28-regional,es-pp,regional_parliament,1599186,47.32,70,Candidatura: PP,https://www.bocm.es/boletin/CM_Orden_BOCM/2023/06/09/BOCM-20230609-72.PDF
+es-md-elec-2023-05-28-regional,es-mas-madrid,regional_parliament,620631,18.36,27,Candidatura: MM–VQ,https://www.bocm.es/boletin/CM_Orden_BOCM/2023/06/09/BOCM-20230609-72.PDF
+es-md-elec-2023-05-28-regional,es-psoe,regional_parliament,614296,18.18,27,Candidatura: PSOE,https://www.bocm.es/boletin/CM_Orden_BOCM/2023/06/09/BOCM-20230609-72.PDF
+es-md-elec-2023-05-28-regional,es-vox,regional_parliament,248379,7.35,11,Candidatura: Vox,https://www.bocm.es/boletin/CM_Orden_BOCM/2023/06/09/BOCM-20230609-72.PDF
+es-ml-elec-2023-05-28-regional,es-pp,regional_parliament,15640,52.57,14,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2023_Melilla_Assembly_election&oldid=1370711961
+es-ml-elec-2023-05-28-regional,es-cpm,regional_parliament,5590,18.79,5,Candidatura: CpM,https://en.wikipedia.org/w/index.php?title=2023_Melilla_Assembly_election&oldid=1370711961
+es-ml-elec-2023-05-28-regional,es-psoe,regional_parliament,3206,10.78,3,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2023_Melilla_Assembly_election&oldid=1370711961
+es-ml-elec-2023-05-28-regional,es-vox,regional_parliament,2957,9.94,2,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2023_Melilla_Assembly_election&oldid=1370711961
+es-ml-elec-2023-05-28-regional,es-somos-melilla,regional_parliament,1524,5.12,1,Candidatura: SML,https://en.wikipedia.org/w/index.php?title=2023_Melilla_Assembly_election&oldid=1370711961
+es-mc-elec-2023-05-28-regional,es-pp,regional_parliament,293051,42.79,21,Candidatura: PP,https://www.juntaelectoralcentral.es/cs/jec/documentos/Resultados%20definitivos.pdf
+es-mc-elec-2023-05-28-regional,es-psoe,regional_parliament,175505,25.62,13,Candidatura: PSOE,https://www.juntaelectoralcentral.es/cs/jec/documentos/Resultados%20definitivos.pdf
+es-mc-elec-2023-05-28-regional,es-vox,regional_parliament,121321,17.71,9,Candidatura: Vox,https://www.juntaelectoralcentral.es/cs/jec/documentos/Resultados%20definitivos.pdf
+es-mc-elec-2023-05-28-regional,es-podemos-iu-av,regional_parliament,32173,4.69,2,Candidatura: Podemos–IU–AV,https://www.juntaelectoralcentral.es/cs/jec/documentos/Resultados%20definitivos.pdf
+es-nc-elec-2023-05-28-regional,es-upn,regional_parliament,92392,28.01,15,Candidatura: UPN,https://en.wikipedia.org/w/index.php?title=2023_Navarrese_regional_election&oldid=1377204243
+es-nc-elec-2023-05-28-regional,es-psoe,regional_parliament,68247,20.69,11,Candidatura: PSN–PSOE,https://en.wikipedia.org/w/index.php?title=2023_Navarrese_regional_election&oldid=1377204243
+es-nc-elec-2023-05-28-regional,es-eh-bildu,regional_parliament,56535,17.14,9,Candidatura: EH Bildu,https://en.wikipedia.org/w/index.php?title=2023_Navarrese_regional_election&oldid=1377204243
+es-nc-elec-2023-05-28-regional,es-geroa-bai,regional_parliament,43660,13.24,7,Candidatura: GBai,https://en.wikipedia.org/w/index.php?title=2023_Navarrese_regional_election&oldid=1377204243
+es-nc-elec-2023-05-28-regional,es-pp,regional_parliament,24019,7.28,3,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2023_Navarrese_regional_election&oldid=1377204243
+es-nc-elec-2023-05-28-regional,es-contigo-zurekin,regional_parliament,20095,6.09,3,Candidatura: Contigo/Zurekin,https://en.wikipedia.org/w/index.php?title=2023_Navarrese_regional_election&oldid=1377204243
+es-nc-elec-2023-05-28-regional,es-vox,regional_parliament,14197,4.3,2,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2023_Navarrese_regional_election&oldid=1377204243
+es-ri-elec-2023-05-28-regional,es-pp,regional_parliament,76205,45.38,17,Candidatura: PP,https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=25595069-1-PDF-554640-X
+es-ri-elec-2023-05-28-regional,es-psoe,regional_parliament,53562,31.9,12,Candidatura: PSOE,https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=25595069-1-PDF-554640-X
+es-ri-elec-2023-05-28-regional,es-vox,regional_parliament,12773,7.61,2,Candidatura: Vox,https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=25595069-1-PDF-554640-X
+es-ri-elec-2023-05-28-regional,es-podemos-iu,regional_parliament,8543,5.09,2,Candidatura: Podemos–IU,https://ias1.larioja.org/boletin/Bor_Boletin_visor_Servlet?referencia=25595069-1-PDF-554640-X
+es-vc-elec-2023-05-28-regional,es-pp,regional_parliament,881893,35.75,40,Candidatura: PP,https://dogv.gva.es/datos/2023/06/15/pdf/2023_6826.pdf
+es-vc-elec-2023-05-28-regional,es-psoe,regional_parliament,708142,28.7,31,Candidatura: PSPV–PSOE,https://dogv.gva.es/datos/2023/06/15/pdf/2023_6826.pdf
+es-vc-elec-2023-05-28-regional,es-compromis,regional_parliament,357989,14.51,15,Candidatura: Compromís,https://dogv.gva.es/datos/2023/06/15/pdf/2023_6826.pdf
+es-vc-elec-2023-05-28-regional,es-vox,regional_parliament,310184,12.57,13,Candidatura: Vox,https://dogv.gva.es/datos/2023/06/15/pdf/2023_6826.pdf
+es-pv-elec-2024-04-21-regional,es-pnv,regional_parliament,372456,34.82,27,Candidatura: EAJ/PNV,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2024/05/2402188a.pdf
+es-pv-elec-2024-04-21-regional,es-eh-bildu,regional_parliament,343609,32.13,27,Candidatura: EH Bildu,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2024/05/2402188a.pdf
+es-pv-elec-2024-04-21-regional,es-psoe,regional_parliament,150752,14.09,12,Candidatura: PSE–EE (PSOE),https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2024/05/2402188a.pdf
+es-pv-elec-2024-04-21-regional,es-pp,regional_parliament,98144,9.18,7,Candidatura: PP,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2024/05/2402188a.pdf
+es-pv-elec-2024-04-21-regional,es-sumar,regional_parliament,35402,3.31,1,Candidatura: Sumar,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2024/05/2402188a.pdf
+es-pv-elec-2024-04-21-regional,es-vox,regional_parliament,21696,2.03,1,Candidatura: Vox,https://www.euskadi.eus/web01-bopv/es/bopv2/datos/2024/05/2402188a.pdf
+es-ct-elec-2024-05-12-regional,es-psc,regional_parliament,882589,27.96,42,Candidatura: PSC–PSOE,https://portaldogc.gencat.cat/utilsEADOP/PDF/9178/2031851.pdf
+es-ct-elec-2024-05-12-regional,es-junts,regional_parliament,681470,21.59,35,Candidatura: Cat–Junts+,https://portaldogc.gencat.cat/utilsEADOP/PDF/9178/2031851.pdf
+es-ct-elec-2024-05-12-regional,es-erc,regional_parliament,431128,13.66,20,Candidatura: ERC,https://portaldogc.gencat.cat/utilsEADOP/PDF/9178/2031851.pdf
+es-ct-elec-2024-05-12-regional,es-pp,regional_parliament,347170,11.0,15,Candidatura: PP,https://portaldogc.gencat.cat/utilsEADOP/PDF/9178/2031851.pdf
+es-ct-elec-2024-05-12-regional,es-vox,regional_parliament,251096,7.95,11,Candidatura: Vox,https://portaldogc.gencat.cat/utilsEADOP/PDF/9178/2031851.pdf
+es-ct-elec-2024-05-12-regional,es-comuns-sumar,regional_parliament,184297,5.84,6,Candidatura: Comuns Sumar,https://portaldogc.gencat.cat/utilsEADOP/PDF/9178/2031851.pdf
+es-ct-elec-2024-05-12-regional,es-cup,regional_parliament,129059,4.09,4,Candidatura: CUP–DT,https://portaldogc.gencat.cat/utilsEADOP/PDF/9178/2031851.pdf
+es-ct-elec-2024-05-12-regional,es-alianca-catalana,regional_parliament,119149,3.77,2,Candidatura: Aliança.cat,https://portaldogc.gencat.cat/utilsEADOP/PDF/9178/2031851.pdf
+es-ga-elec-2024-02-18-regional,es-pp,regional_parliament,711713,47.39,40,Candidatura: PP,https://www.xunta.gal/dog/Publicados/2024/20240306/AnuncioG2453-050324-1_es.pdf
+es-ga-elec-2024-02-18-regional,es-bng,regional_parliament,470692,31.34,25,Candidatura: BNG,https://www.xunta.gal/dog/Publicados/2024/20240306/AnuncioG2453-050324-1_es.pdf
+es-ga-elec-2024-02-18-regional,es-psoe,regional_parliament,211361,14.07,9,Candidatura: PSdeG–PSOE,https://www.xunta.gal/dog/Publicados/2024/20240306/AnuncioG2453-050324-1_es.pdf
+es-ga-elec-2024-02-18-regional,es-do,regional_parliament,15442,1.03,1,Candidatura: DO,https://www.xunta.gal/dog/Publicados/2024/20240306/AnuncioG2453-050324-1_es.pdf
+es-ex-elec-2025-12-21-regional,es-pp,regional_parliament,228991,43.12,29,Candidatura: PP,https://doe.juntaex.es/pdfs/doe/2026/80o/26AC0001.pdf
+es-ex-elec-2025-12-21-regional,es-psoe,regional_parliament,136838,25.77,18,Candidatura: PSOE,https://doe.juntaex.es/pdfs/doe/2026/80o/26AC0001.pdf
+es-ex-elec-2025-12-21-regional,es-vox,regional_parliament,89768,16.9,11,Candidatura: Vox,https://doe.juntaex.es/pdfs/doe/2026/80o/26AC0001.pdf
+es-ex-elec-2025-12-21-regional,es-unidas-por-extremadura,regional_parliament,54541,10.27,7,Candidatura: Podemos–IU–AV,https://doe.juntaex.es/pdfs/doe/2026/80o/26AC0001.pdf
+es-an-elec-2026-05-17-regional,es-pp,regional_parliament,1744728,41.56,53,Candidatura: PP,https://www.juntadeandalucia.es/eboja/2026/108/BOJA26-108-00091-7541-01_00338776.pdf
+es-an-elec-2026-05-17-regional,es-psoe,regional_parliament,955584,22.76,28,Candidatura: PSOE–A,https://www.juntadeandalucia.es/eboja/2026/108/BOJA26-108-00091-7541-01_00338776.pdf
+es-an-elec-2026-05-17-regional,es-vox,regional_parliament,580293,13.82,15,Candidatura: Vox,https://www.juntadeandalucia.es/eboja/2026/108/BOJA26-108-00091-7541-01_00338776.pdf
+es-an-elec-2026-05-17-regional,es-adelante-andalucia,regional_parliament,403560,9.61,8,Candidatura: Adelante Andalucía,https://www.juntadeandalucia.es/eboja/2026/108/BOJA26-108-00091-7541-01_00338776.pdf
+es-an-elec-2026-05-17-regional,es-por-andalucia,regional_parliament,266213,6.34,5,Candidatura: IU–Podemos–MS–IdPA–VQ–ALTER–AV,https://www.juntadeandalucia.es/eboja/2026/108/BOJA26-108-00091-7541-01_00338776.pdf
+es-ar-elec-2026-02-08-regional,es-pp,regional_parliament,228388,34.17,26,Candidatura: PP,https://en.wikipedia.org/w/index.php?title=2026_Aragonese_regional_election&oldid=1380864632
+es-ar-elec-2026-02-08-regional,es-psoe,regional_parliament,162925,24.38,18,Candidatura: PSOE,https://en.wikipedia.org/w/index.php?title=2026_Aragonese_regional_election&oldid=1380864632
+es-ar-elec-2026-02-08-regional,es-vox,regional_parliament,119281,17.85,14,Candidatura: Vox,https://en.wikipedia.org/w/index.php?title=2026_Aragonese_regional_election&oldid=1380864632
+es-ar-elec-2026-02-08-regional,es-cha,regional_parliament,65118,9.74,6,Candidatura: CHA,https://en.wikipedia.org/w/index.php?title=2026_Aragonese_regional_election&oldid=1380864632
+es-ar-elec-2026-02-08-regional,es-existe,regional_parliament,23616,3.53,2,Candidatura: Existe,https://en.wikipedia.org/w/index.php?title=2026_Aragonese_regional_election&oldid=1380864632
+es-ar-elec-2026-02-08-regional,es-iu,regional_parliament,19832,2.97,1,Candidatura: IU–MS,https://en.wikipedia.org/w/index.php?title=2026_Aragonese_regional_election&oldid=1380864632
+es-cl-elec-2026-03-15-regional,es-pp,regional_parliament,444296,35.39,33,Candidatura: PP,https://bocyl.jcyl.es/boletines/2026/04/29/pdf/BOCYL-D-29042026-80-13.pdf
+es-cl-elec-2026-03-15-regional,es-psoe,regional_parliament,386774,30.81,30,Candidatura: PSOE,https://bocyl.jcyl.es/boletines/2026/04/29/pdf/BOCYL-D-29042026-80-13.pdf
+es-cl-elec-2026-03-15-regional,es-vox,regional_parliament,237100,18.89,14,Candidatura: Vox,https://bocyl.jcyl.es/boletines/2026/04/29/pdf/BOCYL-D-29042026-80-13.pdf
+es-cl-elec-2026-03-15-regional,es-upl,regional_parliament,54096,4.31,3,Candidatura: UPL,https://bocyl.jcyl.es/boletines/2026/04/29/pdf/BOCYL-D-29042026-80-13.pdf
+es-cl-elec-2026-03-15-regional,es-xav,regional_parliament,11518,0.92,1,Candidatura: XAV,https://bocyl.jcyl.es/boletines/2026/04/29/pdf/BOCYL-D-29042026-80-13.pdf
+es-cl-elec-2026-03-15-regional,es-soria-ya,regional_parliament,9145,0.73,1,Candidatura: SY,https://bocyl.jcyl.es/boletines/2026/04/29/pdf/BOCYL-D-29042026-80-13.pdf
+es-ct-08019-elec-2011-05-22-municipal,es-ciu,municipal_council,174122,28.73,14,Candidatura: CONVERGÈNCIA I UNIÓ,https://www.boe.es/boe/dias/2011/07/25/pdfs/BOE-A-2011-12849.pdf
+es-ct-08019-elec-2011-05-22-municipal,es-psc,municipal_council,134193,22.14,11,Candidatura: PARTIT DELS SOCIALISTES DE CATALUNYA-PROGRÉS MUNICIPAL,https://www.boe.es/boe/dias/2011/07/25/pdfs/BOE-A-2011-12849.pdf
+es-ct-08019-elec-2011-05-22-municipal,es-pp,municipal_council,104475,17.24,9,Candidatura: PARTIDO POPULAR/PARTIT POPULAR,https://www.boe.es/boe/dias/2011/07/25/pdfs/BOE-A-2011-12849.pdf
+es-ct-08019-elec-2011-05-22-municipal,es-icv-euia,municipal_council,62979,10.39,5,Candidatura: INICIATIVA PER CATALUNYA VERDS-ESQUERRA UNIDA I ALTERNATIVA-ENTESA,https://www.boe.es/boe/dias/2011/07/25/pdfs/BOE-A-2011-12849.pdf
+es-ct-08019-elec-2011-05-22-municipal,es-upb,municipal_council,33900,5.59,2,Candidatura: UNITAT PER BARCELONA-ESQUERRA REPUBLICANA DE CATALUNYA-REAGRUPAMENT-DEMOCRÀCIA CATALANA-ACORD MUNICIPAL,https://www.boe.es/boe/dias/2011/07/25/pdfs/BOE-A-2011-12849.pdf
+es-ct-08019-elec-2015-05-24-municipal,es-bcomu,municipal_council,176612,25.21,11,Candidatura: BARCELONA EN COMÚ (GUANYEM BARCELONA)-ENTESA,https://www.boe.es/boe/dias/2015/07/04/pdfs/BOE-A-2015-7487.pdf
+es-ct-08019-elec-2015-05-24-municipal,es-ciu,municipal_council,159393,22.75,10,Candidatura: CONVERGÈNCIA I UNIÓ,https://www.boe.es/boe/dias/2015/07/04/pdfs/BOE-A-2015-7487.pdf
+es-ct-08019-elec-2015-05-24-municipal,es-cs,municipal_council,77272,11.03,5,Candidatura: CIUTADANS-PARTIDO DE LA CIUDADANÍA,https://www.boe.es/boe/dias/2015/07/04/pdfs/BOE-A-2015-7487.pdf
+es-ct-08019-elec-2015-05-24-municipal,es-erc,municipal_council,77120,11.01,5,Candidatura: ESQUERRA REPUBLICANA DE CATALUNYA-MOVIMENT D'ESQUERRES-BARCELONA CIUTAT OBERTA-AVANCEM-CATALUNYA SÍ-ACORD MUNICIPAL,https://www.boe.es/boe/dias/2015/07/04/pdfs/BOE-A-2015-7487.pdf
+es-ct-08019-elec-2015-05-24-municipal,es-psc,municipal_council,67489,9.63,4,Candidatura: PARTIT DELS SOCIALISTES DE CATALUNYA-CANDIDATURA DE PROGRÉS,https://www.boe.es/boe/dias/2015/07/04/pdfs/BOE-A-2015-7487.pdf
+es-ct-08019-elec-2015-05-24-municipal,es-pp,municipal_council,61004,8.71,3,Candidatura: PARTIT POPULAR/PARTIDO POPULAR,https://www.boe.es/boe/dias/2015/07/04/pdfs/BOE-A-2015-7487.pdf
+es-ct-08019-elec-2015-05-24-municipal,es-cup,municipal_council,51945,7.42,3,Candidatura: CANDIDATURA D'UNITAT POPULAR-CAPGIREM BARCELONA-POBLE ACTIU,https://www.boe.es/boe/dias/2015/07/04/pdfs/BOE-A-2015-7487.pdf
+es-ct-08019-elec-2019-05-26-municipal,es-erc,municipal_council,161189,21.37,10,Candidatura: ESQUERRA REPUBLICANA DE CATALUNYA - ERNEST MARAGALL ALCALDE + BCN - NOVA - ACORD MUNICIPAL (ERC + BCN - NOVA - AM),https://www.boe.es/boe/dias/2019/07/15/pdfs/BOE-A-2019-10437.pdf
+es-ct-08019-elec-2019-05-26-municipal,es-bcomu,municipal_council,156493,20.74,10,Candidatura: BARCELONA EN COMÚ - EN COMÚ GUANYEM (BARCELONA EN COMÚ-ECG),https://www.boe.es/boe/dias/2019/07/15/pdfs/BOE-A-2019-10437.pdf
+es-ct-08019-elec-2019-05-26-municipal,es-psc,municipal_council,138885,18.41,8,Candidatura: PARTIT DELS SOCIALISTES DE CATALUNYA-COMPROMÍS PER BARCELONA-UNITS-CANDIDATURA DE PROGRÉS (PSC-CP),https://www.boe.es/boe/dias/2019/07/15/pdfs/BOE-A-2019-10437.pdf
+es-ct-08019-elec-2019-05-26-municipal,es-bcn-canvi-cs,municipal_council,99452,13.18,6,Candidatura: BARCELONA PEL CANVI-CIUTADANS (BCN Canvi-Cs),https://www.boe.es/boe/dias/2019/07/15/pdfs/BOE-A-2019-10437.pdf
+es-ct-08019-elec-2019-05-26-municipal,es-jxcat,municipal_council,79280,10.51,5,Candidatura: JUNTS (JUNTS),https://www.boe.es/boe/dias/2019/07/15/pdfs/BOE-A-2019-10437.pdf
+es-ct-08019-elec-2019-05-26-municipal,es-pp,municipal_council,37786,5.01,2,Candidatura: PARTIT POPULAR /PARTIDO POPULAR (PP),https://www.boe.es/boe/dias/2019/07/15/pdfs/BOE-A-2019-10437.pdf
+es-ct-08019-elec-2023-05-28-municipal,es-trias-per-barcelona,municipal_council,149479,22.45,11,Candidatura: Trias per Barcelona-Compromís Municipal (Trias×BCN-CM),https://ajuntament.barcelona.cat/sites/default/files/acta_cp_170623_Constituci%C3%B3_es.pdf
+es-ct-08019-elec-2023-05-28-municipal,es-psc,municipal_council,131923,19.82,10,Candidatura: Partit dels Socialistes de Catalunya-Bo per Barcelona-Units Candidatura de Progrés (PSC-CP),https://ajuntament.barcelona.cat/sites/default/files/acta_cp_170623_Constituci%C3%B3_es.pdf
+es-ct-08019-elec-2023-05-28-municipal,es-bcomu,municipal_council,131581,19.76,9,Candidatura: Barcelona en Comú-Confluència,https://ajuntament.barcelona.cat/sites/default/files/acta_cp_170623_Constituci%C3%B3_es.pdf
+es-ct-08019-elec-2023-05-28-municipal,es-erc,municipal_council,74804,11.24,5,Candidatura: Esquerra Republicana de Catalunya-Acord Municipal (ERC-AM),https://ajuntament.barcelona.cat/sites/default/files/acta_cp_170623_Constituci%C3%B3_es.pdf
+es-ct-08019-elec-2023-05-28-municipal,es-pp,municipal_council,61362,9.22,4,Candidatura: Partido Popular/Partit Popular,https://ajuntament.barcelona.cat/sites/default/files/acta_cp_170623_Constituci%C3%B3_es.pdf
+es-ct-08019-elec-2023-05-28-municipal,es-vox,municipal_council,37990,5.71,2,Candidatura: Vox,https://ajuntament.barcelona.cat/sites/default/files/acta_cp_170623_Constituci%C3%B3_es.pdf
+es-md-28079-elec-2011-05-22-municipal,es-pp,municipal_council,756952,49.69,31,Candidatura: PP,https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-3-elecciones-ayuntamiento-madrid-xls/download/210285-3-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2011-05-22-municipal,es-psoe,municipal_council,364600,23.93,15,Candidatura: PSOE,https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-3-elecciones-ayuntamiento-madrid-xls/download/210285-3-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2011-05-22-municipal,es-iu,municipal_council,163706,10.75,6,Candidatura: IU-LV (Izquierda Unida-Los Verdes),https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-3-elecciones-ayuntamiento-madrid-xls/download/210285-3-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2011-05-22-municipal,es-upyd,municipal_council,119601,7.85,5,Candidatura: UPyD,https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-3-elecciones-ayuntamiento-madrid-xls/download/210285-3-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2015-05-24-municipal,es-pp,municipal_council,564154,34.57,21,Candidatura: P.P. (Partido Popular),https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-0-elecciones-ayuntamiento-madrid-xls/download/210285-0-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2015-05-24-municipal,es-ahora-madrid,municipal_council,519721,31.84,20,Candidatura: Ahora Madrid,https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-0-elecciones-ayuntamiento-madrid-xls/download/210285-0-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2015-05-24-municipal,es-psoe,municipal_council,249286,15.27,9,Candidatura: PSOE,https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-0-elecciones-ayuntamiento-madrid-xls/download/210285-0-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2015-05-24-municipal,es-cs,municipal_council,186487,11.43,7,Candidatura: C's (Ciudadanos-Partido de la Ciudadanía),https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-0-elecciones-ayuntamiento-madrid-xls/download/210285-0-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2019-05-26-municipal,es-mas-madrid,municipal_council,505159,30.99,19,Candidatura: MAS MADRID (Más Madrid),https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-2-elecciones-ayuntamiento-madrid-xls/download/210285-2-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2019-05-26-municipal,es-pp,municipal_council,395344,24.25,15,Candidatura: P.P. (Partido Popular),https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-2-elecciones-ayuntamiento-madrid-xls/download/210285-2-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2019-05-26-municipal,es-cs,municipal_council,312536,19.17,11,Candidatura: Cs (Ciudadanos-Partido de la Ciudadanía),https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-2-elecciones-ayuntamiento-madrid-xls/download/210285-2-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2019-05-26-municipal,es-psoe,municipal_council,224074,13.75,8,Candidatura: P.S.O.E.,https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-2-elecciones-ayuntamiento-madrid-xls/download/210285-2-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2019-05-26-municipal,es-vox,municipal_council,124969,7.67,4,Candidatura: VOX,https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-2-elecciones-ayuntamiento-madrid-xls/download/210285-2-elecciones-ayuntamiento-madrid-xls.xls
+es-md-28079-elec-2023-05-28-municipal,es-pp,municipal_council,729304,44.49,29,Candidatura: PP (Partido Popular),https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-1-elecciones-ayuntamiento-madrid-xlsx/download/210285-1-elecciones-ayuntamiento-madrid-xlsx.xlsx
+es-md-28079-elec-2023-05-28-municipal,es-mas-madrid,municipal_council,313712,19.14,12,Candidatura: MM-VQ (Más Madrid-Verdes Equo),https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-1-elecciones-ayuntamiento-madrid-xlsx/download/210285-1-elecciones-ayuntamiento-madrid-xlsx.xlsx
+es-md-28079-elec-2023-05-28-municipal,es-psoe,municipal_council,274786,16.76,11,Candidatura: PSOE (Partido Socialista Obrero Español),https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-1-elecciones-ayuntamiento-madrid-xlsx/download/210285-1-elecciones-ayuntamiento-madrid-xlsx.xlsx
+es-md-28079-elec-2023-05-28-municipal,es-vox,municipal_council,148994,9.09,5,Candidatura: VOX,https://datos.madrid.es/dataset/210285-0-elecciones-ayuntamiento-madrid/resource/210285-1-elecciones-ayuntamiento-madrid-xlsx/download/210285-1-elecciones-ayuntamiento-madrid-xlsx.xlsx

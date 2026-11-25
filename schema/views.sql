@@ -2,11 +2,14 @@
 -- The `entities` view (union of every entity table) is generated automatically from schema/tables.yaml.
 -- Each view starts with a "-- view: <name> — <description>" line; SCHEMA.md is generated from those lines.
 
--- view: v_governments — Governments with head's name and governing / supporting parties (comma lists; check government_parties for dates).
+-- view: v_governments — Governments with head's name and governing / supporting parties. A partner that joined late or left early shows its dates, e.g. "es-vox (2023-07-11→2024-07-11)".
 CREATE VIEW v_governments AS
 SELECT g.*,
        p.name AS head_name,
-       (SELECT string_agg(gp.party_id, ', ' ORDER BY gp.party_id) FROM government_parties gp
+       (SELECT string_agg(gp.party_id ||
+                 CASE WHEN gp.valid_from > g.valid_from OR (gp.valid_to IS NOT NULL AND gp.valid_to < coalesce(g.valid_to, DATE '9999-12-31'))
+                      THEN ' (' || gp.valid_from || '→' || coalesce(CAST(gp.valid_to AS VARCHAR), '') || ')' ELSE '' END,
+                 ', ' ORDER BY gp.party_id) FROM government_parties gp
          WHERE gp.government_id = g.government_id AND gp.role = 'governing') AS governing_parties,
        (SELECT string_agg(gp.party_id || ' (' || gp.role || ')', ', ' ORDER BY gp.party_id) FROM government_parties gp
          WHERE gp.government_id = g.government_id AND gp.role <> 'governing') AS support_parties

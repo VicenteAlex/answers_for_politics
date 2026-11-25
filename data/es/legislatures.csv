@@ -1,1 +1,74 @@
 legislature_id,jurisdiction_id,body,number,valid_from,valid_to,election_id
+es-leg-constituyente,es,Cortes Generales,Constituyente,1977-07-13,1978-12-29,es-elec-1977-06-15-general
+es-leg-i,es,Cortes Generales,I,1979-03-23,1982-08-27,es-elec-1979-03-01-general
+es-leg-ii,es,Cortes Generales,II,1982-11-18,1986-04-22,es-elec-1982-10-28-general
+es-leg-iii,es,Cortes Generales,III,1986-07-15,1989-09-01,es-elec-1986-06-22-general
+es-leg-iv,es,Cortes Generales,IV,1989-11-21,1993-04-12,es-elec-1989-10-29-general
+es-leg-v,es,Cortes Generales,V,1993-06-29,1996-01-08,es-elec-1993-06-06-general
+es-leg-vi,es,Cortes Generales,VI,1996-03-27,2000-01-17,es-elec-1996-03-03-general
+es-leg-vii,es,Cortes Generales,VII,2000-04-05,2004-01-19,es-elec-2000-03-12-general
+es-leg-viii,es,Cortes Generales,VIII,2004-04-02,2008-01-14,es-elec-2004-03-14-general
+es-leg-ix,es,Cortes Generales,IX,2008-04-01,2011-09-26,es-elec-2008-03-09-general
+es-leg-x,es,Cortes Generales,X,2011-12-13,2015-10-26,es-elec-2011-11-20-general
+es-leg-xi,es,Cortes Generales,XI,2016-01-13,2016-05-03,es-elec-2015-12-20-general
+es-leg-xii,es,Cortes Generales,XII,2016-07-19,2019-03-04,es-elec-2016-06-26-general
+es-leg-xiii,es,Cortes Generales,XIII,2019-05-21,2019-09-24,es-elec-2019-04-28-general
+es-leg-xiv,es,Cortes Generales,XIV,2019-12-03,2023-05-29,es-elec-2019-11-10-general
+es-leg-xv,es,Cortes Generales,XV,2023-08-17,2026-10-05,es-elec-2023-07-23-general
+es-an-leg-x,es-an,Parlamento de Andalucía,X,2015-04-16,2018-10-09,es-an-elec-2015-03-22-regional
+es-an-leg-xi,es-an,Parlamento de Andalucía,XI,2018-12-27,2022-04-26,es-an-elec-2018-12-02-regional
+es-an-leg-xii,es-an,Parlamento de Andalucía,XII,2022-07-14,2026-03-24,es-an-elec-2022-06-19-regional
+es-an-leg-xiii,es-an,Parlamento de Andalucía,XIII,2026-06-11,,es-an-elec-2026-05-17-regional
+es-ar-leg-ix,es-ar,Cortes de Aragón,IX,2015-06-18,2019-04-02,es-ar-elec-2015-05-24-regional
+es-ar-leg-x,es-ar,Cortes de Aragón,X,2019-06-20,2023-04-04,es-ar-elec-2019-05-26-regional
+es-ar-leg-xi,es-ar,Cortes de Aragón,XI,2023-06-23,2025-12-16,es-ar-elec-2023-05-28-regional
+es-ar-leg-xii,es-ar,Cortes de Aragón,XII,2026-03-03,,es-ar-elec-2026-02-08-regional
+es-as-leg-x,es-as,Junta General del Principado de Asturias,X,2015-06-16,2019-04-02,es-as-elec-2015-05-24-regional
+es-as-leg-xi,es-as,Junta General del Principado de Asturias,XI,2019-06-24,2023-04-04,es-as-elec-2019-05-26-regional
+es-as-leg-xii,es-as,Junta General del Principado de Asturias,XII,2023-06-26,,es-as-elec-2023-05-28-regional
+es-ib-leg-ix,es-ib,Parlamento de las Illes Balears,IX,2015-06-18,2019-04-02,es-ib-elec-2015-05-24-regional
+es-ib-leg-x,es-ib,Parlamento de las Illes Balears,X,2019-06-20,2023-04-04,es-ib-elec-2019-05-26-regional
+es-ib-leg-xi,es-ib,Parlamento de las Illes Balears,XI,2023-06-20,,es-ib-elec-2023-05-28-regional
+es-cn-leg-ix,es-cn,Parlamento de Canarias,IX,2015-06-23,2019-04-02,es-cn-elec-2015-05-24-regional
+es-cn-leg-x,es-cn,Parlamento de Canarias,X,2019-06-25,2023-04-04,es-cn-elec-2019-05-26-regional
+es-cn-leg-xi,es-cn,Parlamento de Canarias,XI,2023-06-27,,es-cn-elec-2023-05-28-regional
+es-cb-leg-ix,es-cb,Parlamento de Cantabria,IX,2015-06-18,2019-04-02,es-cb-elec-2015-05-24-regional
+es-cb-leg-x,es-cb,Parlamento de Cantabria,X,2019-06-20,2023-04-04,es-cb-elec-2019-05-26-regional
+es-cb-leg-xi,es-cb,Parlamento de Cantabria,XI,2023-06-22,,es-cb-elec-2023-05-28-regional
+es-cl-leg-ix,es-cl,Cortes de Castilla y León,IX,2015-06-16,2019-04-02,es-cl-elec-2015-05-24-regional
+es-cl-leg-x,es-cl,Cortes de Castilla y León,X,2019-06-21,2021-12-21,es-cl-elec-2019-05-26-regional
+es-cl-leg-xi,es-cl,Cortes de Castilla y León,XI,2022-03-10,2026-01-20,es-cl-elec-2022-02-13-regional
+es-cl-leg-xii,es-cl,Cortes de Castilla y León,XII,2026-04-14,,es-cl-elec-2026-03-15-regional
+es-cm-leg-ix,es-cm,Cortes de Castilla-La Mancha,IX,2015-06-18,2019-04-02,es-cm-elec-2015-05-24-regional
+es-cm-leg-x,es-cm,Cortes de Castilla-La Mancha,X,2019-06-19,2023-04-04,es-cm-elec-2019-05-26-regional
+es-cm-leg-xi,es-cm,Cortes de Castilla-La Mancha,XI,2023-06-22,,es-cm-elec-2023-05-28-regional
+es-ct-leg-xi,es-ct,Parlament de Catalunya,XI,2015-10-26,2017-10-28,es-ct-elec-2015-09-27-regional
+es-ct-leg-xii,es-ct,Parlament de Catalunya,XII,2018-01-17,2020-12-22,es-ct-elec-2017-12-21-regional
+es-ct-leg-xiv,es-ct,Parlament de Catalunya,XIV,2021-03-12,2024-03-19,es-ct-elec-2021-02-14-regional
+es-ct-leg-xv,es-ct,Parlament de Catalunya,XV,2024-06-10,,es-ct-elec-2024-05-12-regional
+es-vc-leg-ix,es-vc,Corts Valencianes,IX,2015-06-11,2019-03-05,es-vc-elec-2015-05-24-regional
+es-vc-leg-x,es-vc,Corts Valencianes,X,2019-05-16,2023-04-04,es-vc-elec-2019-04-28-regional
+es-vc-leg-xi,es-vc,Corts Valencianes,XI,2023-06-26,,es-vc-elec-2023-05-28-regional
+es-ex-leg-ix,es-ex,Asamblea de Extremadura,IX,2015-06-23,2019-04-02,es-ex-elec-2015-05-24-regional
+es-ex-leg-x,es-ex,Asamblea de Extremadura,X,2019-06-18,2023-04-04,es-ex-elec-2019-05-26-regional
+es-ex-leg-xi,es-ex,Asamblea de Extremadura,XI,2023-06-20,2025-10-28,es-ex-elec-2023-05-28-regional
+es-ex-leg-xii,es-ex,Asamblea de Extremadura,XII,2026-01-20,,es-ex-elec-2025-12-21-regional
+es-ga-leg-x,es-ga,Parlamento de Galicia,X,2016-10-21,2020-02-11,es-ga-elec-2016-09-25-regional
+es-ga-leg-xi,es-ga,Parlamento de Galicia,XI,2020-08-07,2023-12-26,es-ga-elec-2020-07-12-regional
+es-ga-leg-xii,es-ga,Parlamento de Galicia,XII,2024-03-18,,es-ga-elec-2024-02-18-regional
+es-md-leg-x,es-md,Asamblea de Madrid,X,2015-06-09,2019-04-02,es-md-elec-2015-05-24-regional
+es-md-leg-xi,es-md,Asamblea de Madrid,XI,2019-06-11,2021-03-11,es-md-elec-2019-05-26-regional
+es-md-leg-xii,es-md,Asamblea de Madrid,XII,2021-06-08,2023-04-04,es-md-elec-2021-05-04-regional
+es-md-leg-xiii,es-md,Asamblea de Madrid,XIII,2023-06-13,,es-md-elec-2023-05-28-regional
+es-mc-leg-ix,es-mc,Asamblea Regional de Murcia,IX,2015-06-15,2019-04-02,es-mc-elec-2015-05-24-regional
+es-mc-leg-x,es-mc,Asamblea Regional de Murcia,X,2019-06-11,2023-04-04,es-mc-elec-2019-05-26-regional
+es-mc-leg-xi,es-mc,Asamblea Regional de Murcia,XI,2023-06-14,,es-mc-elec-2023-05-28-regional
+es-nc-leg-ix,es-nc,Parlamento de Navarra,IX,2015-06-17,2019-04-02,es-nc-elec-2015-05-24-regional
+es-nc-leg-x,es-nc,Parlamento de Navarra,X,2019-06-19,2023-04-04,es-nc-elec-2019-05-26-regional
+es-nc-leg-xi,es-nc,Parlamento de Navarra,XI,2023-06-16,,es-nc-elec-2023-05-28-regional
+es-pv-leg-xi,es-pv,Parlamento Vasco,XI,2016-10-21,2020-02-11,es-pv-elec-2016-09-25-regional
+es-pv-leg-xii,es-pv,Parlamento Vasco,XII,2020-08-03,2024-02-27,es-pv-elec-2020-07-12-regional
+es-pv-leg-xiii,es-pv,Parlamento Vasco,XIII,2024-05-14,,es-pv-elec-2024-04-21-regional
+es-ri-leg-ix,es-ri,Parlamento de La Rioja,IX,2015-06-18,2019-04-02,es-ri-elec-2015-05-24-regional
+es-ri-leg-x,es-ri,Parlamento de La Rioja,X,2019-06-20,2023-04-04,es-ri-elec-2019-05-26-regional
+es-ri-leg-xi,es-ri,Parlamento de La Rioja,XI,2023-06-22,,es-ri-elec-2023-05-28-regional

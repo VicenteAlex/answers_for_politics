@@ -24,3 +24,101 @@ es-salf,Se Acabó La Fiesta,SALF,electoral_group,state,es,,,"Concurrió a las eu
 es-ciu,Convergència i Unió,CiU,coalition,regional,es-ct,,,Histórica
 es-ucd,Unión de Centro Democrático,UCD,party,state,es,,,Histórica
 es-ap,Alianza Popular,AP,party,state,es,,,Histórica; predecesora del PP
+es-pce,Partido Comunista de España,PCE,party,state,es,,,En 1977-1982 sus candidaturas al Congreso incluían al PSUC en Cataluña (agregado en las fuentes secundarias usadas).
+es-psp-us,Partido Socialista Popular-Unidad Socialista,PSP-US,coalition,state,es,,,Candidatura de las elecciones generales de 1977.
+es-pdpc,Pacte Democràtic per Catalunya,PDPC,coalition,regional,es-ct,,,Candidatura de 1977 encabezada por Jordi Pujol.
+es-ucidcc,Unió del Centre i la Democràcia Cristiana de Catalunya,UCiDCC,coalition,regional,es-ct,,,Candidatura de 1977 (UDC y Centre Català).
+es-ec-fed,Esquerra de Catalunya-Front Electoral Democràtic,EC-FED,coalition,regional,es-ct,,,Candidatura de 1977 en la que concurrió ERC.
+es-ee,Euskadiko Ezkerra,EE,party,regional,es-pv,,,Concurrió como coalición en 1977; posteriormente partido.
+es-caic,Candidatura Aragonesa Independiente de Centro,CAIC,other,regional,es-ar,,,Candidatura de 1977; forma jurídica no verificada.
+es-cic,Candidatura Independiente de Centro,INDEP,other,regional,es-vc,,,Candidatura provincial de 1977 encabezada por José Miguel Ortí Bordás; circunscripción y forma jurídica no verificadas en fuente primaria.
+es-cd,Coalición Democrática,CD,coalition,state,es,,,Coalición de 1979 encabezada por Manuel Fraga (AP y otros).
+es-un,Unión Nacional,UN,coalition,state,es,,,Coalición de 1979 encabezada por Blas Piñar.
+es-pa,Partido Andalucista,PA,party,regional,es-an,,,En 1979 concurrió como Partido Socialista de Andalucía-Partido Andaluz (PSA-PA).
+es-hb,Herri Batasuna,HB,party,regional,es-pv,,,"Coalición de 1978, después partido; en 1986 concurrió mediante agrupaciones de electores provinciales."
+es-upc,Unión del Pueblo Canario,UPC,coalition,regional,es-cn,,,
+es-par,Partido Aragonés,PAR,party,regional,es-ar,,,Denominado Partido Aragonés Regionalista hasta 1990.
+es-ap-pdp,Alianza Popular-Partido Demócrata Popular,AP-PDP,coalition,state,es,,,"Coalición de 1982; incluía en algunas circunscripciones a UPN, PAR y UV."
+es-cds,Centro Democrático y Social,CDS,party,state,es,,,
+es-cp,Coalición Popular,CP,coalition,state,es,,,"Coalición de 1986 (AP, PDP, PL y aliados regionales)."
+es-uec,Unió de l'Esquerra Catalana,UEC,coalition,regional,es-ct,,,Candidatura de 1986 en Cataluña.
+es-cg,Coalición Galega,CG,party,regional,es-ga,,,
+es-aic,Agrupaciones Independientes de Canarias,AIC,party,regional,es-cn,,,Integrada después en Coalición Canaria.
+es-uv,Unió Valenciana,UV,party,regional,es-vc,,,
+es-upn-pp,Unión del Pueblo Navarro-Partido Popular,UPN-PP,coalition,regional,es-nc,,,"Candidatura conjunta en Navarra (1989, 1993, 1996, 2004, 2008, 2011, 2015, 2016)."
+es-pp-cdg,Partido Popular en coalición con Centristas de Galicia,PP-CdG,coalition,regional,es-ga,,,Candidatura de 1989 en Ourense (según el BOE).
+es-icv,Iniciativa per Catalunya Verds,ICV,party,regional,es-ct,,,"Concurrió como IC (1989, 1993), IC-EV (1996) e IC-V (2000)."
+es-ea,Eusko Alkartasuna,EA,party,regional,es-pv,,,
+es-pp-par,Partido Popular-Partido Aragonés,PP-PAR,coalition,regional,es-ar,,,"Candidatura conjunta en Aragón (1996, 2011, 2015, 2016)."
+es-cha,Chunta Aragonesista,CHA,party,regional,es-ar,,,
+es-icv-euia,Iniciativa per Catalunya Verds-Esquerra Unida i Alternativa,ICV-EUiA,coalition,regional,es-ct,,,Candidatura de 2004.
+es-entesa,Esquerra Unida del País Valencià-Izquierda Republicana: Entesa,ENTESA,coalition,regional,es-vc,,,Candidatura de 2004.
+es-na-bai,Nafarroa Bai,Na-Bai,coalition,regional,es-nc,,,
+es-upyd,Unión Progreso y Democracia,UPyD,party,state,es,,,
+es-izquierda-plural,La Izquierda Plural,LIP,coalition,state,es,,,"Coalición de 2011 encabezada por IU (con ICV-EUiA, CHA y otros)."
+es-amaiur,Amaiur,Amaiur,coalition,regional,es-pv,,,Coalición de 2011 (País Vasco y Navarra).
+es-pp-eu,Partido Popular-Extremadura Unida,PP-EU,coalition,regional,es-ex,,,Candidatura de 2011.
+es-cc-nc,Coalición Canaria-Nueva Canarias,CC-NC,coalition,regional,es-cn,,,Candidatura conjunta de 2011 (CC-NC-PNC) y de noviembre de 2019 (CCa-PNC-NC).
+es-foro,Foro de Ciudadanos,FAC,party,regional,es-as,,,Foro Asturias.
+es-geroa-bai,Geroa Bai,GBAI,coalition,regional,es-nc,,,
+es-unidad-popular,Unidad Popular,IU-UPeC,coalition,state,es,,,Coalición de 2015 encabezada por IU.
+es-compromis-podemos,Compromís-Podemos-És el moment,PODEMOS-COMPROMÍS,coalition,regional,es-vc,,,Candidatura de 2015.
+es-dl,Democràcia i Llibertat,DL,coalition,regional,es-ct,,,"Candidatura de 2015 (Convergència, Demòcrates, Reagrupament)."
+es-en-marea,En Marea,En Marea,coalition,regional,es-ga,,,"Candidatura de 2015 y 2016 (Podemos, En Marea, Anova, EU)."
+es-psoe-nca,Partido Socialista Obrero Español-Nueva Canarias,PSOE-NCa,coalition,regional,es-cn,,,Candidatura de 2015 y 2016 en Canarias.
+es-pp-foro,Partido Popular-Foro,PP-FORO,coalition,regional,es-as,,,"Candidatura conjunta en Asturias (2015, 2016, abril y noviembre de 2019)."
+es-podemos-alto-aragon,Podemos-Ahora Alto Aragón en Común,,coalition,regional,es-ar,,,Candidatura de 2015 en Huesca (según el BOE).
+es-en-comu-podem,En Comú Podem,ECP,coalition,regional,es-ct,,,"Candidatura de 2015, 2016 y 2019 (en 2016 y 2019: En Comú Podem-Guanyem el Canvi)."
+es-a-la-valenciana,Compromís-Podemos-EUPV: A la Valenciana,PODEMOS-COMPROMÍS-EUPV,coalition,regional,es-vc,,,Candidatura de 2016.
+es-cdc,Convergència Democràtica de Catalunya,CDC,party,regional,es-ct,,,Candidatura de 2016; refundado como PDeCAT en julio de 2016 (no verificado aquí).
+es-pdecat,Partit Demòcrata Europeu Català,PDeCAT,party,regional,es-ct,,,
+es-jxcat,Junts per Catalunya-Junts,JxCAT-JUNTS,coalition,regional,es-ct,,,Coalición electoral de abril y noviembre de 2019; distinta del partido Junts (es-junts).
+es-galicia-en-comun,En Común-Unidas Podemos (Galicia),PODEMOS-EU,coalition,regional,es-ga,,,Candidatura gallega de abril de 2019 (PODEMOS-EU-MAREAS EN COMÚN-EQUO) y noviembre de 2019 (PODEMOS-EU).
+es-navarra-suma,Navarra Suma,NA+,coalition,regional,es-nc,,,"Coalición de UPN, PP y Cs en Navarra (2019)."
+es-prc,Partido Regionalista de Cantabria,PRC,party,regional,es-cb,,,
+es-mas-pais,Más País,MÁS PAÍS,party,state,es,,,En noviembre de 2019 obtuvo escaños con la candidatura Más País-Equo (Madrid).
+es-mas-compromis,Más Compromís,MÁS COMPROMÍS,coalition,regional,es-vc,,,Candidatura de noviembre de 2019 (Más País y Compromís).
+es-teruel-existe,Agrupación de electores ¡Teruel Existe!,¡TERUEL EXISTE!,electoral_group,regional,es-ar,,,
+es-nueva-canarias,Nueva Canarias,NC,party,regional,es-cn,,,
+es-existe,Coalición Existe,Existe,coalition,regional,es-ar,,,Candidatura en las elecciones a las Cortes de Aragón de 2023 y 2026
+es-convocatoria-por-asturies,Convocatoria por Asturies IU-Más País-IAS,IU-MP-IAS,coalition,regional,es-as,,,
+es-mes-mallorca,Més per Mallorca,Més,party,regional,es-ib,,,
+es-mes-menorca,Més per Menorca,MxMe,party,regional,es-ib,,,
+es-el-pi,El Pi–Proposta per les Illes,El Pi,party,regional,es-ib,,,
+es-gxf,Gent per Formentera,GxF,party,local,es-ib,,,Concurrió en coalición: GxF+PSOE (2015) y GxF+PSOE+EUIB (2019)
+es-sa-unio,Sa Unió de Formentera,Sa Unió,coalition,local,es-ib,,,Coalición PP–Compromís amb Formentera según la fuente
+es-asg,Agrupación Socialista Gomera,ASG,party,local,es-cn,,,Partido insular (La Gomera)
+es-ahi,Agrupación Herreña Independiente,AHI,party,local,es-cn,,,Partido insular (El Hierro)
+es-si-podemos-canarias,Sí Podemos Canarias,Podemos-SSP-Equo,coalition,regional,es-cn,,,
+es-upl,Unión del Pueblo Leonés,UPL,party,regional,es-cl,,,
+es-xav,Por Ávila,XAV,party,local,es-cl,,,Partido de ámbito provincial (Ávila)
+es-soria-ya,Soria ¡Ya!,SY,other,local,es-cl,,,Plataforma de ámbito provincial (Soria); forma jurídica no verificada
+es-izquierda-ezkerra,Izquierda-Ezkerra,I-E,coalition,regional,es-nc,,,
+es-contigo-zurekin,Contigo Navarra–Zurekin Nafarroa,Contigo/Zurekin,coalition,regional,es-nc,,,"Podemos, IU, Batzarre, Alianza Verde y Verdes Equo según la fuente"
+es-elkarrekin-podemos,Elkarrekin Podemos,Elkarrekin Podemos,coalition,regional,es-pv,,,"Podemos, Ezker Anitza-IU y Equo (2016); Podemos y Ezker Anitza-IU (2020)"
+es-pp-cs,PP+Cs,PP+Cs,coalition,regional,es-pv,,,Coalición PP y Ciudadanos en las elecciones al Parlamento Vasco de 2020
+es-do,Democracia Ourensana,DO,party,local,es-ga,,,
+es-jxsi,Junts pel Sí,JxSí,coalition,regional,es-ct,,,
+es-catalunya-si-que-es-pot,Catalunya Sí que es Pot,CatSíqueesPot,coalition,regional,es-ct,,,
+es-catalunya-en-comu-podem,Catalunya en Comú–Podem,CatComú-Podem,coalition,regional,es-ct,,,
+es-comuns-sumar,Comuns Sumar,Comuns Sumar,coalition,regional,es-ct,,,
+es-alianca-catalana,Aliança Catalana,Aliança.cat,party,regional,es-ct,,,
+es-adelante-andalucia-coalicion,Adelante Andalucía (coalición de 2018),AA,coalition,regional,es-an,,,"Podemos, IU, Primavera Andaluza e Izquierda Andalucista (2018); distinta del partido posterior (es-adelante-andalucia)"
+es-adelante-andalucia,Adelante Andalucía,AA,party,regional,es-an,,,En 2022 la candidatura fue Adelante Andalucía–Andalucistas
+es-por-andalucia,Por Andalucía,PorA,coalition,regional,es-an,,,
+es-unidas-por-extremadura,Unidas por Extremadura,UxE,coalition,regional,es-ex,,,"Podemos, IU, eXtremeños y Equo (2019); Podemos, IU y Alianza Verde (2023, 2025)"
+es-podemos-iu,"Podemos–IU (La Rioja, 2023)",Podemos-IU,coalition,regional,es-ri,,,Denominación según la abreviatura de la fuente
+es-podemos-iu-av,"Podemos–IU–AV (Región de Murcia, 2023)",Podemos-IU-AV,coalition,regional,es-mc,,,Denominación según la abreviatura de la fuente
+es-coalicion-caballas,Coalición Caballas,Caballas,coalition,regional,es-ce,,,
+es-mdyc,Movimiento por la Dignidad y la Ciudadanía,MDyC,party,regional,es-ce,,,
+es-ceuta-ya,Ceuta Ya!,Ceuta Ya!,party,regional,es-ce,,,
+es-cpm,Coalición por Melilla,CpM,party,regional,es-ml,,,
+es-ppl,Partido Populares en Libertad,PPL,party,regional,es-ml,,,
+es-somos-melilla,Somos Melilla,SML,party,regional,es-ml,,,
+es-upb,Unitat per Barcelona–Esquerra Republicana de Catalunya–Reagrupament–Democràcia Catalana–Acord Municipal,UpB,coalition,local,es-ct-08019,,,
+es-bcomu,Barcelona en Comú,BComú,party,local,es-ct-08019,,,"Candidaturas: 'Barcelona en Comú (Guanyem Barcelona)-Entesa' (2015), 'Barcelona en Comú-En Comú Guanyem' (2019), 'Barcelona en Comú-Confluència' (2023)"
+es-bcn-canvi-cs,Barcelona pel Canvi–Ciutadans,BCN Canvi-Cs,coalition,local,es-ct-08019,,,
+es-trias-per-barcelona,Trias per Barcelona–Compromís Municipal,Trias×BCN-CM,other,local,es-ct-08019,,,Candidatura encabezada por Xavier Trias con Junts (municipales de 2023)
+es-ahora-madrid,Ahora Madrid,Ahora Madrid,other,local,es-md-28079,,,Candidatura municipal de 2015
+es-mes,Més per Mallorca,MÉS,party,regional,es-ib,,,
+es-ie,Izquierda-Ezkerra,I-E,coalition,regional,es-nc,,,Coalición navarra encabezada por Izquierda Unida de Navarra (IUN-NEB) y Batzarre.

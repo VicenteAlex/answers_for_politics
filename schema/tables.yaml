@@ -195,6 +195,7 @@ tables:
       election_type: {type: enum, required: true, values: [general, regional, municipal, european, referendum]}
       jurisdiction_id: {type: id, required: true, fk: jurisdictions}
       turnout_pct: {type: float}
+      notes: {type: text}
       source_url: {type: url}
       verification: {type: enum, values: [primary, secondary, unverified, disputed]}
 
@@ -210,6 +211,7 @@ tables:
       votes: {type: int}
       vote_share_pct: {type: float}
       seats: {type: int}
+      notes: {type: text, desc: "e.g. how federated or coalition lists were aggregated"}
       source_url: {type: url}
 
   governments:
@@ -239,7 +241,7 @@ tables:
     columns:
       government_id: {type: id, required: true, fk: governments}
       party_id: {type: id, required: true, fk: parties}
-      role: {type: enum, required: true, values: [governing, investiture_support, external_support]}
+      role: {type: enum, required: true, values: [governing, investiture_support, investiture_abstention, external_support], desc: "investiture_* = how the party voted in the successful investiture vote"}
       valid_from: {type: date, required: true}
       valid_to: {type: date}
       source_url: {type: url}
