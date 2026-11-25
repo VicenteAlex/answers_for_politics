@@ -335,7 +335,7 @@ tables:
       vote_number: {type: int}
       initiative_id: {type: id, fk: initiatives}
       object: {type: enum, required: true, values: [final_vote, totality_amendment, taken_into_consideration, decree_validation, decree_as_bill, amendment, motion, non_legislative_motion, investiture, motion_of_censure, budget, other]}
-      bundled: {type: bool, required: true}
+      bundled: {type: bool, required: true, desc: "true = known omnibus decree (tools/congreso_bundled.csv); false = not flagged"}
       title: {type: text, required: true}
       result: {type: enum, required: true, values: [approved, rejected, tied, other]}
       'yes': {type: int}

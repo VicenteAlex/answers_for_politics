@@ -2737,6 +2737,8 @@ es-vote-xiv-2021-11-30-s136-v002,taxation
 es-vote-xiv-2021-11-30-s136-v004,climate
 es-vote-xiv-2021-12-02-s138-v050,judiciary
 es-vote-xiv-2021-12-02-s138-v051,judiciary
+es-vote-xiv-2021-12-02-s138-v052,energy
+es-vote-xiv-2021-12-02-s138-v053,energy
 es-vote-xiv-2021-12-02-s138-v054,judiciary
 es-vote-xiv-2021-12-02-s138-v054,taxation
 es-vote-xiv-2021-12-02-s138-v055,judiciary
@@ -2791,6 +2793,7 @@ es-vote-xiv-2022-02-03-s149-v020,labor_regulation
 es-vote-xiv-2022-02-03-s149-v021,labor_regulation
 es-vote-xiv-2022-02-03-s149-v026,corruption
 es-vote-xiv-2022-02-03-s149-v027,education
+es-vote-xiv-2022-02-03-s149-v028,energy
 es-vote-xiv-2022-02-17-s152-v001,immigration
 es-vote-xiv-2022-02-17-s152-v002,taxation
 es-vote-xiv-2022-02-17-s152-v003,pensions
@@ -5001,7 +5004,9 @@ es-vote-xv-2024-12-19-s088-v091,taxation
 es-vote-xv-2024-12-19-s088-v092,taxation
 es-vote-xv-2024-12-19-s088-v093,taxation
 es-vote-xv-2024-12-19-s088-v094,taxation
+es-vote-xv-2024-12-19-s088-v095,emergencies
 es-vote-xv-2024-12-19-s088-v095,taxation
+es-vote-xv-2024-12-19-s088-v096,emergencies
 es-vote-xv-2024-12-19-s088-v096,taxation
 es-vote-xv-2024-12-19-s088-v097,taxation
 es-vote-xv-2024-12-19-s088-v098,taxation
@@ -5228,6 +5233,7 @@ es-vote-xv-2025-11-19-s148-v007,long_term_care
 es-vote-xv-2025-11-27-s151-v002,housing
 es-vote-xv-2025-11-27-s151-v003,gender_equality
 es-vote-xv-2025-11-27-s151-v013,income_tax
+es-vote-xv-2025-11-27-s151-v013,inheritance_tax
 es-vote-xv-2025-11-27-s151-v013,taxation
 es-vote-xv-2025-11-27-s151-v014,housing
 es-vote-xv-2025-11-27-s151-v014,rent_regulation

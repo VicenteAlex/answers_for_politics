@@ -69,14 +69,14 @@ def classify(info: dict) -> str:
         return "motion_of_censure"
     if "convalidacion o derogacion" in t or "convalidacion de real decreto" in t:
         return "decree_as_bill" if "tramitacion como proyecto" in t else "decree_validation"
+    if "correccion tecnica" in t or "avocacion" in t:  # procedural, even under totality/consideration headings
+        return "other"
     if "totalidad" in t:
         return "totality_amendment"
     if "toma en consideracion" in t:
         return "taken_into_consideration"
     if "presupuestos generales" in t and "totalidad" not in t:
         return "budget" if "enmienda" not in t else "amendment"
-    if "correccion tecnica" in t or "avocacion" in t:
-        return "other"
     if "votacion de conjunto" in t or "votacion final" in t or "votacion del dictamen" in t:
         return "final_vote"
     if "proposiciones no de ley" in ti or "proposicion no de ley" in t:
@@ -86,6 +86,24 @@ def classify(info: dict) -> str:
     if "enmienda" in t or "enmiendas" in t:
         return "amendment"
     return "other"
+
+
+BUNDLED_FILE = ROOT / "tools" / "congreso_bundled.csv"
+
+
+def load_bundled() -> list[str]:
+    if not BUNDLED_FILE.exists():
+        return []
+    return [norm(r["instrument"]) for r in csv.DictReader(BUNDLED_FILE.open(encoding="utf-8"))]
+
+
+_BUNDLED: list[str] = []
+
+
+def is_bundled(info: dict) -> bool:
+    """True only for instruments listed in tools/congreso_bundled.csv (omnibus decrees); False = not flagged."""
+    exp = norm(info.get("textoExpediente") or "")
+    return any(exp.startswith(b) for b in _BUNDLED)
 
 
 def load_map() -> dict:
@@ -160,13 +178,13 @@ def ingest_leg(leg: str, pmap, formaciones, unmapped, casts_writer, init_index=N
         title_parts = [info.get("textoExpediente"), info.get("tituloSubGrupo"), info.get("textoSubGrupo")]
         title = " | ".join(re.sub(r"\s+", " ", p).strip() for p in title_parts if p and p.strip()) or info.get("titulo", "")
         votes.append(dict(vote_id=vote_id, jurisdiction_id="es", chamber="congreso", legislature_id=LEG_ID[leg], date=day,
-                          session=str(info["sesion"]), vote_number=n, object=obj, bundled=False,
-                          title=(re.sub(r"\s+", " ", info.get("titulo", "")).strip() + " — " + title)[:600],
+                          session=str(info["sesion"]), vote_number=n, object=obj, bundled=is_bundled(info),
+                          title=(re.sub(r"\s+", " ", info.get("titulo", "")).strip() + " — " + title),
                           result=result, yes=yes, no=no, abstain=abst, absent=absent,
                           url=("https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal"
                                f"&p_p_mode=view&targetLegislatura={leg}&targetDate={day[8:]}/{day[5:7]}/{day[:4]}"),
                           source_file=f.name, retrieved=retrieved,
-                          initiative_id=(init_index or {}).get(title_key(info.get("textoExpediente") or ""))))
+                          initiative_id=pick_initiative(init_index, info.get("textoExpediente") or "", day)))
         agg = collections.defaultdict(lambda: collections.Counter())
         for v in d.get("votaciones", []):
             grp = v.get("grupo") or ""
@@ -197,7 +215,20 @@ def title_key(s: str) -> str:
     s = re.sub(r"\s(?:del|de los) Grupos? Parlamentarios? .*?,\s(?=[a-záéíóúñ]|Org[aá]nica)", " ", s or "")
     k = re.sub(r"[^a-z0-9]+", " ", norm(s))
     k = re.sub(r"\borganica\b", " ", k)
-    return re.sub(r"\s+", " ", k).strip()[:100]
+    return re.sub(r"\s+", " ", k).strip()
+
+
+def pick_initiative(index: dict, expediente: str, vote_date: str):
+    """Initiative for a vote: same title, registered on or before the vote, proposed by the group named in the
+    vote text when it names one; the most recently registered among those. None if there is no candidate."""
+    cands = [c for c in (index or {}).get(title_key(expediente), []) if c[0] <= vote_date]
+    if not cands:
+        return None
+    m = re.search(r"(?:del|de los) Grupos? Parlamentarios? (.*?),\s", expediente or "")
+    if m:
+        named = [c for c in cands if any(w in c[2] for w in re.findall(r"[A-Z][A-Za-zÁÉÍÓÚÑáéíóúñ]+", m.group(1)))]
+        cands = named or cands
+    return max(cands)[1]
 
 
 def ingest_initiatives() -> dict:
@@ -228,7 +259,7 @@ def ingest_initiatives() -> dict:
                              date_registered=dt.datetime.strptime(r["FECHAPRESENTACION"], "%d/%m/%Y").date().isoformat(),
                              status=status, status_date=f"{m.group(3)}-{m.group(2)}-{m.group(1)}" if m else None,
                              url="https://www.congreso.es/es/opendata/iniciativas"))
-            index.setdefault(title_key(title), iid)
+            index.setdefault(title_key(title), []).append((rows[-1]["date_registered"], iid, r.get("AUTOR") or ""))
             for autor in (r.get("AUTOR") or "").split("\n"):
                 for needle, party in AUTHOR_PARTY:
                     if needle in autor and "Grupo Parlamentario" in autor:
@@ -315,6 +346,7 @@ def main():
     ap.add_argument("--leg", nargs="+", default=["XIV", "XV"])
     args = ap.parse_args()
     pmap, formaciones = load_map(), load_formaciones()
+    _BUNDLED.extend(load_bundled())
     unmapped = collections.Counter()
     vote_cols = ["vote_id", "jurisdiction_id", "chamber", "legislature_id", "date", "session", "vote_number", "initiative_id",
                  "object", "bundled", "title", "result", "yes", "no", "abstain", "absent", "url", "source_file", "retrieved"]
