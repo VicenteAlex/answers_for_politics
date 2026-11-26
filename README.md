@@ -282,7 +282,7 @@ Hoy contiene:
 - **Cronología:** unos 260 eventos.
 - **Estadísticas:** 53 series del INE y Eurostat (paro, precios, vivienda, delincuencia, sanidad, población, deuda…).
 - **Temas en profundidad:** alquiler, inmigración, impuestos a las grandes fortunas, delincuencia, sanidad, e IA y leyes laborales: 142 estudios, 64 conclusiones graduadas por la fuerza de su evidencia y 47 leyes y medidas.
-- **Preguntas respondidas:** siete, revisadas en busca de sesgos; cuatro están arriba como ejemplo.
+
 
 ## Por qué usarlo: evaluación honesta
 
