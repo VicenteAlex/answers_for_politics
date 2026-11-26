@@ -1,8 +1,74 @@
-# Political knowledge base · Base de conocimiento política
+# Answers for politics
 
-An evidence base about politics that AI agents use as context to answer political questions with data, explicit logic and calibrated uncertainty. **It starts with Spanish politics (`es`).**
+![Congress votes](https://img.shields.io/badge/Congress_votes-8%2C758-1f6feb) ![Deputy votes](https://img.shields.io/badge/individual_deputy_votes-3.06M-1f6feb) ![Studies](https://img.shields.io/badge/study_cards-142-2da44e) ![Claims](https://img.shields.io/badge/graded_claims-64-2da44e) ![Laws and measures](https://img.shields.io/badge/laws_%26_measures-47-8250df) ![Series](https://img.shields.io/badge/statistical_series-53-8250df) ![Events](https://img.shields.io/badge/events-261-8250df) ![Code AGPL-3.0](https://img.shields.io/badge/code-AGPL--3.0-lightgrey) ![Data CC BY-SA 4.0](https://img.shields.io/badge/data-CC_BY--SA_4.0-lightgrey)
 
-Una base de evidencia sobre política para que agentes de IA respondan preguntas políticas con datos, lógica explícita e incertidumbre calibrada. **Empieza con la política española (`es`).**
+An evidence base about politics that AI agents use as context to answer political questions with data, explicit logic and calibrated uncertainty. **Initialised with Spanish politics (`es`).**
+
+Una base de evidencia sobre política para que agentes de IA respondan preguntas políticas con datos, lógica explícita e incertidumbre calibrada. **Inicializado con política española (`es`).**
+
+## Ejemplos de respuestas · Example answers (in Spanish)
+
+Cuatro preguntas reales, respondidas por un agente con esta base y revisadas por un segundo agente independiente en busca de sesgos y errores. Pulsa una pregunta para ver la respuesta corta; dentro está el enlace a la respuesta completa con datos, mecanismos, efectos por grupo, acciones de los partidos y fuentes.
+
+*Four real questions, answered by an agent using this knowledge base and checked by a second, independent agent for bias and errors. Click a question for the short answer; the link inside opens the full answer.*
+
+<details>
+<summary><b>¿Hay evidencia de que las políticas de izquierdas de los últimos 10 años hayan aumentado o disminuido la criminalidad en las calles de España?</b></summary>
+
+No hay evidencia causal suficiente para afirmar que las políticas de los gobiernos PSOE (2018-20), PSOE-UP (2020-23) y PSOE-Sumar (2023-) hayan aumentado ni reducido la delincuencia en la calle. Ninguna de esas políticas tiene un estudio con diseño causal en España sobre delincuencia callejera. Los datos descriptivos muestran tendencias mixtas:
+- robos y hurtos por habitante en niveles parecidos a 2016-2019;
+- suben el homicidio registrado (cifras pequeñas), los delitos sexuales registrados y la cibercriminalidad.
+
+Confianza: es **improbable** (20-40%) que estas políticas, en conjunto, hayan movido la delincuencia callejera más de un 10% en alguna dirección. Es un juicio, no una estimación: con datos agregados no se puede separar su efecto del de otros factores (COVID, crecimiento de la población, turismo, actuación policial), que podrían compensarse. La evidencia es **débil** en general y **disputada** en política por política.
+
+→ [Respuesta completa: datos, mecanismos, efectos por grupo, partidos y fuentes](examples/es/criminalidad-politicas-izquierda.md)
+
+</details>
+
+<details>
+<summary><b>¿Las regulaciones de vivienda actuales han mejorado o empeorado la capacidad de los trabajadores para acceder al alquiler y a la compra?</b></summary>
+
+El acceso a la vivienda de los trabajadores ha empeorado en la última década. La causa principal es una oferta que no sigue a la demanda (hogares nuevos, población, crédito), y no es atribuible a una regulación concreta. El efecto de las regulaciones depende del grupo:
+- **Inquilinos con contrato**: mejoran (**muy probable**, evidencia **fuerte** sobre el precio). Los topes a la actualización y los contratos de 5/7 años abaratan y estabilizan su alquiler; el coste es menos movilidad.
+- **Quien busca alquiler en zonas con topes**: efecto neto **incierto** (evidencia **disputada**). Quien firma paga algo menos. Es **probable** que haya menos contratos nuevos y más alquiler de temporada, pero los estudios no coinciden en cuánto. Que los topes a la actualización encarezcan las rentas de entrada es una hipótesis del Banco de España (evidencia **débil**).
+- **Quien quiere comprar**: la regulación del alquiler pesa poco. Influyen más la oferta, el crédito (entrada del 20%) y la demanda. Es **probable** que las ayudas a la compra se trasladen en parte al precio donde la oferta es rígida (evidencia **moderada**, de fuera de España).
+
+→ [Respuesta completa: datos, mecanismos, efectos por grupo, partidos y fuentes](examples/es/vivienda-regulacion-acceso.md)
+
+</details>
+
+<details>
+<summary><b>¿Qué leyes sanitarias aprobó el último Gobierno del PSOE frente al último del PP? ¿Con quién ha sido mejor el acceso de la población a la sanidad?</b></summary>
+
+- **Legislación (hecho, BOE).** El Gobierno Rajoy (PP, dic. 2011-jun. 2018) **restringió** el derecho y la gratuidad: condición de "asegurado" (inmigrantes adultos sin papeles limitados a urgencias, embarazo y parto), copago para pensionistas y recortes de personal y gasto, en plena crisis de deuda; también financió los antivirales de la hepatitis C (2015). El Gobierno Sánchez (PSOE y coaliciones, jun. 2018-2026) **amplió**: acceso universal, exenciones de copago, cartera dental, eutanasia y Agencia de Salud Pública.
+- **Acceso.** No hay un ganador limpio; depende del indicador:
+  - *Derecho legal a la asistencia*: más amplio con el PSOE (casi seguro, es un hecho normativo).
+  - *Barreras por coste*: máximas en 2011-2014 (crisis y copago), pero ya bajas en 2015-2018, aún con el PP. Fuera de la crisis, la diferencia es pequeña.
+  - *Esperas*: niveles más altos con el PSOE, y la necesidad no cubierta por espera se multiplicó desde 2020 (probable que el acceso efectivo fuera peor en 2020-2025). Pero en ventanas sin rotura de serie ambos periodos empeoran en algún indicador, y las listas son autonómicas: la atribución al Gobierno central es débil.
+
+| Ventana | Días de espera media | Pacientes por 1.000 | % > 6 meses |
+|---|---|---|---|
+| PP, jun. 2012 → dic. 2015 | 76 → 89 (+17%) | 11,8 → 12,2 | 9,4 → 10,6 |
+| PSOE, dic. 2018 → dic. 2025 | 129 → 122 (−5%) | 14,8 → 17,7 (+20%) | 20,0 → 21,6 |
+
+→ [Respuesta completa: datos, mecanismos, efectos por grupo, partidos y fuentes](examples/es/sanidad-psoe-vs-pp.md)
+
+</details>
+
+<details>
+<summary><b>Ante la pérdida de empleo por la automatización con IA, ¿pueden las leyes laborales cambiar el impacto en los trabajadores? ¿Qué proponen y han aprobado derechas e izquierdas, y qué efectos cabe esperar según la evidencia?</b></summary>
+
+**Sí, pero sobre todo cambian *quién* soporta el ajuste y *a qué ritmo*, no cuánta automatización llega.** Hasta 2026 los efectos causales medidos de la IA sobre el empleo agregado son pequeños o nulos; las señales negativas (jóvenes, EE. UU.) son descriptivas.
+
+- **PP (2012):** abarató el despido y amplió la flexibilidad interna (convenio de empresa, descuelgues, ERE/ERTE sin autorización).
+- **PSOE-UP (2021):** restringió la temporalidad, creó el Mecanismo RED, reforzó el convenio sectorial, dio derechos de información sobre algoritmos y subió el SMI; no tocó la indemnización.
+- **2026:** nadie propone abaratar el despido; la izquierda propone encarecerlo y el PP, formación portable.
+
+Nadie ha aplicado recolocación específica para la IA. **Predicción condicional:** con difusión rápida, los más perjudicados serían los jóvenes que entran en ocupaciones expuestas (*probable*) y los administrativos veteranos que sean despedidos (despidos masivos *inciertos*; si ocurren, pérdidas grandes *muy probables*). Evidencia moderada sobre mecanismos, débil sobre la incidencia de la IA.
+
+→ [Respuesta completa: datos, mecanismos, efectos por grupo, partidos y fuentes](examples/es/ia-automatizacion-leyes-laborales.md)
+
+</details>
 
 <details>
 <summary><strong>English README</strong></summary>
@@ -14,10 +80,11 @@ A knowledge base of political facts, actions and research. AI agents use it to a
 Current content for Spain:
 - **Political context:** governments since 1977, regional governments since 2015, Barcelona and Madrid since 2011.
 - **Elections and parliament:** election results and legislatures.
-- **Events:** about 250 events.
-- **Statistics:** 21 INE and Eurostat series.
-- **In-depth topics:** rent regulation, immigration and wealth taxation. They hold 62 study cards, 7 knowledge notes with 43 graded claims, 3 Spanish dossiers and 16 laws and measures.
-- **Answered questions:** three questions answered and independently reviewed.
+- **Parliament:** all 8,758 electronic plenary votes of the Congreso in the XIV and XV legislatures (2019–2026), with each deputy's vote.
+- **Events:** about 260 events.
+- **Statistics:** 53 INE and Eurostat series (labour market, prices, housing, crime, health, population, public finances…).
+- **In-depth topics:** rent regulation, immigration, wealth taxation, crime, health care, and AI and labour law. They hold 142 study cards, 9 knowledge notes with 64 graded claims, 3 Spanish dossiers, 47 laws and measures, and the 2023 and 2026 programmes of the main national parties on labour.
+- **Answered questions:** seven answered and independently reviewed for bias; four are shown as examples above.
 
 ## Why use it: an honest assessment
 
@@ -37,10 +104,10 @@ This assessment is based on the first three answers, on rent caps in Barcelona, 
 
 **Limitations you should know**
 - **The evidence base is still thin and partly secondary.**
-  - Of 62 study cards, 37 are grade A/B, and 47 are marked "secondary" (often checked from an abstract or working paper).
+  - Of 142 study cards, 81 are grade A/B, and 80 are marked "secondary" (often checked from an abstract or working paper).
   - Spanish causal studies are scarce, 4–7 per answer, so many conclusions transfer evidence from the US or Germany.
   - Several party programmes were read from copies hosted by media outlets.
-- **Party votes** came from press reports until the Congreso votes are ingested (phase 4, in progress).
+- **Party votes.** Electronic Congreso votes since 2019 come from official open data; roll-call votes, the Senate, regional parliaments and older votes still come from press reports.
 - **One model writes and reviews.** Blind spots are correlated. The reviewer itself proposed legal citations from memory, which then had to be verified. No human expert has reviewed the content yet.
 - **Selection and anchoring.** The research briefs named key studies, so the literature reflects whoever wrote the prompts as well as what the agents found.
 - **Probabilities are reasoned judgements, not models.** There is no calibration track record yet.
@@ -57,6 +124,15 @@ This assessment is based on the first three answers, on rent caps in Barcelona, 
 - Ask agents to search adversarially for the strongest evidence against each main claim.
 
 ## How to use it
+
+**Install** (Python 3.10+):
+
+```bash
+git clone --depth 1 https://github.com/VicenteAlex/answers_for_politics.git && cd answers_for_politics
+python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt && ./kb build
+```
+
+On Windows: `python -m venv .venv`, `.\.venv\Scripts\python -m pip install -r requirements.txt`, `.\kb.cmd build`. Details in *Setup*.
 
 1. Open an agent with shell access (Claude Code, Codex…) in this folder. It reads `AGENTS.md` (Claude Code through `CLAUDE.md`).
 2. Ask your question in any language. The agent:
@@ -129,6 +205,7 @@ data/        common/ (jurisdictions, topics, sources) · es/ (CSV tables, links/
 entries/es/  measures/ vote_notes/ statements/ programs/ dossiers/ history/   (Spanish)
 knowledge/   <discipline>/<subfield>/kn-*.md   (English, country-agnostic)
 library/     study-*.md   (one card per study)
+examples/    es/*.md   (published example answers, copied from reviewed questions)
 questions/   es/es-q-*.md   (questions, current answer, revision history; local, git-ignored)
 build/ raw/  derived DB / original downloads (git-ignored)
 ```
@@ -158,6 +235,10 @@ You do not need a `spain/` subfolder. Country data is already partitioned by ISO
 | Normative stance | Positive analysis plus conditional recommendations ("if the goal is X, the evidence favours Y"); no verdicts unless asked |
 | Agent autonomy | Agents write directly, mark `verification`, and humans review through git diffs |
 
+## Contributing
+
+Found a factual error, a missing source or a biased answer? [Open an issue](../../issues) with the entity id or the question, and what the source says. Corrections of bias are as welcome as corrections of fact.
+
 ## License
 
 - **Code** (`tools/`, the `kb` wrappers) is licensed under [AGPL-3.0](LICENSE).
@@ -174,8 +255,8 @@ You do not need a `spain/` subfolder. Country data is already partitioned by ISO
    - events timeline;
    - core indicators via the INE and Eurostat APIs.
 3. **Knowledge for the first questions** ✅: rent regulation and housing supply; effects of immigration and of immigration policy; wealth taxation and tax-base mobility, with study cards, knowledge notes, Spanish dossiers, and related party actions and programs.
-4. **Bulk ingestion** (in progress): Congreso open-data votes and initiatives (XIV–XV).
-5. **First answers** ✅: three questions answered, independently reviewed for bias and revised.
+4. **Bulk ingestion** ✅: Congreso open-data votes (XIV–XV, with each deputy's vote) and initiatives (XV).
+5. **First answers** ✅: seven questions answered, independently reviewed for bias and revised (four published in `examples/es/`).
 6. **Next**:
    - load the 29-11-2026 general election and the new government;
    - make the independent review mandatory;
@@ -194,10 +275,11 @@ Una base de conocimiento sobre política pensada para que un asistente de IA res
 Hoy contiene:
 - **Gobiernos:** el estatal desde 1977, los autonómicos desde 2015, y los de Barcelona y Madrid desde 2011.
 - **Elecciones y legislaturas.**
-- **Cronología:** unos 250 eventos.
-- **Estadísticas:** 21 series del INE y Eurostat (paro, precios, vivienda, población, deuda…).
-- **Temas en profundidad:** alquiler, inmigración e impuestos a las grandes fortunas, con estudios, síntesis de la evidencia y leyes.
-- **Preguntas respondidas:** tres, ya revisadas.
+- **Congreso:** las 8.758 votaciones electrónicas del Pleno de 2019 a 2026, con el voto de cada diputado.
+- **Cronología:** unos 260 eventos.
+- **Estadísticas:** 53 series del INE y Eurostat (paro, precios, vivienda, delincuencia, sanidad, población, deuda…).
+- **Temas en profundidad:** alquiler, inmigración, impuestos a las grandes fortunas, delincuencia, sanidad, e IA y leyes laborales: 142 estudios, 64 conclusiones graduadas por la fuerza de su evidencia y 47 leyes y medidas.
+- **Preguntas respondidas:** siete, revisadas en busca de sesgos; cuatro están arriba como ejemplo.
 
 ## Por qué usarlo: evaluación honesta
 
@@ -210,7 +292,7 @@ Hoy contiene:
 
 **Límites**
 - **Base de evidencia reducida.** Hay pocos estudios españoles. Muchos datos se han verificado con fuentes secundarias, y algunos programas de partido se leyeron en copias publicadas por medios.
-- **Votos de los partidos.** Hasta ahora salían de la prensa; se está incorporando el registro oficial del Congreso.
+- **Votos de los partidos.** Las votaciones electrónicas del Congreso desde 2019 vienen de los datos abiertos oficiales; las votaciones por llamamiento, el Senado y los parlamentos autonómicos aún salen de la prensa.
 - **Revisión sin humanos.** La IA que responde y la que revisa son del mismo tipo; falta una revisión humana experta.
 - **Probabilidades.** Son juicios razonados, no cálculos, y aún no se ha medido si aciertan.
 - **Respuestas largas.** Pide el resumen si es lo que necesitas.
@@ -220,13 +302,24 @@ Hoy contiene:
 
 ## Cómo usarlo
 
-0. Descarga el proyecto. Si tienes poca conexión o poco espacio, puedes bajar solo la versión actual, sin el historial: `git clone --depth 1 <url-del-repositorio>`. Los datos ocupan unos 24 MB.
+0. **Instala** (Python 3.10 o superior). Descarga solo la versión actual (unos 24 MB) y prepara la base:
+
+   ```bash
+   git clone --depth 1 https://github.com/VicenteAlex/answers_for_politics.git && cd answers_for_politics
+   python3 -m venv .venv && .venv/bin/python -m pip install -r requirements.txt && ./kb build
+   ```
+
+   En Windows: `python -m venv .venv`, `.\.venv\Scripts\python -m pip install -r requirements.txt` y `.\kb.cmd build`.
 1. Abre un asistente con acceso a la carpeta (por ejemplo Claude Code) en este proyecto. Leerá automáticamente sus instrucciones.
 2. Haz tu pregunta en lenguaje normal. El asistente consultará la base, buscará lo que falte, lo guardará con sus fuentes y responderá con el formato estándar.
 3. En temas delicados, pide además *«una revisión independiente de sesgos y la versión corregida»*.
 4. Repregunta o corrige con normalidad: la respuesta guardada se actualiza y conserva su historial.
 5. Las respuestas quedan en `questions/es/`, solo en tu equipo: esa carpeta no se sube al repositorio. Lo que se aprende al responder (estudios, datos, leyes) sí se guarda en la base compartida. Puedes pedir *«qué respuestas han quedado desactualizadas»* cuando cambien los datos.
 6. Para ampliar, pide por ejemplo *«investiga y guarda la evidencia sobre pensiones»* o *«añade Francia»*.
+
+## Contribuir
+
+¿Has encontrado un error, una fuente que falta o una respuesta sesgada? [Abre un issue](../../issues) con el id de la entidad o la pregunta y lo que dice la fuente. Las correcciones de sesgo son tan bienvenidas como las de datos.
 
 ## Licencia
 

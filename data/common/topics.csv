@@ -57,3 +57,12 @@ eu_affairs,foreign_policy,European Union affairs,Asuntos europeos,
 defense,foreign_policy,Defence,Defensa,
 historical_memory,,Historical memory,Memoria histórica,
 emergencies,,Emergencies and disasters,Emergencias y catástrofes,
+artificial_intelligence,economy,Artificial intelligence and automation,Inteligencia artificial y automatización,"AI and automation: labour-market effects, regulation and governance of AI"
+active_labor_policy,labor_market,Active labour market policies and training,Políticas activas de empleo y formación,"Job search assistance, training, hiring subsidies, public employment services, lifelong learning"
+health_coverage,health,Health coverage and entitlement,Cobertura y derecho a la asistencia sanitaria,"Who is entitled to publicly funded health care (aseguramiento, universalidad)."
+health_copayment,health,Health co-payments,Copagos sanitarios,Cost sharing for medicines and services.
+waiting_lists,health,Health care waiting lists,Listas de espera sanitarias,"Waiting times for surgery, specialists and primary care."
+health_spending,health,Health spending,Gasto sanitario,Public and private health expenditure.
+end_of_life,health,End of life and euthanasia,Final de la vida y eutanasia,"Euthanasia, palliative care, dependency at end of life."
+public_health,health,Public health,Salud pública,"Prevention, epidemics, tobacco, public health agencies."
+pharmaceuticals,health,Medicines and pharmaceutical policy,Medicamentos y política farmacéutica,"Pricing, public financing and regulation of medicines."

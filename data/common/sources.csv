@@ -40,3 +40,14 @@ ief,Instituto de Estudios Fiscales,official,es,https://www.ief.es,,,Public; auto
 eu_tax_observatory,EU Tax Observatory (Paris School of Economics),academic,fr,https://taxobservatory.world,,,Academic lab at PSE; funded by EU (Horizon/DG TAXUD grants) and philanthropic donors (per its website; not verified here),Directed by Gabriel Zucman; advocates minimum taxation of billionaires
 tax_foundation,Tax Foundation (incl. Tax Foundation Europe),think_tank,us,https://taxfoundation.org,,,"Private non-profit funded by individuals, foundations and corporations",Generally favours broad bases and low rates; critical of wealth taxes
 minhacienda,Ministerio de Hacienda,official,es,https://www.hacienda.gob.es,,,Public,Publishes 'Tributación Autonómica. Medidas' yearly; currently cited without source_id in es-dossier-fiscalidad-grandes-fortunas and Madrid/Andalucía measures
+imf,International Monetary Fund (IMF),international_org,,https://www.imf.org,,,,
+ilo,International Labour Organization (ILO/OIT),international_org,,https://www.ilo.org,,,,
+eur_lex,EUR-Lex (Diario Oficial de la UE),official,,https://eur-lex.europa.eu,,,,
+stanford_del,Stanford Digital Economy Lab,academic,US,https://digitaleconomy.stanford.edu,,,,
+mitramiss,Ministerio de Trabajo y Economía Social,official,es,https://www.mites.gob.es,,,,
+sumar,Sumar (coalición/partido),party,es,https://movimientosumar.es,,,,
+arxiv,arXiv preprint server,academic,,https://arxiv.org,,,,
+ajuntament_barcelona,Ajuntament de Barcelona (Oficina Municipal de Dades),official,es,https://ajuntament.barcelona.cat/,,,,"Publica la Enquesta de Victimització de Barcelona (EVB), anual desde 1983."
+sanidad,Ministerio de Sanidad,official,es,https://www.sanidad.gob.es/,,,,"Publica SISLE-SNS (listas de espera), Barómetro Sanitario (con el CIS), Estadística de Gasto Sanitario Público."
+frente_amplio,Frente Amplio (coalición),party,es,https://frenteamplio.info,,,,
+wayback,Internet Archive Wayback Machine,other,,https://web.archive.org,,,,

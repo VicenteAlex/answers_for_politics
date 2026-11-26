@@ -1,3 +1,13 @@
 entity_id,related_id,relation
 es-event-2024-04-09-ilp-regularizacion-toma-consideracion,es-vote-xv-2024-04-09-s034-v001,related
 es-event-2025-03-18-rdl-menores-contingencia-migratoria,es-vote-xv-2025-04-10-s106-v015,related
+es-event-2016-07-21-stc-139-2016-rdl-16-2012,es-measure-rdl-16-2012-sostenibilidad-sns,related
+es-event-2017-12-14-stc-145-2017-acceso-universal-valencia,es-measure-rdl-16-2012-sostenibilidad-sns,related
+es-event-2025-03-11-anteproyecto-ley-ia,eu-measure-reglamento-2024-1689-ley-ia,related
+es-event-2025-03-11-anteproyecto-ley-ia,es-measure-rd-729-2023-estatuto-aesia,related
+es-event-2025-03-11-anteproyecto-ley-ia,es-event-2026-05-26-proyecto-ley-ia,related
+es-event-2026-05-26-proyecto-ley-ia,es-init-xv-121-000096,related
+es-event-2026-05-26-proyecto-ley-ia,es-event-2025-03-11-anteproyecto-ley-ia,related
+es-event-2026-05-26-proyecto-ley-ia,eu-measure-reglamento-2024-1689-ley-ia,related
+es-event-2025-09-10-rechazo-jornada-37-5,es-vote-xv-2025-09-10-s130-v010,related
+es-event-2025-09-10-rechazo-jornada-37-5,es-init-xv-121-000058,related

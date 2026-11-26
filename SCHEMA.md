@@ -247,7 +247,7 @@ key: (vote_id) · id pattern `^[a-z]{2}(-[a-z]{2})?-vote-[a-z0-9-]+$`
 - `vote_number` int
 - `initiative_id` id → initiatives
 - `object` enum* [final_vote|totality_amendment|taken_into_consideration|decree_validation|decree_as_bill|amendment|motion|non_legislative_motion|investiture|motion_of_censure|budget|other]
-- `bundled` bool*
+- `bundled` bool* — true = known omnibus decree (tools/congreso_bundled.csv); false = not flagged
 - `title` text*
 - `result` enum* [approved|rejected|tied|other]
 - `yes` int

@@ -1,1 +1,11 @@
 entity_id,party_id,role
+es-event-2025-03-11-anteproyecto-ley-ia,es-psoe,proposer
+es-event-2025-03-11-anteproyecto-ley-ia,es-sumar,proposer
+es-event-2026-05-26-proyecto-ley-ia,es-psoe,proposer
+es-event-2026-05-26-proyecto-ley-ia,es-sumar,proposer
+es-event-2025-09-10-rechazo-jornada-37-5,es-psoe,proposer
+es-event-2025-09-10-rechazo-jornada-37-5,es-sumar,proposer
+es-event-2025-09-10-rechazo-jornada-37-5,es-pp,opponent
+es-event-2025-09-10-rechazo-jornada-37-5,es-vox,opponent
+es-event-2025-09-10-rechazo-jornada-37-5,es-junts,opponent
+es-event-2015-03-26-plan-estrategico-hepatitis-c,es-pp,involved
