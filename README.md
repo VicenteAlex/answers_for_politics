@@ -24,7 +24,7 @@ Confianza: es **improbable** (20-40%) que estas políticas, en conjunto, hayan m
 → [Respuesta completa: datos, mecanismos, efectos por grupo, partidos y fuentes](examples/es/criminalidad-politicas-izquierda.md)
 
 </details>
-
+<br/><br/>
 <details>
 <summary><b>¿Las regulaciones de vivienda actuales han mejorado o empeorado la capacidad de los trabajadores para acceder al alquiler y a la compra?</b></summary>
 
@@ -36,7 +36,7 @@ El acceso a la vivienda de los trabajadores ha empeorado en la última década. 
 → [Respuesta completa: datos, mecanismos, efectos por grupo, partidos y fuentes](examples/es/vivienda-regulacion-acceso.md)
 
 </details>
-
+<br/><br/>
 <details>
 <summary><b>¿Qué leyes sanitarias aprobó el último Gobierno del PSOE frente al último del PP? ¿Con quién ha sido mejor el acceso de la población a la sanidad?</b></summary>
 
@@ -54,6 +54,7 @@ El acceso a la vivienda de los trabajadores ha empeorado en la última década. 
 → [Respuesta completa: datos, mecanismos, efectos por grupo, partidos y fuentes](examples/es/sanidad-psoe-vs-pp.md)
 
 </details>
+<br/><br/>
 
 <details>
 <summary><b>Ante la pérdida de empleo por la automatización con IA, ¿pueden las leyes laborales cambiar el impacto en los trabajadores? ¿Qué proponen y han aprobado derechas e izquierdas, y qué efectos cabe esperar según la evidencia?</b></summary>
@@ -69,9 +70,10 @@ Nadie ha aplicado recolocación específica para la IA. **Predicción condiciona
 → [Respuesta completa: datos, mecanismos, efectos por grupo, partidos y fuentes](examples/es/ia-automatizacion-leyes-laborales.md)
 
 </details>
+<br/><br/>
 
 <details>
-<summary><strong>English README</strong></summary>
+<summary><strong><big><big>English README</big></big></strong></summary>
 
 ## What it is
 
@@ -264,9 +266,10 @@ Found a factual error, a missing source or a biased answer? [Open an issue](../.
    - grow the knowledge base as new questions arrive.
 
 </details>
+<br/><br/>
 
 <details>
-<summary><strong>MANUAL Español</strong></summary>
+<summary><strong><big><big>MANUAL Español</big></big></strong></summary>
 
 ## Qué es
 
